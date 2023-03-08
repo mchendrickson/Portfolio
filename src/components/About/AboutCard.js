@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+import { VscDebugBreakpointLogUnverified } from "react-icons/vsc";
 
 function AboutCard() {
   return (
@@ -8,22 +8,22 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Matthew Hendrickson </span>
-            from <span className="purple"> Southbury, Connecticut.</span>
-            <br />I am a senior pursuing a double major in Computer Science and Game Design at Worcester Polytechnic Institute.
+            My name is <b className="purple">Matthew Hendrickson </b>,
+            I'm from <b className="purple"> Southbury, Connecticut</b>.
+            <br />I'm pursuing a double major in <b className="purple"> Computer Science </b> and <b className="purple"> Interactive Media and Game Technology </b> with a 4.0 GPA at Worcester Polytechnic Institute.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Apart from coding, some other activities that I enjoy:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <VscDebugBreakpointLogUnverified /> Playing Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Martial Arts
+              <VscDebugBreakpointLogUnverified /> Martial Arts
             </li>
             <li className="about-activity">
-              <ImPointRight /> Creative Writing
+              <VscDebugBreakpointLogUnverified /> Creative Writing
             </li>
           </ul>
 

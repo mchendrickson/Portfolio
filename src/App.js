@@ -6,6 +6,10 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
+import Imperius from "./components/Projects/ProjectPages/Imperius";
+import ASSISTments from "./components/Projects/ProjectPages/ASSISTments";
+import Softeng from "./components/Projects/ProjectPages/Softeng";
+
 import {
   BrowserRouter as Router,
   Route,
@@ -40,6 +44,9 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="*" element={<Navigate to="/"/>} />
+          <Route path="/project/Imperius" element={<Imperius/>} />
+          <Route path="/project/ASSISTments" element={<ASSISTments/>} />
+          <Route path="/project/Softeng" element={<Softeng/>} />
         </Routes>
         <Footer />
       </div>

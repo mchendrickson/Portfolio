@@ -21,16 +21,12 @@ function Home2() {
             <p className="home-about-body">
               I enjoy programming unnecessarily complex things both at work and in my free time.
               <br />
-              <br />I am fluent in object oriented languages such as <i><b className="purple"> Java, C#, Javascript, and Python. </b></i>
+              <br />I am fluent in object oriented languages such as <i><b className="purple"> Java, C#, Javascript, and Python. </b></i> I have plenty of experience in <i><b className="purple">managing</b></i> software development teams.
               <br />
               <br />
-              I hope to get a job as a <i><b className="purple">systems programmer</b></i> or other coding role at a popular game studio. I specialize in RTS games, but I have a love for a variety of other genres too such as FPS, 4X, TBS, and VR games. &nbsp;
+              I hope to get a job as a <i><b className="purple">systems programmer</b></i> or other coding role at a popular game studio. I specialize in RTS games, but I can also design for a variety of other genres such as FPS, 4X, TBS, and VR games. &nbsp;
               <br />
               <br />
-              I have plenty of experience in <i><b className="purple">managing</b></i> software development teams.
-              <br />
-              <br />
-              I'm pursuing a double major in <i><b className="purple"> Computer Science </b></i> and <i><b className="purple"> Interactive Media and Game Technology </b></i> with a 4.0 GPA at Worcester Polytechnic Institute.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -48,7 +44,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/mchrpt"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -68,7 +64,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/matthew-hendrickson-69627921a/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
