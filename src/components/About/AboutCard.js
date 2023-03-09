@@ -8,9 +8,12 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            My name is <b className="purple">Matthew Hendrickson </b>,
+            My name is <b className="purple">Matthew Hendrickson</b>,
             I'm from <b className="purple"> Southbury, Connecticut</b>.
-            <br />I'm pursuing a double major in <b className="purple"> Computer Science </b> and <b className="purple"> Interactive Media and Game Technology </b> with a 4.0 GPA at Worcester Polytechnic Institute.
+            I'm pursuing a double major in <b className="purple">
+            Computer Science </b> and <b className="purple">
+            Interactive Media and Game Technology </b> with a 4.0 (ish) GPA
+            at Worcester Polytechnic Institute.
             <br />
             <br />
             Apart from coding, some other activities that I enjoy:
