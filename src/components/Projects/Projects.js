@@ -6,6 +6,7 @@ import Particle from "../Particle";
 import imperius from "../../Assets/Projects/imperius.jpg";
 import softeng from "../../Assets/Projects/softeng.png";
 import assistments from "../../Assets/Projects/assistments.jpg";
+import p5js from "../../Assets/Projects/p5js.png"
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -25,7 +26,6 @@ function Projects() {
               isBlog={false}
               title="Imperius"
               description="Imperius is a 3D space RTS game that I have been the lead developer on and off for the last 3 years. I am currently finishing it up for my Major Qualifying Project (year long capstone) at Worcester Polytechnic Institute."
-              //ghLink="https://github.com/soumyajit4419/Chatify"
               demoLink="https://mchrpt.itch.io/Imperius"
             />
           </Col>
@@ -38,10 +38,8 @@ function Projects() {
               title="Brigham and Woman's Hospital Tracking System"
               description="WPI’s CS3733 Software Engineering D22 class in collaboration with Brigham & Women’s Hospital. Applying the agile development methodologies and software design patterns in Java to create a medical equipment tracking and workflow application to demo features to the hospital representatives that they may consider implementing."
               ghLink="https://github.com/mchrpt/Hospital-Application"
-              //demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={assistments}
@@ -49,11 +47,21 @@ function Projects() {
               isBlog={false}
               title="Machine Learning with ASSISTments"
               description="An IQP (Interactive Qualifying Project) for course credit at WPI using SQL and Python to add features to the award winning ASSISTments learning software. I did research on several methods using contextual bandits to attempt to predict next problem correctness of students answering questions."
-              //ghLink="https://github.com/soumyajit4419/Editor.io"
               demoLink="https://digitalwpi.wpi.edu/concern/student_works/2801pk90w?locale=en"
             />
           </Col>
         </Row>
+        <Col md={4} className="project-card">
+          <ProjectCard
+              imgPath={p5js}
+              linkTo="p5js"
+              isBlog={false}
+              title="p5.js Creations"
+              description="Various sketched created with p5.js, many of them graphical representations of math or computer science topics."
+              demoLink="https://editor.p5js.org/mchendrickson/sketches"
+          />
+        </Col>
+
       </Container>
     </Container>
   );

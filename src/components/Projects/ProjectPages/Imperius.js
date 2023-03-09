@@ -63,12 +63,12 @@ function Imperius() {
                   3D Pathfinding
               </h2>
               <p style={{ textAlign: "justify" }}>
-                  I combined Aron Granberg's A* Pathfinding project, an open source Octree,
-                  DOTween, and open source Catmull-rom splines to create a fast, efficient,
-                  and accurate 3D pathfinding solution working with hundreds of agents
-                  simultaneously with little/no performance overhead. Multithreading
+                  I combined <b className="purple">Aron Granberg's A* Pathfinding project</b>, an open source <b className="purple">Octree</b>,
+                  <b className="purple"> DOTween</b>, and open source <b className="purple">Catmull-rom splines</b> to create a fast, efficient,
+                  and accurate <b className="purple">3D pathfinding</b> solution working with hundreds of agents
+                  simultaneously with little/no performance overhead. <b className="purple">Multithreading </b>
                   techniques and efficient use of data structures were key components
-                  in this project alongside strong code management skills.
+                  in this project alongside <b className="purple">strong code management skills</b>.
               </p>
               <br/>
               <br/>
@@ -76,11 +76,11 @@ function Imperius() {
                   Combat Systems
               </h2>
               <p style={{ textAlign: "justify" }}>
-                  I combined Unity's particle systems alongside several algorithms
-                  such that each weapon fired would predict an enemies location using
-                  their current trajectory, and prioritize specific unit types based on a priority queue.
-                  This eclectic approach allowed for hundreds of units each with dozens of weapons to
-                  fire at specific enemies. GPU instancing on the particle systems allowed for multithreaded
+                  I combined Unity's <b className="purple">particle systems</b> alongside several <b className="purple">algorithms </b>
+                  that each weapon fired would predict an enemies location using their current <b className="purple">trajectory</b>,
+                  and prioritize specific unit types based on a <b className="purple">priority queue</b>.
+                  This eclectic approach allowed for hundreds of units each with dozens of weapons to fire at specific enemies.
+                  <b className="purple"> GPU instancing</b> on the particle systems allowed for <b className="purple">multithreaded </b>
                   collisions, decreasing CPU strain.
               </p>
           </Col>

@@ -1,9 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../../Particle";
-import ImperiusImg1 from "../../../Assets/Projects/imperius1.jpg";
-import ImperiusImg2 from "../../../Assets/Projects/imperius2.jpg";
-import ImperiusImg3 from "../../../Assets/Projects/imperius3.jpg";
+import SoftengTitle from "../../../Assets/Projects/softeng7.jpg"
+import SoftengImg1 from "../../../Assets/Projects/softeng1.png";
+import SoftengImg2 from "../../../Assets/Projects/softeng2.png";
+import SoftengImg3 from "../../../Assets/Projects/softeng3.jpg";
 import {VscDebugBreakpointLogUnverified} from "react-icons/vsc";
 
 function Softeng() {
@@ -32,7 +33,7 @@ function Softeng() {
                 this project to completion.
                 <br />
                 <br />
-                I have contributed to this project in a multitude of different ways:
+                These are some of the roles I took on during this project:
                 <br />
                 <br />
                 <ul>
@@ -40,19 +41,10 @@ function Softeng() {
                     <VscDebugBreakpointLogUnverified /> Project Manager
                   </li>
                   <li className="about-activity">
-                    <VscDebugBreakpointLogUnverified /> Lead Programmer
+                    <VscDebugBreakpointLogUnverified /> Full Stack Engineer
                   </li>
                   <li className="about-activity">
-                    <VscDebugBreakpointLogUnverified /> Systems Programmer
-                  </li>
-                  <li className="about-activity">
-                    <VscDebugBreakpointLogUnverified /> Audio Programmer
-                  </li>
-                  <li className="about-activity">
-                    <VscDebugBreakpointLogUnverified /> Narrative Designer
-                  </li>
-                  <li className="about-activity">
-                    <VscDebugBreakpointLogUnverified /> VFX Artist
+                    <VscDebugBreakpointLogUnverified /> Lead Presenter
                   </li>
                 </ul>
                 I have also designed numerous complex and nuanced systems, bridging together multiple complex APIs together to create intuitive systems.
@@ -60,20 +52,15 @@ function Softeng() {
               <br/>
               <br/>
               <h2 style={{ fontSize: "2em", paddingBottom: "20px" }}>
-                3D Pathfinding
+                Service Requests
               </h2>
               <p style={{ textAlign: "justify" }}>
-                I combined Aron Granberg's A* Pathfinding project, an open source Octree,
-                DOTween, and open source Catmull-rom splines to create a fast, efficient,
-                and accurate 3D pathfinding solution working with hundreds of agents
-                simultaneously with little/no performance overhead. Multithreading
-                techniques and efficient use of data structures were key components
-                in this project alongside strong code management skills.
+                Using JavaFX, Apache Derby SQL, Java, and other programs, we were able to create
               </p>
               <br/>
               <br/>
               <h2 style={{ fontSize: "2em", paddingBottom: "20px" }}>
-                Combat Systems
+                Interactive Map
               </h2>
               <p style={{ textAlign: "justify" }}>
                 I combined Unity's particle systems alongside several algorithms
@@ -89,13 +76,16 @@ function Softeng() {
                 style={{ paddingTop: "120px", paddingBottom: "50px" }}
                 className="about-img"
             >
-              <img src={ImperiusImg1} alt="about" className="img-fluid" />
+              <img src={SoftengTitle} alt="about" className="img-fluid" />
               <br />
               <br />
-              <img src={ImperiusImg2} alt="about" className="img-fluid" />
+              <img src={SoftengImg1} alt="about" className="img-fluid" />
               <br />
               <br />
-              <img src={ImperiusImg3} alt="about" className="img-fluid" />
+              <img src={SoftengImg2} alt="about" className="img-fluid" />
+              <br />
+              <br />
+              <img src={SoftengImg3} alt="about" className="img-fluid" />
               <br />
               <br />
             </Col>

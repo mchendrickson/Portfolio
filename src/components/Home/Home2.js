@@ -1,11 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/matt-photo-edited.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -14,6 +12,7 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
+
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "3.0em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
