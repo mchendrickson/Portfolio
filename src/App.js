@@ -9,6 +9,7 @@ import Resume from "./components/Resume/ResumeNew";
 import Imperius from "./components/Projects/ProjectPages/Imperius";
 import ASSISTments from "./components/Projects/ProjectPages/ASSISTments";
 import Softeng from "./components/Projects/ProjectPages/Softeng";
+import Pfivejs from "./components/Projects/ProjectPages/Pfivejs";
 
 import {
   BrowserRouter as Router,
@@ -47,6 +48,7 @@ function App() {
           <Route path="/project/Imperius" element={<Imperius/>} />
           <Route path="/project/ASSISTments" element={<ASSISTments/>} />
           <Route path="/project/Softeng" element={<Softeng/>} />
+          <Route path="/project/pfivejs" element={<Pfivejs/>} />
         </Routes>
         <Footer />
       </div>

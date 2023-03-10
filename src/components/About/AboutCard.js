@@ -28,12 +28,13 @@ function AboutCard() {
             <li className="about-activity">
               <VscDebugBreakpointLogUnverified /> Creative Writing
             </li>
+            <li className="about-activity">
+              <VscDebugBreakpointLogUnverified /> Helping others learn to code
+            </li>
+            <li className="about-activity">
+              <VscDebugBreakpointLogUnverified /> Hunting
+            </li>
           </ul>
-
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "You can either piss in the sink, or sink in the piss"{" "}
-          </p>
-          <footer className="blockquote-footer">Matthew Hendrickson</footer>
         </blockquote>
       </Card.Body>
     </Card>

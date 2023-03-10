@@ -54,7 +54,7 @@ function Projects() {
         <Col md={4} className="project-card">
           <ProjectCard
               imgPath={p5js}
-              linkTo="p5js"
+              linkTo="Pfivejs"
               isBlog={false}
               title="p5.js Creations"
               description="Various sketched created with p5.js, many of them graphical representations of math or computer science topics."

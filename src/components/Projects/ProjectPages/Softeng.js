@@ -25,12 +25,12 @@ function Softeng() {
                 Hospital Tracking System
               </h1>
               <p style={{ textAlign: "justify" }}>
-                WPI's CS-3733-D22 Software Engineering class collaborated with
-                Brigham & Women's Hospital to create a complete medical equipment
-                tracking and workflow application to demo features to the hospital
-                representatives to consider implementing. I led a team of eleven
-                software engineers using Scrum/Agile methodologies to bring
-                this project to completion.
+                <b className="purple">WPI's CS-3733-D22 Software Engineering</b> class collaborated with
+                <b className="purple"> Brigham & Women's Hospital</b> to create a complete <b className="purple">
+                medical equipment tracking and workflow application</b> to demo features to the hospital
+                representatives to consider implementing. I <b className="purple">led a team</b> of eleven
+                software engineers using <b className="purple">Scrum/Agile methodologies</b> to bring this
+                project to completion.
                 <br />
                 <br />
                 These are some of the roles I took on during this project:
@@ -47,15 +47,18 @@ function Softeng() {
                     <VscDebugBreakpointLogUnverified /> Lead Presenter
                   </li>
                 </ul>
-                I have also designed numerous complex and nuanced systems, bridging together multiple complex APIs together to create intuitive systems.
               </p>
-              <br/>
-              <br/>
               <h2 style={{ fontSize: "2em", paddingBottom: "20px" }}>
                 Service Requests
               </h2>
               <p style={{ textAlign: "justify" }}>
-                Using JavaFX, Apache Derby SQL, Java, and other programs, we were able to create
+                There were a variety of <b className="purple">service requests</b> associated with
+                this project that needed to be implemented to mimic a <b className="purple">hospital
+                tracking system</b>. Each of us were responsible for one of them, and mine was the
+                <b className="purple">medicine delivery request</b>, which I am responsible for the
+                <b className="purple">entirety of its development</b>. I also did significant
+                <b className="purple">backend work</b> to ensure that every service request stored
+                and manipulated data both locally with CSV's and <b className="purple">SQL server backend</b>.
               </p>
               <br/>
               <br/>
@@ -63,12 +66,24 @@ function Softeng() {
                 Interactive Map
               </h2>
               <p style={{ textAlign: "justify" }}>
-                I combined Unity's particle systems alongside several algorithms
-                such that each weapon fired would predict an enemies location using
-                their current trajectory, and prioritize specific unit types based on a priority queue.
-                This eclectic approach allowed for hundreds of units each with dozens of weapons to
-                fire at specific enemies. GPU instancing on the particle systems allowed for multithreaded
-                collisions, decreasing CPU strain.
+                Our team created an <b className="purple">interactive map</b> of the entire hospital, including
+                the real life existing locations as positions on the map. Each could store <b className="purple">
+                equipment, service requests, patients, and employees</b>. I was responsible for creating the
+                <b className="purple">pathfinding component</b> as well as ensuring the backend functionality of the map.
+              </p>
+              <br/>
+              <br/>
+              <h2 style={{ fontSize: "2em", paddingBottom: "20px" }}>
+                Directional Object Relationships
+              </h2>
+              <p style={{ textAlign: "justify" }}>
+                I was singlehandedly responsible for creating a <b className="purple">design pattern</b> to share
+                data and resources between patients, employees, and locations. The program establishes
+                <b className="purple"> bi-directional associations</b> between these objects, allowing them to
+                reference and access each other's data. For example, each <b className="purple">patient object </b>
+                has instance variables that refer to the <b className="purple">locations and employees</b> associated
+                with that patient, and vice versa. The program also includes <b className="purple">methods for adding
+                and removing associations</b> between objects dynamically at runtime.
               </p>
             </Col>
             <Col
