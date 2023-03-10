@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/matt-photo-edited.png";
+import myImg from "../../Assets/matt-photo-edited2.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -12,7 +12,6 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "3.0em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
@@ -20,10 +19,10 @@ function Home2() {
             <p className="home-about-body">
               I enjoy programming unnecessarily complex things both at work and in my free time.
               <br />
-              <br />I am fluent in object oriented languages such as <i><b className="purple"> Java, C#, Javascript, and Python. </b></i> I have plenty of experience in <i><b className="purple">managing</b></i> software development teams.
+              <br />I am fluent in object oriented languages such as <b className="purple"> Java, C#, Javascript, and Python. </b> I have plenty of experience in <b className="purple">managing</b> software development teams.
               <br />
               <br />
-              I hope to get a job as a <i><b className="purple">systems programmer</b></i> or other coding role at a popular game studio. I specialize in RTS games, but I can also design for a variety of other genres such as FPS, 4X, TBS, and VR games. &nbsp;
+              I hope to get a job as a <b className="purple">systems programmer</b> or other coding role at a popular game studio. I specialize in RTS games, but I can also design for a variety of other genres such as FPS, 4X, TBS, and VR games. &nbsp;
               <br />
               <br />
             </p>
