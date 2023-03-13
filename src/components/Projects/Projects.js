@@ -16,7 +16,7 @@ function Projects() {
           My Projects and Other <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Several projects I have worked on in my academic career.
+          Several projects I have worked on in my academic career. Click on a card to learn more
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">

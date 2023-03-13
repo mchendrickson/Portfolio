@@ -17,25 +17,27 @@ function ProjectCards(props) {
                     </Card.Text>
                 </Card.Body>
             </Link>
-            <Card.Body>
-                {props.ghLink && (
-                    <Button variant="primary" href={props.ghLink} target="_blank">
-                        <BsGithub /> &nbsp;
-                        {props.isBlog ? "Blog" : "GitHub"}
-                    </Button>
-                )}
-                {!props.isBlog && props.demoLink && (
-                    <Button
-                        variant="primary"
-                        href={props.demoLink}
-                        target="_blank"
-                        style={{ marginLeft: "10px" }}
-                    >
-                        <CgWebsite /> &nbsp;
-                        {"Link"}
-                    </Button>
-                )}
-            </Card.Body>
+            <div className="mt-auto">
+                <Card.Body>
+                    {props.ghLink && (
+                        <Button variant="primary" href={props.ghLink} target="_blank">
+                            <BsGithub /> &nbsp;
+                            {props.isBlog ? "Blog" : "GitHub"}
+                        </Button>
+                    )}
+                    {!props.isBlog && props.demoLink && (
+                        <Button
+                            variant="primary"
+                            href={props.demoLink}
+                            target="_blank"
+                            style={{ marginLeft: "10px" }}
+                        >
+                            <CgWebsite /> &nbsp;
+                            {"Link"}
+                        </Button>
+                    )}
+                </Card.Body>
+            </div>
         </Card>
     );
 }

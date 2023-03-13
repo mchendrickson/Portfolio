@@ -17,12 +17,12 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I enjoy programming unnecessarily complex things both at work and in my free time.
+              I enjoy tackling <b className="purple">complex programming problems</b> and designing <b className="purple">elegant solutions</b>. My drive to conquer complexity for intuitive design is what captivates me in this industry.
               <br />
-              <br />I am fluent in object oriented languages such as <b className="purple"> Java, C#, Javascript, and Python. </b> I have plenty of experience in <b className="purple">managing</b> software development teams.
+              <br />I am fluent in object oriented languages such as <b className="purple"> Java, C#, Javascript, and Python. </b> I have plenty of experience in <b className="purple">managing</b> software development teams. I code primarily in the <b className="purple">Unity</b> game engine.
               <br />
               <br />
-              I hope to get a job as a <b className="purple">systems programmer</b> or other coding role at a popular game studio. I specialize in RTS games, but I can also design for a variety of other genres such as FPS, 4X, TBS, and VR games. &nbsp;
+              I hope to get a job as a <b className="purple">systems programmer</b> or other coding role at a game studio. I specialize in RTS games, but I also have experience coding for other genres such as platformers, shooters, and VR games. &nbsp;
               <br />
               <br />
             </p>
