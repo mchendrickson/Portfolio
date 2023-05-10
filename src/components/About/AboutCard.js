@@ -15,23 +15,15 @@ function AboutCard() {
             Interactive Media and Game Development </b> with a 4.0 GPA
             at Worcester Polytechnic Institute.
             <br />
+            <br />I am fluent in object oriented languages such as <b className="purple"> Java, C#, Javascript, and Python. </b> I have plenty of experience in <b className="purple">managing</b> software development teams. I code primarily in the <b className="purple">Unity</b> game engine.
             <br />
-            Apart from coding, some other activities that I enjoy:
+            <br />
+            I hope to get a job as a <b className="purple">systems programmer</b> or other coding role at a game studio. I specialize in RTS games, but I also have experience coding for other genres such as platformers, shooters, and VR games. &nbsp;
+            <br />
+            <br />
+            <br />
+            <br />
           </p>
-          <ul>
-            <li className="about-activity">
-              <VscDebugBreakpointLogUnverified /> Playing Games
-            </li>
-            <li className="about-activity">
-              <VscDebugBreakpointLogUnverified /> Martial Arts
-            </li>
-            <li className="about-activity">
-              <VscDebugBreakpointLogUnverified /> Creative Writing
-            </li>
-            <li className="about-activity">
-              <VscDebugBreakpointLogUnverified /> Helping others learn to code
-            </li>
-          </ul>
         </blockquote>
       </Card.Body>
     </Card>

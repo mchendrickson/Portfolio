@@ -8,6 +8,9 @@ import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 import {AiFillGithub} from "react-icons/ai";
 import {FaLinkedinIn} from "react-icons/fa";
+import Projects from "../Projects/Projects";
+import Tilt from "react-parallax-tilt";
+import myImg from "../../Assets/matt-photo-edited2.png";
 
 function About() {
   return (
@@ -30,10 +33,12 @@ function About() {
           </Col>
           <Col
             md={5}
-            style={{ paddingTop: "120px", paddingBottom: "50px" }}
+            style={{ paddingTop: "50px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+            <Tilt>
+              <img src={myImg} className="img-fluid" alt="avatar" />
+            </Tilt>
           </Col>
         </Row>
         <h1 className="project-heading">
@@ -79,6 +84,7 @@ function About() {
           </ul>
         </Col>
       </Row>
+      <Projects/>
     </Container>
   );
 }
