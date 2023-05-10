@@ -9,10 +9,10 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             My name is <b className="purple">Matthew Hendrickson</b>,
-            I'm from <b className="purple"> Southbury, Connecticut</b>.
-            I'm pursuing a double major in <b className="purple">
+            I'm from <b className="purple"> Connecticut</b>.
+            I recently graduated with a double major in <b className="purple">
             Computer Science </b> and <b className="purple">
-            Interactive Media and Game Technology </b> with a 4.0 (ish) GPA
+            Interactive Media and Game Development </b> with a 4.0 GPA
             at Worcester Polytechnic Institute.
             <br />
             <br />
@@ -30,9 +30,6 @@ function AboutCard() {
             </li>
             <li className="about-activity">
               <VscDebugBreakpointLogUnverified /> Helping others learn to code
-            </li>
-            <li className="about-activity">
-              <VscDebugBreakpointLogUnverified /> Hunting
             </li>
           </ul>
         </blockquote>

@@ -25,8 +25,8 @@ function Projects() {
               linkTo="Imperius"
               isBlog={false}
               title="Imperius"
-              description="Imperius is a 3D space RTS game that I have been the lead developer on and off for the last 3 years. I am currently finishing it up for my Major Qualifying Project (year long capstone) at Worcester Polytechnic Institute."
-              demoLink="https://mchrpt.itch.io/Imperius"
+              description="Led a team of six developers to create a 3D space real-time strategy game featuring a six mission campaign and four player multiplayer."
+              demoLink="https://store.steampowered.com/app/1653880/Imperius/"
             />
           </Col>
 
@@ -35,8 +35,8 @@ function Projects() {
               imgPath={softeng}
               linkTo="softeng"
               isBlog={false}
-              title="Brigham and Woman's Hospital Tracking System"
-              description="WPI’s CS3733 Software Engineering D22 class in collaboration with Brigham & Women’s Hospital. Applying the agile development methodologies and software design patterns in Java to create a medical equipment tracking and workflow application to demo features to the hospital representatives that they may consider implementing."
+              title="Hospital Tracking System"
+              description="Led a team of eleven programmers to create a medical equipment tracking and workflow application to demo features to the Brigham & Women’s Hospital representatives."
               ghLink="https://github.com/mchrpt/Hospital-Application"
             />
           </Col>
@@ -46,7 +46,7 @@ function Projects() {
               linkTo="assistments"
               isBlog={false}
               title="Machine Learning with ASSISTments"
-              description="An IQP (Interactive Qualifying Project) for course credit at WPI using SQL and Python to add features to the award winning ASSISTments learning software. I did research on several methods using contextual bandits to attempt to predict next problem correctness of students answering questions."
+              description="Added features to the award winning ASSISTments learning software using contextual bandits"
               demoLink="https://digitalwpi.wpi.edu/concern/student_works/2801pk90w?locale=en"
             />
           </Col>

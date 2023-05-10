@@ -26,10 +26,9 @@ function Imperius() {
               <p style={{ textAlign: "justify" }}>
                   Imperius is a <b className="purple">3D space RTS </b>,
                   that I have been the <b className="purple"> lead developer </b>
-                  on and off for the last <b className="purple"> 3 years </b> I am currently
-                  finishing it up for my <b className="purple"> Major Qualifying Project
-                  </b> (year long capstone) at Worcester Polytechnic Institute. It is made
-                  in the 2021 LTS version of the Unity Game Engine.
+                  on and off for the last <b className="purple"> 3 years.</b> It is the culmination
+                  of my entire skillset. It features a 6 mission campaign, 24 unique units, and a
+                  comprehensive economy system.
                   <br />
                   <br />
                   I have contributed to this project in a multitude of different ways:
