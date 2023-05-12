@@ -4,11 +4,9 @@ import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 import {AiFillGithub} from "react-icons/ai";
 import {FaLinkedinIn} from "react-icons/fa";
-import Projects from "../Projects/Projects";
 import Tilt from "react-parallax-tilt";
 import myImg from "../../Assets/matt-photo-edited2.png";
 
@@ -84,7 +82,6 @@ function About() {
           </ul>
         </Col>
       </Row>
-      <Projects/>
     </Container>
   );
 }

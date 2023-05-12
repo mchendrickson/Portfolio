@@ -4,6 +4,7 @@ import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Type from "./Type";
 import About from "../About/About";
+import Projects from "../Projects/Projects";
 
 function Home() {
   return (
@@ -42,6 +43,7 @@ function Home() {
         </Container>
       </Container>
       <About />
+      <Projects/>
     </section>
   );
 }
