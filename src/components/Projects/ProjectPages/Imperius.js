@@ -7,7 +7,7 @@ import ImperiusArtillery from "../../../Assets/Projects/ImperiusArtillery.jpg";
 import ImperiusNuke from "../../../Assets/Projects/ImperiusNuke.mp4";
 import ImperiusShield from "../../../Assets/Projects/ImperiusShield.mp4";
 import ImperiusPathfinding from "../../../Assets/Projects/ImperiusPathfinding.mp4";
-import ImageWithDescription from "../ImageWithDescription";
+import ImperiusCombat from "../../../Assets/Projects/ImperiusCombat.mp4";
 
 function Imperius() {
     return (
@@ -42,9 +42,6 @@ function Imperius() {
                                 alt="about"
                                 className="img-fluid rounded"
                             />
-                            <div className="image-description">
-                                Description of the image
-                            </div>
                         </Col>
                         I have contributed to this project in a multitude of different
                         ways:
@@ -91,7 +88,7 @@ function Imperius() {
                         style={{ paddingTop: "40px", paddingBottom: "40px" }}
                         className="about-img"
                     >
-                        <video autoPlay loop controls className="img-fluid rounded">
+                        <video autoPlay loop controls muted className="img-fluid rounded">
                             <source src={ImperiusPathfinding} type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
@@ -112,35 +109,45 @@ function Imperius() {
                         GPU instancing
                     </b>{" "}
                         on the particle systems allowed for <b className="purple">
-                        multithreaded{" "}
+                        multi-threaded{" "}
                     </b>
                         collisions, decreasing CPU strain.
                     </p>
-                    <br />
-                    <br />
-                    <h2 style={{ fontSize: "2em", paddingBottom: "20px" }}>VFX</h2>
-                    <p style={{ textAlign: "justify" }}>I made VFX and it looks fackin cool</p>
                     <Col
                         md={8}
                         style={{ paddingTop: "40px", paddingBottom: "40px" }}
                         className="about-img"
                     >
-                        <video autoPlay loop controls className="img-fluid rounded">
+                        <video autoPlay loop controls muted className="img-fluid rounded">
+                            <source src={ImperiusCombat} type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
+                    </Col>
+                    <br />
+                    <br />
+                    <h2 style={{ fontSize: "2em", paddingBottom: "20px" }}>VFX</h2>
+                    <p style={{ textAlign: "justify" }}>By skillfully modifying pre-existing assets and creating original visual
+                        effects from scratch, I have transformed these elements into <b className="purple">captivating</b> and
+                         <b className="purple"> dynamic</b> visual enhancements that greatly amplify the overall impact of Imperius.</p>
+                    <Col
+                        md={8}
+                        style={{ paddingTop: "40px", paddingBottom: "40px" }}
+                        className="about-img"
+                    >
+                        <video autoPlay loop controls muted className="img-fluid rounded">
                             <source src={ImperiusNuke} type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
-                        <div className="image-description">Description of the video</div>
                     </Col>
                     <Col
                         md={8}
                         style={{ paddingTop: "40px", paddingBottom: "40px" }}
                         className="about-img"
                     >
-                        <video autoPlay loop controls className="img-fluid rounded">
+                        <video autoPlay loop controls muted className="img-fluid rounded">
                             <source src={ImperiusShield} type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
-                        <div className="image-description">Description of the video</div>
                     </Col>
                 </Col>
             </Container>
