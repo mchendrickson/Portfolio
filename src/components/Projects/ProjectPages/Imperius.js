@@ -13,6 +13,10 @@ import ImperiusInvis from "../../../Assets/Projects/Imperius/ImperiusInvis.mp4";
 import ImperiusEMP from "../../../Assets/Projects/Imperius/ImperiusEMP.mp4";
 import ImperiusArty from "../../../Assets/Projects/Imperius/ImperiusArty.mp4";
 import ImperiusOctree from "../../../Assets/Projects/Imperius/ImperiusOctree.png";
+import ImperiusShowfest from "../../../Assets/Projects/Imperius/ImperiusShowfest.png";
+import ImperiusMultiplayer from "../../../Assets/Projects/Imperius/ImperiusMultiplayer.jpg";
+import ImperiusMLAgents from "../../../Assets/Projects/Imperius/ImperiusMLAgents.mp4";
+import ImperiusClustering from "../../../Assets/Projects/Imperius/ImperiusClustering.mp4";
 
 function Imperius() {
     return (
@@ -38,15 +42,18 @@ function Imperius() {
                         units, and a comprehensive economy system.
                         <br />
                         <Col
-                            md={8}
+                            md={12}
                             style={{ paddingTop: "40px", paddingBottom: "40px" }}
-                            className="about-img"
+                            className="img-container"
                         >
-                            <img
-                                src={ImperiusArtillery}
-                                alt="about"
-                                className="img-fluid rounded"
-                            />
+                            <Row>
+                                <Col md={3}>
+                                    <img src={ImperiusShowfest} alt="about" className="img-fluid rounded" />
+                                </Col>
+                                <Col md={8}>
+                                    <img src={ImperiusArtillery} alt="about" className="img-fluid rounded" />
+                                </Col>
+                            </Row>
                         </Col>
                         I have contributed to this project in a multitude of different
                         ways:
@@ -91,7 +98,7 @@ function Imperius() {
                     <Col
                         md={12}
                         style={{ paddingTop: "40px", paddingBottom: "40px" }}
-                        className="about-img"
+                        className="img-container"
                     >
                         <Row>
                             <Col md={7}>
@@ -128,10 +135,51 @@ function Imperius() {
                     <Col
                         md={8}
                         style={{ paddingTop: "40px", paddingBottom: "40px" }}
-                        className="about-img"
+                        className="img-container"
                     >
                         <video autoPlay loop muted disableRemotePlayback className="img-fluid rounded">
                             <source src={ImperiusCombat} type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
+                    </Col>
+                    <br />
+                    <br />
+                    <h2 style={{ fontSize: "2em", paddingBottom: "20px" }}>Multiplayer</h2>
+                    <p style={{ textAlign: "justify" }}>Utilizing Unity's <b className="purple"> Netcode for GameObjects </b> and <b className="purple">Facepunch Transport</b>, I implemented a <b className="purple"> server authoritative 4-player skirmish mode </b> that can interface with the Steam client.</p>
+                    <Col
+                        md={8}
+                        style={{ paddingTop: "40px", paddingBottom: "40px" }}
+                        className="img-container"
+                    >
+                        <img src={ImperiusMultiplayer} alt="about" className="img-fluid rounded" />
+
+                    </Col>
+                    <br />
+                    <br />
+                    <h2 style={{ fontSize: "2em", paddingBottom: "20px" }}>Artificial Intelligence</h2>
+                    <p style={{ textAlign: "justify" }}>
+                        I experimented with Unity's <b className="purple">ML-Agents</b> package to attempt to elicit RTS attacking behaviors.
+                        I also created a <b className="purple">custom clustering algorithm</b> so that the AI can discriminate against groups of units efficiently.
+                    </p>
+                    <Col
+                        md={8}
+                        style={{ paddingTop: "40px", paddingBottom: "40px" }}
+                        className="img-container"
+                    >
+                        <video autoPlay loop muted disableRemotePlayback  className="img-fluid rounded">
+                            <source src={ImperiusMLAgents} type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
+                    </Col>
+                    <br />
+                    <br />
+                    <Col
+                        md={8}
+                        style={{ paddingTop: "40px", paddingBottom: "40px" }}
+                        className="img-container"
+                    >
+                        <video autoPlay loop muted disableRemotePlayback  className="img-fluid rounded">
+                            <source src={ImperiusClustering} type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
                     </Col>
@@ -144,7 +192,7 @@ function Imperius() {
                     <Col
                         md={8}
                         style={{ paddingTop: "40px", paddingBottom: "40px" }}
-                        className="about-img"
+                        className="img-container"
                     >
                         <video autoPlay loop muted disableRemotePlayback  className="img-fluid rounded">
                             <source src={ImperiusNuke} type="video/mp4" />
@@ -154,7 +202,7 @@ function Imperius() {
                     <Col
                         md={8}
                         style={{ paddingTop: "40px", paddingBottom: "40px" }}
-                        className="about-img"
+                        className="img-container"
                     >
                         <video autoPlay loop muted disableRemotePlayback  className="img-fluid rounded">
                             <source src={ImperiusShield} type="video/mp4" />
@@ -164,7 +212,7 @@ function Imperius() {
                     <Col
                         md={8}
                         style={{ paddingTop: "40px", paddingBottom: "40px" }}
-                        className="about-img"
+                        className="img-container"
                     >
                         <video autoPlay loop muted disableRemotePlayback  className="img-fluid rounded">
                             <source src={ImperiusEMP} type="video/mp4" />
@@ -174,7 +222,7 @@ function Imperius() {
                     <Col
                         md={8}
                         style={{ paddingTop: "40px", paddingBottom: "40px" }}
-                        className="about-img"
+                        className="img-container"
                     >
                         <video autoPlay loop muted disableRemotePlayback  className="img-fluid rounded">
                             <source src={ImperiusFTL} type="video/mp4" />
@@ -184,7 +232,7 @@ function Imperius() {
                     <Col
                         md={8}
                         style={{ paddingTop: "40px", paddingBottom: "40px" }}
-                        className="about-img"
+                        className="img-container"
                     >
                         <video autoPlay loop muted disableRemotePlayback  className="img-fluid rounded">
                             <source src={ImperiusInvis} type="video/mp4" />
@@ -194,7 +242,7 @@ function Imperius() {
                     <Col
                         md={8}
                         style={{ paddingTop: "40px", paddingBottom: "40px" }}
-                        className="about-img"
+                        className="img-container"
                     >
                         <video autoPlay loop muted disableRemotePlayback  className="img-fluid rounded">
                             <source src={ImperiusArty} type="video/mp4" />
