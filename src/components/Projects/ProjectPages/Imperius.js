@@ -1,13 +1,18 @@
 import React from "react";
-import { Container, Col } from "react-bootstrap";
+import { Container, Col, Row} from "react-bootstrap";
 import Particle from "../../Particle";
 import { VscDebugBreakpointLogUnverified } from "react-icons/vsc";
 import TechstackImperius from "../../About/TechstackImperius";
-import ImperiusArtillery from "../../../Assets/Projects/ImperiusArtillery.jpg";
-import ImperiusNuke from "../../../Assets/Projects/ImperiusNuke.mp4";
-import ImperiusShield from "../../../Assets/Projects/ImperiusShield.mp4";
-import ImperiusPathfinding from "../../../Assets/Projects/ImperiusPathfinding.mp4";
-import ImperiusCombat from "../../../Assets/Projects/ImperiusCombat.mp4";
+import ImperiusArtillery from "../../../Assets/Projects/Imperius/ImperiusArtillery.jpg";
+import ImperiusNuke from "../../../Assets/Projects/Imperius/ImperiusNuke.mp4";
+import ImperiusShield from "../../../Assets/Projects/Imperius/ImperiusShield.mp4";
+import ImperiusPathfinding from "../../../Assets/Projects/Imperius/ImperiusPathfinding.mp4";
+import ImperiusCombat from "../../../Assets/Projects/Imperius/ImperiusCombat.mp4";
+import ImperiusFTL from "../../../Assets/Projects/Imperius/ImperiusFTL.mp4";
+import ImperiusInvis from "../../../Assets/Projects/Imperius/ImperiusInvis.mp4";
+import ImperiusEMP from "../../../Assets/Projects/Imperius/ImperiusEMP.mp4";
+import ImperiusArty from "../../../Assets/Projects/Imperius/ImperiusArty.mp4";
+import ImperiusOctree from "../../../Assets/Projects/Imperius/ImperiusOctree.png";
 
 function Imperius() {
     return (
@@ -84,14 +89,21 @@ function Imperius() {
                         in this project alongside <b className="purple">strong code management skills</b>.
                     </p>
                     <Col
-                        md={8}
+                        md={12}
                         style={{ paddingTop: "40px", paddingBottom: "40px" }}
                         className="about-img"
                     >
-                        <video autoPlay loop controls muted className="img-fluid rounded">
-                            <source src={ImperiusPathfinding} type="video/mp4" />
-                            Your browser does not support the video tag.
-                        </video>
+                        <Row>
+                            <Col md={7}>
+                                <video autoPlay loop muted disableRemotePlayback className="img-fluid rounded">
+                                    <source src={ImperiusPathfinding} type="video/mp4" />
+                                    Your browser does not support the video tag.
+                                </video>
+                            </Col>
+                            <Col md={4}>
+                                <img src={ImperiusOctree} alt="about" className="img-fluid rounded" />
+                            </Col>
+                        </Row>
                     </Col>
                     <br />
                     <br />
@@ -118,7 +130,7 @@ function Imperius() {
                         style={{ paddingTop: "40px", paddingBottom: "40px" }}
                         className="about-img"
                     >
-                        <video autoPlay loop controls muted className="img-fluid rounded">
+                        <video autoPlay loop muted disableRemotePlayback className="img-fluid rounded">
                             <source src={ImperiusCombat} type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
@@ -134,7 +146,7 @@ function Imperius() {
                         style={{ paddingTop: "40px", paddingBottom: "40px" }}
                         className="about-img"
                     >
-                        <video autoPlay loop controls muted className="img-fluid rounded">
+                        <video autoPlay loop muted disableRemotePlayback  className="img-fluid rounded">
                             <source src={ImperiusNuke} type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
@@ -144,8 +156,48 @@ function Imperius() {
                         style={{ paddingTop: "40px", paddingBottom: "40px" }}
                         className="about-img"
                     >
-                        <video autoPlay loop controls muted className="img-fluid rounded">
+                        <video autoPlay loop muted disableRemotePlayback  className="img-fluid rounded">
                             <source src={ImperiusShield} type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
+                    </Col>
+                    <Col
+                        md={8}
+                        style={{ paddingTop: "40px", paddingBottom: "40px" }}
+                        className="about-img"
+                    >
+                        <video autoPlay loop muted disableRemotePlayback  className="img-fluid rounded">
+                            <source src={ImperiusEMP} type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
+                    </Col>
+                    <Col
+                        md={8}
+                        style={{ paddingTop: "40px", paddingBottom: "40px" }}
+                        className="about-img"
+                    >
+                        <video autoPlay loop muted disableRemotePlayback  className="img-fluid rounded">
+                            <source src={ImperiusFTL} type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
+                    </Col>
+                    <Col
+                        md={8}
+                        style={{ paddingTop: "40px", paddingBottom: "40px" }}
+                        className="about-img"
+                    >
+                        <video autoPlay loop muted disableRemotePlayback  className="img-fluid rounded">
+                            <source src={ImperiusInvis} type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
+                    </Col>
+                    <Col
+                        md={8}
+                        style={{ paddingTop: "40px", paddingBottom: "40px" }}
+                        className="about-img"
+                    >
+                        <video autoPlay loop muted disableRemotePlayback  className="img-fluid rounded">
+                            <source src={ImperiusArty} type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
                     </Col>

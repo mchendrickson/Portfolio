@@ -3,10 +3,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
-import imperius from "../../Assets/Projects/ImperiusLogo.jpg";
-import softeng from "../../Assets/Projects/softeng.png";
-import assistments from "../../Assets/Projects/assistments.jpg";
-import p5js from "../../Assets/Projects/p5js.png"
+import imperius from "../../Assets/Projects/Imperius/ImperiusLogo.jpg";
+import softeng from "../../Assets/Projects/SoftEng/softeng.png";
+import assistments from "../../Assets/Projects/Assistments/assistments.jpg";
+import p5js from "../../Assets/Projects/Misc/p5js.png"
 function Projects() {
   return (
     <Container fluid className="project-section">

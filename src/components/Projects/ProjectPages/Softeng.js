@@ -1,10 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../../Particle";
-import SoftengTitle from "../../../Assets/Projects/softeng7.jpg"
-import SoftengImg1 from "../../../Assets/Projects/softeng1.png";
-import SoftengImg2 from "../../../Assets/Projects/softeng2.png";
-import SoftengImg3 from "../../../Assets/Projects/softeng3.jpg";
+import SoftengTitle from "../../../Assets/Projects/SoftEng/softeng7.jpg"
+import SoftengImg1 from "../../../Assets/Projects/SoftEng/softeng1.png";
+import SoftengImg2 from "../../../Assets/Projects/SoftEng/softeng2.png";
+import SoftengImg3 from "../../../Assets/Projects/SoftEng/softeng3.jpg";
 import {VscDebugBreakpointLogUnverified} from "react-icons/vsc";
 
 function Softeng() {
