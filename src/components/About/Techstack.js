@@ -11,9 +11,9 @@ import {
   SiPytorch,
   SiCsharp,
   SiPostgresql,
-  SiP5Dotjs,
   SiTensorflow,
   SiWebgl,
+  SiCplusplus,
 } from "react-icons/si";
 
 function Techstack() {
@@ -44,8 +44,8 @@ function Techstack() {
           <div className="icon-label">Git</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiP5Dotjs />
-          <div className="icon-label">p5.js</div>
+        <SiCplusplus />
+          <div className="icon-label">C++</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPytorch />
