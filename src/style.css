@@ -278,8 +278,8 @@ button:focus {
 
 .video-slideshow {
   position: absolute;
-  top: -50pt;
-  left: -200pt;
+  top: 0pt;
+  left: 0pt;
   width: 100%;
   height: 100%;
   transform: scale(0.3);
