@@ -6,15 +6,16 @@ import SoftengImg1 from "../../../Assets/Projects/SoftEng/softeng1.png";
 import SoftengImg2 from "../../../Assets/Projects/SoftEng/softeng2.png";
 import SoftengImg3 from "../../../Assets/Projects/SoftEng/softeng3.jpg";
 import {VscDebugBreakpointLogUnverified} from "react-icons/vsc";
+import TechstackImperius from "../../About/TechstackImperius";
+import TechstackSofteng from "../../TechstackSofteng";
 
 function Softeng() {
   return (
       <Container fluid className="about-section">
         <Particle />
         <Container>
-          <Row style={{ justifyContent: "center", padding: "12px" }}>
             <Col
-                md={7}
+                md={12}
                 style={{
                   justifyContent: "center",
                   paddingTop: "30px",
@@ -24,13 +25,15 @@ function Softeng() {
               <h1 style={{ fontSize: "3.5em", paddingBottom: "20px" }}>
                 Hospital Tracking System
               </h1>
-              <p style={{ textAlign: "justify" }}>
-                <b className="purple">WPI's CS-3733-D22 Software Engineering</b> class collaborated with
-                <b className="purple"> Brigham & Women's Hospital</b> to create a complete <b className="purple">
-                medical equipment tracking and workflow application</b> to demo features to the hospital
-                representatives to consider implementing. I <b className="purple">led a team</b> of eleven
-                software engineers using <b className="purple">Scrum/Agile methodologies</b> to bring this
-                project to completion.
+              <TechstackSofteng />
+              <p style={{ textAlign: "left" }}>
+                We partnered with <b className="purple">Brigham & Women's Hospital</b> to develop a comprehensive
+                <b className="purple"> medical equipment tracking and workflow application</b> for demonstration purposes.
+                As the team leader, I effectively managed a group of <b className="purple"> eleven software engineers</b>, utilizing
+                <b className="purple"> Scrum/Agile methodologies</b> to successfully deliver the project.
+                <br />
+                <br />
+                <img src={SoftengTitle} alt="about" className="img-fluid" />
                 <br />
                 <br />
                 These are some of the roles I took on during this project:
@@ -52,59 +55,37 @@ function Softeng() {
                 Service Requests
               </h2>
               <p style={{ textAlign: "justify" }}>
-                There were a variety of <b className="purple">service requests</b> associated with
-                this project that needed to be implemented to mimic a <b className="purple">hospital
-                tracking system</b>. Each of us were responsible for one of them, and mine was the
-                <b className="purple">medicine delivery request</b>, which I am responsible for the
-                <b className="purple">entirety of its development</b>. I also did significant
-                <b className="purple">backend work</b> to ensure that every service request stored
-                and manipulated data both locally with CSV's and <b className="purple">SQL server backend</b>.
+                Within this project, various <b className="purple">service requests</b> were implemented to simulate a
+                <b className="purple"> hospital tracking system</b>. Additionally, I played a vital role in performing extensive
+                <b className="purple"> backend work</b> to ensure seamless data storage and manipulation with <b className="purple">PostgreSQL</b>.
               </p>
+              <br/>
+              <img src={SoftengImg3} alt="about" className="img-fluid" />
               <br/>
               <br/>
               <h2 style={{ fontSize: "2em", paddingBottom: "20px" }}>
                 Interactive Map
               </h2>
               <p style={{ textAlign: "justify" }}>
-                Our team created an <b className="purple">interactive map</b> of the entire hospital, including
-                the real life existing locations as positions on the map. Each could store <b className="purple">
-                equipment, service requests, patients, and employees</b>. I was responsible for creating the
-                <b className="purple">pathfinding component</b> as well as ensuring the backend functionality of the map.
+                As part of our team, I played a key role in developing an <b className="purple">interactive map</b> of the hospital,
+                which incorporated real-life locations as positions on the map. The map allowed storage of <b className="purple">equipment,
+                service requests, patients, and employees</b>. My specific responsibilities included creating the
+                <b className="purple"> pathfinding component</b> and ensuring smooth backend functionality for the map.
               </p>
+              <br/>
+              <img src={SoftengImg1} alt="about" className="img-fluid" />
               <br/>
               <br/>
               <h2 style={{ fontSize: "2em", paddingBottom: "20px" }}>
                 Directional Object Relationships
               </h2>
               <p style={{ textAlign: "justify" }}>
-                I was singlehandedly responsible for creating a <b className="purple">design pattern</b> to share
-                data and resources between patients, employees, and locations. The program establishes
-                <b className="purple"> bi-directional associations</b> between these objects, allowing them to
-                reference and access each other's data. For example, each <b className="purple">patient object </b>
-                has instance variables that refer to the <b className="purple">locations and employees</b> associated
-                with that patient, and vice versa. The program also includes <b className="purple">methods for adding
-                and removing associations</b> between objects dynamically at runtime.
+                I created a <b className="purple">design pattern</b> for seamless data and resource sharing among patients, employees, and locations.
+                This pattern establishes <b className="purple">bi-directional associations</b> between objects, allowing them to reference and
+                access each other's data dynamically.
               </p>
-            </Col>
-            <Col
-                md={5}
-                style={{ paddingTop: "120px", paddingBottom: "50px" }}
-                className="about-img"
-            >
-              <img src={SoftengTitle} alt="about" className="img-fluid" />
-              <br />
-              <br />
-              <img src={SoftengImg1} alt="about" className="img-fluid" />
-              <br />
-              <br />
               <img src={SoftengImg2} alt="about" className="img-fluid" />
-              <br />
-              <br />
-              <img src={SoftengImg3} alt="about" className="img-fluid" />
-              <br />
-              <br />
             </Col>
-          </Row>
         </Container>
       </Container>
   );

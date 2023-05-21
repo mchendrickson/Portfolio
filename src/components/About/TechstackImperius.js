@@ -1,19 +1,13 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-//import { CgArrowLongDownC } from "react-icons/cg";
 import {
-  DiJavascript1,
-  DiPython,
   DiGit,
-  DiJava,
 } from "react-icons/di";
 import {
     SiPytorch,
     SiCsharp,
-    SiPostgresql,
-    SiP5Dotjs,
-    SiTensorflow,
-    SiWebgl, SiUnity, SiJetbrains,
+    SiUnity,
+    SiJetbrains,
 } from "react-icons/si";
 
 function TechstackImperius() {
