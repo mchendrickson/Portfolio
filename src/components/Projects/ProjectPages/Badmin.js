@@ -50,9 +50,6 @@ function Badmin() {
                             <li className="about-activity">
                                 <VscDebugBreakpointLogUnverified /> AI Programmer
                             </li>
-                            <li className="about-activity">
-                                <VscDebugBreakpointLogUnverified /> VFX Artist
-                            </li>
                         </ul>
                     </p>
                     <br />
