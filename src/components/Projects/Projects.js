@@ -36,8 +36,7 @@ function Projects() {
                   linkTo="Badmin"
                   isBlog={false}
                   title="Badmin"
-                  description="Led a team of four developers to create a top down shooter where you play a server moderator."
-                  demoLink="https://wvars123.itch.io/badmin"
+                  description="Led a team of four developers to create a top down shooter where you play as a server moderator."
               />
             </Col>
           <Col md={4} className="project-card">
