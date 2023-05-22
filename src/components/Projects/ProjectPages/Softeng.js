@@ -2,12 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../../Particle";
 import SoftengTitle from "../../../Assets/Projects/SoftEng/softeng7.jpg"
-import SoftengImg1 from "../../../Assets/Projects/SoftEng/softeng1.png";
-import SoftengImg2 from "../../../Assets/Projects/SoftEng/softeng2.png";
+import SoftengMap from "../../../Assets/Projects/SoftEng/softeng1.png";
+import SoftengDashboard from "../../../Assets/Projects/SoftEng/softeng2.png";
 import SoftengImg3 from "../../../Assets/Projects/SoftEng/softeng3.jpg";
 import {VscDebugBreakpointLogUnverified} from "react-icons/vsc";
-import TechstackImperius from "../../About/TechstackImperius";
-import TechstackSofteng from "../../TechstackSofteng";
+import TechstackSofteng from "../TechstackSofteng";
 
 function Softeng() {
   return (
@@ -73,7 +72,7 @@ function Softeng() {
                 <b className="purple"> pathfinding component</b> and ensuring smooth backend functionality for the map.
               </p>
               <br/>
-              <img src={SoftengImg1} alt="about" className="img-fluid" />
+              <img src={SoftengMap} alt="about" className="img-fluid" />
               <br/>
               <br/>
               <h2 style={{ fontSize: "2em", paddingBottom: "20px" }}>
@@ -84,7 +83,7 @@ function Softeng() {
                 This pattern establishes <b className="purple">bi-directional associations</b> between objects, allowing them to reference and
                 access each other's data dynamically.
               </p>
-              <img src={SoftengImg2} alt="about" className="img-fluid" />
+              <img src={SoftengDashboard} alt="about" className="img-fluid" />
             </Col>
         </Container>
       </Container>

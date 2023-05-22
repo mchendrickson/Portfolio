@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Col, Row} from "react-bootstrap";
 import Particle from "../../Particle";
 import { VscDebugBreakpointLogUnverified } from "react-icons/vsc";
-import TechstackImperius from "../../About/TechstackImperius";
+import TechstackImperius from "../TechstackImperius";
 import ImperiusArtillery from "../../../Assets/Projects/Imperius/ImperiusArtillery.jpg";
 import ImperiusNuke from "../../../Assets/Projects/Imperius/ImperiusNuke.mp4";
 import ImperiusShield from "../../../Assets/Projects/Imperius/ImperiusShield.mp4";

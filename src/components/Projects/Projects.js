@@ -5,7 +5,7 @@ import Particle from "../Particle";
 
 import imperius from "../../Assets/Projects/Imperius/ImperiusLogo.jpg";
 import softeng from "../../Assets/Projects/SoftEng/softeng.png";
-import assistments from "../../Assets/Projects/Assistments/assistments.jpg";
+import assistments from "../../Assets/Projects/Assistments/assistmentslogo.jpg";
 import p5js from "../../Assets/Projects/Misc/p5js.png"
 function Projects() {
   return (
