@@ -10,6 +10,7 @@ import Imperius from "./components/Projects/ProjectPages/Imperius";
 import ASSISTments from "./components/Projects/ProjectPages/ASSISTments";
 import Softeng from "./components/Projects/ProjectPages/Softeng";
 import Pfivejs from "./components/Projects/ProjectPages/Pfivejs";
+import Badmin from "./components/Projects/ProjectPages/Badmin";
 
 import {
   BrowserRouter as Router,
@@ -53,6 +54,7 @@ function App() {
           <Route path="/ASSISTments" element={<ASSISTments/>} />
           <Route path="/Softeng" element={<Softeng/>} />
           <Route path="/pfivejs" element={<Pfivejs/>} />
+          <Route path="/badmin" element={<Badmin/>} />
         </Routes>
         <Footer />
       </div>

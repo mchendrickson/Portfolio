@@ -7,6 +7,7 @@ import imperius from "../../Assets/Projects/Imperius/ImperiusLogo.jpg";
 import softeng from "../../Assets/Projects/SoftEng/softeng.png";
 import assistments from "../../Assets/Projects/Assistments/assistmentslogo.jpg";
 import p5js from "../../Assets/Projects/Misc/p5js.png"
+import badmin from "../../Assets/Projects/Badmin/BadminTitle.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -16,7 +17,7 @@ function Projects() {
           My Projects and Other <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Several projects I have worked on in my academic career. Click on a card to learn more
+          Several projects I have worked on in my professional career. Click on a card to learn more
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
@@ -29,7 +30,16 @@ function Projects() {
               demoLink="https://store.steampowered.com/app/1653880/Imperius/"
             />
           </Col>
-
+            <Col md={4} className="project-card">
+              <ProjectCard
+                  imgPath={badmin}
+                  linkTo="Badmin"
+                  isBlog={false}
+                  title="Badmin"
+                  description="Led a team of four developers to create a top down shooter where you play a server moderator."
+                  demoLink="https://wvars123.itch.io/badmin"
+              />
+            </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={softeng}
@@ -40,7 +50,10 @@ function Projects() {
               ghLink="https://github.com/mchrpt/Hospital-Application"
             />
           </Col>
-          <Col md={4} className="project-card">
+        </Row>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Col md={4} className="project-card">
             <ProjectCard
               imgPath={assistments}
               linkTo="assistments"
@@ -50,7 +63,6 @@ function Projects() {
               demoLink="https://digitalwpi.wpi.edu/concern/student_works/2801pk90w?locale=en"
             />
           </Col>
-        </Row>
         <Col md={4} className="project-card">
           <ProjectCard
               imgPath={p5js}
@@ -61,7 +73,7 @@ function Projects() {
               demoLink="https://editor.p5js.org/mchendrickson/sketches"
           />
         </Col>
-
+        </Row>
       </Container>
     </Container>
   );
