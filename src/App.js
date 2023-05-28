@@ -50,6 +50,7 @@ function App() {
           <Route path="/project/ASSISTments" element={<ASSISTments/>} />
           <Route path="/project/Softeng" element={<Softeng/>} />
           <Route path="/project/pfivejs" element={<Pfivejs/>} />
+          <Route path="/project/badmin" element={<Badmin/>} />
           <Route path="/Imperius" element={<Imperius/>} />
           <Route path="/ASSISTments" element={<ASSISTments/>} />
           <Route path="/Softeng" element={<Softeng/>} />
