@@ -5,8 +5,6 @@ import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import Toolstack from "./Toolstack";
-import {AiFillGithub} from "react-icons/ai";
-import {FaLinkedinIn} from "react-icons/fa";
 import Tilt from "react-parallax-tilt";
 import myImg from "../../Assets/matt-photo-edited2.png";
 
@@ -52,36 +50,6 @@ function About() {
 
         <Github />
       </Container>
-      <Row>
-        <Col md={12} className="home-about-social">
-          <h1>Find Me On</h1>
-          <p>
-            Feel free to <span className="purple">connect </span>with me
-          </p>
-          <ul className="home-about-social-links">
-            <li className="social-icons">
-              <a
-                  href="https://github.com/mchrpt"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-              >
-                <AiFillGithub />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                  href="https://www.linkedin.com/in/matthew-hendrickson-69627921a/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-              >
-                <FaLinkedinIn />
-              </a>
-            </li>
-          </ul>
-        </Col>
-      </Row>
     </Container>
   );
 }

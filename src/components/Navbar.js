@@ -10,6 +10,8 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiOutlineGithub,
+  AiOutlineLinkedin
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
@@ -32,7 +34,6 @@ function NavBar() {
     <Navbar
       expanded={expand}
       fixed="top"
-      expand="md"
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
@@ -74,6 +75,24 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                  href="https://www.linkedin.com/in/matthew-hendrickson-69627921a/"
+                  onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineLinkedin style={{ marginBottom: "2px" }} /> LinkedIn
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                  href="https://github.com/mchrpt"
+                  onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineGithub style={{ marginBottom: "2px" }} /> GitHub
               </Nav.Link>
             </Nav.Item>
 

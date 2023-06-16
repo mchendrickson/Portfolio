@@ -6,7 +6,6 @@ import About from "../About/About";
 import Projects from "../Projects/Projects";
 import VideoSlideshow from "../VideoSlideshow";
 
-
 import ImperiusNuke from "../../Assets/Projects/Imperius/ImperiusNuke.mp4";
 import ImperiusShield from "../../Assets/Projects/Imperius/ImperiusShield.mp4";
 import ImperiusPathfinding from "../../Assets/Projects/Imperius/ImperiusPathfinding.mp4";
@@ -37,25 +36,16 @@ function Home() {
           <Container className="home-content">
             <Row>
               <Col md={6} className="home-header">
-                <h1 style={{ paddingBottom: 15 }} className="heading">
-                  Hello There!{" "}
-                  <span className="wave" role="img" aria-labelledby="wave">
-                  👋🏻
-                </span>
-                </h1>
-
+                <h1 style={{ paddingBottom: 15 }} className="heading"> Hello There! </h1>
                 <h1 className="heading-name">
-                  I'M
-                  <strong className="main-name"> MATTHEW HENDRICKSON</strong>
+                  I'M <strong className="main-name"> MATTHEW HENDRICKSON</strong>
                 </h1>
-
-                <div style={{ padding: 50, textAlign: "left" }}>
+                <div style={{ padding: 45, textAlign: "left" }}>
                   <Type />
                 </div>
               </Col>
-
-              <Col md={2} style={{ paddingTop: 0 }}>
-                <div className={"video-container"}  >
+              <Col md={6} style={{ paddingTop: 50 }}>
+                <div className="video-container">
                   <VideoSlideshow videos={videos} />
                 </div>
               </Col>
@@ -63,7 +53,7 @@ function Home() {
           </Container>
         </Container>
         <About />
-        <Projects/>
+        <Projects />
       </section>
   );
 }

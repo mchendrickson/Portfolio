@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { VscDebugBreakpointLogUnverified } from "react-icons/vsc";
 
 function AboutCard() {
   return (
@@ -10,7 +9,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             My name is <b className="purple">Matthew Hendrickson</b>,
             I'm from <b className="purple"> Connecticut</b>.
-            I recently graduated with a double major in <b className="purple">
+            I graduated with a double major in <b className="purple">
             Computer Science </b> and <b className="purple">
             Interactive Media and Game Development </b> with a 4.0 GPA
             at Worcester Polytechnic Institute.

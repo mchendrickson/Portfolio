@@ -13,23 +13,23 @@ import {
 function TechstackImperius() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-        <Col xs={4} md={2} className="tech-icons">
+        <Col xs={4} md={1} className="tech-icons">
             <SiUnity />
             <div className="icon-label">Unity</div>
         </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={1} className="tech-icons">
         <SiCsharp />
           <div className="icon-label">C#</div>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={1} className="tech-icons">
         <DiGit />
           <div className="icon-label">Git</div>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={1} className="tech-icons">
         <SiPytorch />
           <div className="icon-label">Pytorch</div>
       </Col>
-        <Col xs={4} md={2} className="tech-icons">
+        <Col xs={4} md={1} className="tech-icons">
             <SiJetbrains />
             <div className="icon-label">JetBrains</div>
         </Col>

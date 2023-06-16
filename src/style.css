@@ -140,16 +140,6 @@ button:focus {
   opacity: 0.9 !important;
 }
 
-@media (max-width: 767px) {
-  .navbar {
-    padding: 1rem 2rem !important;
-    font-size: 1.4rem !important;
-    background-color: #181a27 !important;
-  }
-  .navbar-nav .nav-item a::after {
-    display: none !important;
-  }
-}
 .navbar-brand {
   color: rgb(250, 250, 250) !important;
 }
@@ -167,12 +157,6 @@ button:focus {
 
 .nav-link {
   padding: 0.8rem 1rem !important;
-}
-
-@media (max-width: 767px) {
-  .nav-link {
-    padding: 0.7rem 1rem !important;
-  }
 }
 
 .navbar-nav .nav-item {
@@ -205,6 +189,21 @@ button:focus {
   width: 100%;
 }
 
+@media (max-width: 767px) {
+  .navbar {
+    padding: 1rem 2rem !important;
+    font-size: 1.4rem !important;
+    background-color: #181a27 !important;
+  }
+
+  .navbar-nav {
+    margin-top: 10px;
+  }
+  .navbar-nav .nav-link {
+    color: #fff;
+    padding: 10px 20px;
+  }
+}
 /* --------- */
 /* Home section */
 /* --------- */
@@ -256,12 +255,13 @@ button:focus {
 
 .home-section {
   position: relative;
-  z-index: -1;
+  z-index: 1;
   background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
   padding-top: 30px !important;
+  scale: inherit;
 }
 
 .home-content {
@@ -271,9 +271,7 @@ button:focus {
 }
 
 .video-container {
-  position: relative;
-  width: 100%;
-  padding-bottom: 56.25%; /* Maintain a 16:9 aspect ratio (9 divided by 16) */
+  position: absolute;
 }
 
 .video-slideshow {
@@ -566,14 +564,14 @@ button:focus {
 }
 
 .tech-icons {
-  font-size: 4.5em !important;
-  margin: 15px !important;
+  font-size: 4em !important;
+  margin: 10px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
   border: 1.7px solid rgba(137, 156, 230, 0.64) !important;
   vertical-align: middle !important;
   text-align: center !important;
-  border-radius: 5px !important;
+  border-radius: 10px !important;
   display: table !important;
   box-shadow: 4px 5px 4px 3px rgba(4, 37, 168, 0.13) !important;
   overflow: hidden !important;
@@ -604,7 +602,7 @@ button:focus {
 
 .icon-label {
   margin-top: 5px;
-  font-size: 24px;
+  font-size: 14px;
   font-weight: bold;
   text-align: center;
 }
