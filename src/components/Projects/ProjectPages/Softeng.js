@@ -53,7 +53,7 @@ function Softeng() {
               <h2 style={{ fontSize: "2em", paddingBottom: "20px" }}>
                 Service Requests
               </h2>
-              <p style={{ textAlign: "justify" }}>
+              <p style={{ textAlign: "left" }}>
                 Within this project, various <b className="purple">service requests</b> were implemented to simulate a
                 <b className="purple"> hospital tracking system</b>. Additionally, I played a vital role in performing extensive
                 <b className="purple"> backend work</b> to ensure seamless data storage and manipulation with <b className="purple">PostgreSQL</b>.
@@ -65,7 +65,7 @@ function Softeng() {
               <h2 style={{ fontSize: "2em", paddingBottom: "20px" }}>
                 Interactive Map
               </h2>
-              <p style={{ textAlign: "justify" }}>
+              <p style={{ textAlign: "left" }}>
                 As part of our team, I played a key role in developing an <b className="purple">interactive map</b> of the hospital,
                 which incorporated real-life locations as positions on the map. The map allowed storage of <b className="purple">equipment,
                 service requests, patients, and employees</b>. My specific responsibilities included creating the
@@ -78,7 +78,7 @@ function Softeng() {
               <h2 style={{ fontSize: "2em", paddingBottom: "20px" }}>
                 Directional Object Relationships
               </h2>
-              <p style={{ textAlign: "justify" }}>
+              <p style={{ textAlign: "left" }}>
                 I created a <b className="purple">design pattern</b> for seamless data and resource sharing among patients, employees, and locations.
                 This pattern establishes <b className="purple">bi-directional associations</b> between objects, allowing them to reference and
                 access each other's data dynamically.

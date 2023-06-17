@@ -34,7 +34,7 @@ function Imperius() {
                         Imperius
                     </h1>
                     <TechstackImperius />
-                    <p style={{ textAlign: "justify" }}>
+                    <p style={{ textAlign: "left" }}>
                         Imperius is a <b className="purple">3D space RTS </b>, that I have
                         been the <b className="purple"> lead developer </b> on and off for
                         the last <b className="purple"> 3 years.</b> It is the culmination
@@ -87,7 +87,7 @@ function Imperius() {
                     <h2 style={{ fontSize: "2em", paddingBottom: "20px" }}>
                         3D Pathfinding
                     </h2>
-                    <p style={{ textAlign: "justify" }}>
+                    <p style={{ textAlign: "left" }}>
                         I combined <b className="purple">Aron Granberg's A* Pathfinding project</b>, an open source <b className="purple">Octree</b>,
                         <b className="purple"> DOTween</b>, and open source <b className="purple">Catmull-rom splines</b> to create a fast, efficient,
                         and accurate <b className="purple">3D pathfinding</b> solution working with hundreds of agents
@@ -117,7 +117,7 @@ function Imperius() {
                     <h2 style={{ fontSize: "2em", paddingBottom: "20px" }}>
                         Combat Systems
                     </h2>
-                    <p style={{ textAlign: "justify" }}>
+                    <p style={{ textAlign: "left" }}>
                         I combined Unity's <b className="purple">particle systems</b>{" "}
                         alongside several <b className="purple">algorithms </b>that each
                         weapon fired would predict an enemies location using their current{" "}
@@ -145,7 +145,7 @@ function Imperius() {
                     <br />
                     <br />
                     <h2 style={{ fontSize: "2em", paddingBottom: "20px" }}>Multiplayer</h2>
-                    <p style={{ textAlign: "justify" }}>Utilizing Unity's <b className="purple"> Netcode for GameObjects </b> and <b className="purple">Facepunch Transport</b>, I implemented a <b className="purple"> server authoritative 4-player skirmish mode </b> that can interface with the Steam client.</p>
+                    <p style={{ textAlign: "left" }}>Utilizing Unity's <b className="purple"> Netcode for GameObjects </b> and <b className="purple">Facepunch Transport</b>, I implemented a <b className="purple"> server authoritative 4-player skirmish mode </b> that can interface with the Steam client.</p>
                     <Col
                         md={8}
                         style={{ paddingTop: "40px", paddingBottom: "40px" }}
@@ -157,7 +157,7 @@ function Imperius() {
                     <br />
                     <br />
                     <h2 style={{ fontSize: "2em", paddingBottom: "20px" }}>Artificial Intelligence</h2>
-                    <p style={{ textAlign: "justify" }}>
+                    <p style={{ textAlign: "left" }}>
                         I experimented with Unity's <b className="purple">ML-Agents</b> package to attempt to elicit RTS attacking behaviors.
                         I also created a <b className="purple">custom clustering algorithm</b> so that the AI can discriminate against groups of units efficiently.
                     </p>
@@ -186,7 +186,7 @@ function Imperius() {
                     <br />
                     <br />
                     <h2 style={{ fontSize: "2em", paddingBottom: "20px" }}>VFX</h2>
-                    <p style={{ textAlign: "justify" }}>By skillfully modifying pre-existing assets and creating original visual
+                    <p style={{ textAlign: "left" }}>By skillfully modifying pre-existing assets and creating original visual
                         effects from scratch, I have transformed these elements into <b className="purple">captivating</b> and
                          <b className="purple"> dynamic</b> visual enhancements that greatly amplify the overall impact of Imperius.</p>
                     <Col

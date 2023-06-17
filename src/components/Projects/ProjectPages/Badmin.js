@@ -22,7 +22,7 @@ function Badmin() {
                         Badmin
                     </h1>
                     <TechstackBadmin />
-                    <p style={{ textAlign: "justify" }}>
+                    <p style={{ textAlign: "left" }}>
                         Badmin is a top down shooter with a twist, you have access to moderator abilities!
                         Do your utmost to abuse your powers while hiding from the admin, who seems to have a few screws loose.
                         <br />
@@ -57,7 +57,7 @@ function Badmin() {
                     <h2 style={{ fontSize: "2em", paddingBottom: "20px" }}>
                         AI Behaviors
                     </h2>
-                    <p style={{ textAlign: "justify" }}>
+                    <p style={{ textAlign: "left" }}>
                         I designed all the AI behaviors, including using Unity's 2D Navmesh system to create dynamic pathfinding solutions amongst a dozen agents.
                     </p>
                     <Col
@@ -76,7 +76,7 @@ function Badmin() {
                     <h2 style={{ fontSize: "2em", paddingBottom: "20px" }}>
                         Abilities
                     </h2>
-                    <p style={{ textAlign: "justify" }}>
+                    <p style={{ textAlign: "left" }}>
                         I designed each of the abilities, including balancing penalties for using them and implementing particle effects.
                     </p>
                     <Col
