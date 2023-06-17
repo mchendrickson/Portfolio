@@ -7,25 +7,17 @@ import Projects from "../Projects/Projects";
 import VideoSlideshow from "../VideoSlideshow";
 
 import ImperiusNuke from "../../Assets/Projects/Imperius/ImperiusNuke.mp4";
-import ImperiusShield from "../../Assets/Projects/Imperius/ImperiusShield.mp4";
 import ImperiusPathfinding from "../../Assets/Projects/Imperius/ImperiusPathfinding.mp4";
 import ImperiusCombat from "../../Assets/Projects/Imperius/ImperiusCombat.mp4";
-import ImperiusFTL from "../../Assets/Projects/Imperius/ImperiusFTL.mp4";
-import ImperiusInvis from "../../Assets/Projects/Imperius/ImperiusInvis.mp4";
 import ImperiusEMP from "../../Assets/Projects/Imperius/ImperiusEMP.mp4";
 import ImperiusArty from "../../Assets/Projects/Imperius/ImperiusArty.mp4";
-import ImperiusClustering from "../../Assets/Projects/Imperius/ImperiusClustering.mp4";
 
 const videos = [
   ImperiusNuke,
-  ImperiusShield,
   ImperiusPathfinding,
   ImperiusCombat,
-  ImperiusFTL,
-  ImperiusInvis,
   ImperiusEMP,
   ImperiusArty,
-  ImperiusClustering
 ];
 
 function Home() {
