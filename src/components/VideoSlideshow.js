@@ -15,7 +15,7 @@ const VideoSlideshow = ({ videos }) => {
     };
 
     return (
-        <div className="video-slideshow">
+        <div className="video-wrapper">
             {videos.map((video, index) => (
                 <video
                     key={index}

@@ -44,8 +44,8 @@ function Home() {
                   <Type />
                 </div>
               </Col>
-              <Col md={6} style={{ paddingTop: 50 }}>
-                <div className="video-container">
+              <Col md={6} className="align-top">
+                <div className="video-wrapper">
                   <VideoSlideshow videos={videos} />
                 </div>
               </Col>
