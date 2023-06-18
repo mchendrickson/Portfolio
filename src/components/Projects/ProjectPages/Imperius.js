@@ -17,6 +17,11 @@ import ImperiusShowfest from "../../../Assets/Projects/Imperius/ImperiusShowfest
 import ImperiusMultiplayer from "../../../Assets/Projects/Imperius/ImperiusMultiplayer.jpg";
 import ImperiusMLAgents from "../../../Assets/Projects/Imperius/ImperiusMLAgents.mp4";
 import ImperiusClustering from "../../../Assets/Projects/Imperius/ImperiusClustering.mp4";
+import ImperiusModel1 from "../../../Assets/Projects/Imperius/ImperiusModel1.png";
+import ImperiusModel2 from "../../../Assets/Projects/Imperius/ImperiusModel2.png";
+import ImperiusModel3 from "../../../Assets/Projects/Imperius/ImperiusModel3.png";
+import ImperiusModel4 from "../../../Assets/Projects/Imperius/ImperiusModel4.png";
+
 
 function Imperius() {
     return (
@@ -249,6 +254,30 @@ function Imperius() {
                             Your browser does not support the video tag.
                         </video>
                     </Col>
+                    <br />
+                    <br />
+                    <h2 style={{ fontSize: "2em", paddingBottom: "20px" }}>3D Modeling</h2>
+                    <p style={{ textAlign: "left" }}> I have also contributed to Imperius via <b className="purple">3D modeling</b> space ships and space stations.</p>
+
+                    <Row>
+                        <Col>
+                            <img src={ImperiusModel1} alt="about" className="img-fluid rounded" />
+                        </Col>
+                        <Col>
+                            <img src={ImperiusModel2} alt="about" className="img-fluid rounded" />
+                        </Col>
+                    </Row>
+                    <br />
+                    <br />
+                    <Row>
+                        <Col>
+                            <img src={ImperiusModel3} alt="about" className="img-fluid rounded" />
+                        </Col>
+                        <Col>
+                            <img src={ImperiusModel4} alt="about" className="img-fluid rounded" />
+                        </Col>
+                    </Row>
+
                 </Col>
             </Container>
             <Particle />
