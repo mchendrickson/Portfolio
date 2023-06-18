@@ -194,66 +194,48 @@ function Imperius() {
                     <p style={{ textAlign: "left" }}>By skillfully modifying pre-existing assets and creating original visual
                         effects from scratch, I have transformed these elements into <b className="purple">captivating</b> and
                          <b className="purple"> dynamic</b> visual enhancements that greatly amplify the overall impact of Imperius.</p>
-                    <Col
-                        md={8}
-                        style={{ paddingTop: "40px", paddingBottom: "40px" }}
-                        className="img-container"
-                    >
-                        <video autoPlay loop muted disableRemotePlayback  className="img-fluid rounded">
-                            <source src={ImperiusNuke} type="video/mp4" />
-                            Your browser does not support the video tag.
-                        </video>
-                    </Col>
-                    <Col
-                        md={8}
-                        style={{ paddingTop: "40px", paddingBottom: "40px" }}
-                        className="img-container"
-                    >
-                        <video autoPlay loop muted disableRemotePlayback  className="img-fluid rounded">
-                            <source src={ImperiusShield} type="video/mp4" />
-                            Your browser does not support the video tag.
-                        </video>
-                    </Col>
-                    <Col
-                        md={8}
-                        style={{ paddingTop: "40px", paddingBottom: "40px" }}
-                        className="img-container"
-                    >
-                        <video autoPlay loop muted disableRemotePlayback  className="img-fluid rounded">
-                            <source src={ImperiusEMP} type="video/mp4" />
-                            Your browser does not support the video tag.
-                        </video>
-                    </Col>
-                    <Col
-                        md={8}
-                        style={{ paddingTop: "40px", paddingBottom: "40px" }}
-                        className="img-container"
-                    >
-                        <video autoPlay loop muted disableRemotePlayback  className="img-fluid rounded">
-                            <source src={ImperiusFTL} type="video/mp4" />
-                            Your browser does not support the video tag.
-                        </video>
-                    </Col>
-                    <Col
-                        md={8}
-                        style={{ paddingTop: "40px", paddingBottom: "40px" }}
-                        className="img-container"
-                    >
-                        <video autoPlay loop muted disableRemotePlayback  className="img-fluid rounded">
-                            <source src={ImperiusInvis} type="video/mp4" />
-                            Your browser does not support the video tag.
-                        </video>
-                    </Col>
-                    <Col
-                        md={8}
-                        style={{ paddingTop: "40px", paddingBottom: "40px" }}
-                        className="img-container"
-                    >
-                        <video autoPlay loop muted disableRemotePlayback  className="img-fluid rounded">
-                            <source src={ImperiusArty} type="video/mp4" />
-                            Your browser does not support the video tag.
-                        </video>
-                    </Col>
+                    <Row>
+                        <Col>
+                            <video autoPlay loop muted disableRemotePlayback  className="img-fluid rounded">
+                                <source src={ImperiusNuke} type="video/mp4" />
+                                Your browser does not support the video tag.
+                            </video>
+                        </Col>
+                        <Col>
+                            <video autoPlay loop muted disableRemotePlayback  className="img-fluid rounded">
+                                <source src={ImperiusShield} type="video/mp4" />
+                                Your browser does not support the video tag.
+                            </video>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
+                            <video autoPlay loop muted disableRemotePlayback  className="img-fluid rounded">
+                                <source src={ImperiusEMP} type="video/mp4" />
+                                Your browser does not support the video tag.
+                            </video>
+                        </Col>
+                        <Col>
+                            <video autoPlay loop muted disableRemotePlayback  className="img-fluid rounded">
+                                <source src={ImperiusFTL} type="video/mp4" />
+                                Your browser does not support the video tag.
+                            </video>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
+                            <video autoPlay loop muted disableRemotePlayback  className="img-fluid rounded">
+                                <source src={ImperiusInvis} type="video/mp4" />
+                                Your browser does not support the video tag.
+                            </video>
+                        </Col>
+                        <Col>
+                            <video autoPlay loop muted disableRemotePlayback  className="img-fluid rounded">
+                                <source src={ImperiusArty} type="video/mp4" />
+                                Your browser does not support the video tag.
+                            </video>
+                        </Col>
+                    </Row>
                     <br />
                     <br />
                     <h2 style={{ fontSize: "2em", paddingBottom: "20px" }}>3D Modeling</h2>
