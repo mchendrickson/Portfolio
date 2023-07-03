@@ -9,6 +9,10 @@ function Pfivejs() {
                 <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
                     Various p5.js Projects
                 </h1>
+                <p style={{ color: "white" }}>
+                    This page is desktop only due to the limitations of p5.js.
+                </p>
+                <br/>
                 <Row>
                     <Col >
                         <iframe
