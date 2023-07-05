@@ -21,7 +21,8 @@ import ImperiusModel1 from "../../../Assets/Projects/Imperius/ImperiusModel1.png
 import ImperiusModel2 from "../../../Assets/Projects/Imperius/ImperiusModel2.png";
 import ImperiusModel3 from "../../../Assets/Projects/Imperius/ImperiusModel3.png";
 import ImperiusModel4 from "../../../Assets/Projects/Imperius/ImperiusModel4.png";
-
+import VideoJS from "../../VideoJS";
+import { defaultAutoplayOptions } from "../../VideoJS";
 
 function Imperius() {
     return (
@@ -107,10 +108,13 @@ function Imperius() {
                     >
                         <Row>
                             <Col md={7}>
-                                <video autoPlay loop muted disableRemotePlayback className="img-fluid rounded">
-                                    <source src={ImperiusPathfinding} type="video/mp4" />
-                                    Your browser does not support the video tag.
-                                </video>
+                                <VideoJS options={{
+                                    ...defaultAutoplayOptions,
+                                    sources: [{
+                                        src: ImperiusPathfinding,
+                                        type: 'video/mp4'
+                                    }]
+                                }}/>
                             </Col>
                             <Col md={4}>
                                 <img src={ImperiusOctree} alt="about" className="img-fluid rounded" />
@@ -142,10 +146,15 @@ function Imperius() {
                         style={{ paddingTop: "40px", paddingBottom: "40px" }}
                         className="img-container"
                     >
-                        <video autoPlay loop muted disableRemotePlayback className="img-fluid rounded">
-                            <source src={ImperiusCombat} type="video/mp4" />
-                            Your browser does not support the video tag.
-                        </video>
+
+                       <VideoJS options={{
+                           ...defaultAutoplayOptions,
+                           sources: [{
+                               src: ImperiusCombat,
+                               type: 'video/mp4'
+                           }]
+                       }}/>
+
                     </Col>
                     <br />
                     <br />
@@ -171,10 +180,14 @@ function Imperius() {
                         style={{ paddingTop: "40px", paddingBottom: "40px" }}
                         className="img-container"
                     >
-                        <video autoPlay loop muted disableRemotePlayback  className="img-fluid rounded">
-                            <source src={ImperiusMLAgents} type="video/mp4" />
-                            Your browser does not support the video tag.
-                        </video>
+                        <VideoJS options={{
+                            ...defaultAutoplayOptions,
+                            sources: [{
+                                src: ImperiusMLAgents,
+                                type: 'video/mp4'
+                            }]
+                        }}/>
+
                     </Col>
                     <br />
                     <br />
@@ -183,10 +196,13 @@ function Imperius() {
                         style={{ paddingTop: "40px", paddingBottom: "40px" }}
                         className="img-container"
                     >
-                        <video autoPlay loop muted disableRemotePlayback  className="img-fluid rounded">
-                            <source src={ImperiusClustering} type="video/mp4" />
-                            Your browser does not support the video tag.
-                        </video>
+                        <VideoJS options={{
+                            ...defaultAutoplayOptions,
+                            sources: [{
+                                src: ImperiusClustering,
+                                type: 'video/mp4'
+                            }]
+                        }}/>
                     </Col>
                     <br />
                     <br />
@@ -196,44 +212,62 @@ function Imperius() {
                          <b className="purple"> dynamic</b> visual enhancements that greatly amplify the overall impact of Imperius.</p>
                     <Row>
                         <Col>
-                            <video autoPlay loop muted disableRemotePlayback  className="img-fluid rounded">
-                                <source src={ImperiusNuke} type="video/mp4" />
-                                Your browser does not support the video tag.
-                            </video>
+                            <VideoJS options={{
+                                ...defaultAutoplayOptions,
+                                sources: [{
+                                    src: ImperiusNuke,
+                                    type: 'video/mp4'
+                                }]
+                            }}/>
                         </Col>
                         <Col>
-                            <video autoPlay loop muted disableRemotePlayback  className="img-fluid rounded">
-                                <source src={ImperiusShield} type="video/mp4" />
-                                Your browser does not support the video tag.
-                            </video>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col>
-                            <video autoPlay loop muted disableRemotePlayback  className="img-fluid rounded">
-                                <source src={ImperiusEMP} type="video/mp4" />
-                                Your browser does not support the video tag.
-                            </video>
-                        </Col>
-                        <Col>
-                            <video autoPlay loop muted disableRemotePlayback  className="img-fluid rounded">
-                                <source src={ImperiusFTL} type="video/mp4" />
-                                Your browser does not support the video tag.
-                            </video>
+                            <VideoJS options={{
+                                ...defaultAutoplayOptions,
+                                sources: [{
+                                    src: ImperiusShield,
+                                    type: 'video/mp4'
+                                }]
+                            }}/>
                         </Col>
                     </Row>
                     <Row>
                         <Col>
-                            <video autoPlay loop muted disableRemotePlayback  className="img-fluid rounded">
-                                <source src={ImperiusInvis} type="video/mp4" />
-                                Your browser does not support the video tag.
-                            </video>
+                            <VideoJS options={{
+                                ...defaultAutoplayOptions,
+                                sources: [{
+                                    src: ImperiusEMP,
+                                    type: 'video/mp4'
+                                }]
+                            }}/>
                         </Col>
                         <Col>
-                            <video autoPlay loop muted disableRemotePlayback  className="img-fluid rounded">
-                                <source src={ImperiusArty} type="video/mp4" />
-                                Your browser does not support the video tag.
-                            </video>
+                            <VideoJS options={{
+                                ...defaultAutoplayOptions,
+                                sources: [{
+                                    src: ImperiusFTL,
+                                    type: 'video/mp4'
+                                }]
+                            }}/>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
+                            <VideoJS options={{
+                                ...defaultAutoplayOptions,
+                                sources: [{
+                                    src: ImperiusInvis,
+                                    type: 'video/mp4'
+                                }]
+                            }}/>
+                        </Col>
+                        <Col>
+                            <VideoJS options={{
+                                ...defaultAutoplayOptions,
+                                sources: [{
+                                    src: ImperiusArty,
+                                    type: 'video/mp4'
+                                }]
+                            }}/>
                         </Col>
                     </Row>
                     <br />

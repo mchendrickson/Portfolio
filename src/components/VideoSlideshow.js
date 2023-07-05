@@ -1,7 +1,10 @@
-import React, {useEffect, useState} from "react";
+import React, { useEffect, useState, useRef } from "react";
+import VideoJS from "./VideoJS";
+import { defaultAutoplayOptions } from "./VideoJS";
 
 const VideoSlideshow = ({ videos }) => {
     const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
+    const playerRef = useRef(null);
 
     useEffect(() => {
         const timer = setTimeout(goToNextVideo, 5000);
@@ -14,23 +17,32 @@ const VideoSlideshow = ({ videos }) => {
         );
     };
 
+    const handlePlayerReady = (player) => {
+        // Play the current video when the player is ready
+        if (player) {
+            player.play();
+        }
+    };
+
     return (
         <div className="video-wrapper">
             {videos.map((video, index) => (
-                <video
+                <div
                     key={index}
-                    autoPlay={index === currentVideoIndex}
-                    loop
-                    muted
-                    className={`slideshow-video ${
-                        index === currentVideoIndex ? "active" : ""
-                    }`}
                     style={{ display: index === currentVideoIndex ? "block" : "none" }}
-                    onEnded={goToNextVideo}
                 >
-                    <source src={video} type="video/mp4" />
-                    Your browser does not support the video tag.
-                </video>
+                    <VideoJS
+                        options={{
+                            ...defaultAutoplayOptions,
+                            autoplay: index === currentVideoIndex,
+                            sources: {
+                                src: video,
+                                type: "video/mp4",
+                            },
+                        }}
+                        onReady={handlePlayerReady}
+                    />
+                </div>
             ))}
         </div>
     );

@@ -6,6 +6,8 @@ import Badmin1 from "../../../Assets/Projects/Badmin/Badmin1.mp4";
 import Badmin2 from "../../../Assets/Projects/Badmin/Badmin2.mp4";
 import Badmin3 from "../../../Assets/Projects/Badmin/Badmin3.mp4";
 import TechstackBadmin from "../TechstackBadmin";
+import VideoJS, {defaultAutoplayOptions} from "../../VideoJS";
+import ImperiusClustering from "../../../Assets/Projects/Imperius/ImperiusClustering.mp4";
 function Badmin() {
     return (
         <Container fluid className="about-section">
@@ -31,10 +33,14 @@ function Badmin() {
                             style={{ paddingTop: "40px", paddingBottom: "40px" }}
                             className="img-container"
                         >
-                            <video autoPlay loop muted disableRemotePlayback className="img-fluid rounded">
-                                <source src={Badmin1} type="video/mp4" />
-                                Your browser does not support the video tag.
-                            </video>
+                            <VideoJS options={{
+                                ...defaultAutoplayOptions,
+                                sources: [{
+                                    src: Badmin1,
+                                    type: 'video/mp4'
+                                }]
+                            }}/>
+
                         </Col>
                         I have contributed to this project in a multitude of different
                         ways:
@@ -65,10 +71,13 @@ function Badmin() {
                         style={{ paddingTop: "40px", paddingBottom: "40px" }}
                         className="img-container"
                     >
-                        <video autoPlay loop muted disableRemotePlayback className="img-fluid rounded">
-                            <source src={Badmin2} type="video/mp4" />
-                            Your browser does not support the video tag.
-                        </video>
+                        <VideoJS options={{
+                            ...defaultAutoplayOptions,
+                            sources: [{
+                                src: Badmin2,
+                                type: 'video/mp4'
+                            }]
+                        }}/>
 
                     </Col>
                     <br />
@@ -84,10 +93,14 @@ function Badmin() {
                         style={{ paddingTop: "40px", paddingBottom: "40px" }}
                         className="img-container"
                     >
-                        <video autoPlay loop muted disableRemotePlayback className="img-fluid rounded">
-                            <source src={Badmin3} type="video/mp4" />
-                            Your browser does not support the video tag.
-                        </video>
+
+                        <VideoJS options={{
+                            ...defaultAutoplayOptions,
+                            sources: [{
+                                src: Badmin3,
+                                type: 'video/mp4'
+                            }]
+                        }}/>
 
                     </Col>
                 </Col>
