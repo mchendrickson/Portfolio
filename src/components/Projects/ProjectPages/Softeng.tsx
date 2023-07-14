@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Col } from "react-bootstrap";
 import Particle from "../../Particle";
 import SoftengTitle from "../../../Assets/Projects/SoftEng/softeng7.jpg"
 import SoftengMap from "../../../Assets/Projects/SoftEng/softeng1.png";

@@ -1,11 +1,10 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Col } from "react-bootstrap";
 import Particle from "../../Particle";
 import TechstackAssistments from "../TechstackAssistments";
 import AssistmentsTitle from "../../../Assets/Projects/Assistments/assistmentstitle.jpg";
 import Assistmentsaglomerative from "../../../Assets/Projects/Assistments/assistmentsaglomerative.png";
 import Assistmentslinkage from "../../../Assets/Projects/Assistments/assistmentslinkage.png";
-import Assistmentsgaming from "../../../Assets/Projects/Assistments/assistmentsgaming.jpg";
 import Assistmentscore from "../../../Assets/Projects/Assistments/assistmentscore.png";
 import Assistmentsbandits from "../../../Assets/Projects/Assistments/assistmentsbandits.png";
 

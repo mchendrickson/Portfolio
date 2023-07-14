@@ -1,10 +1,9 @@
-import React, { useEffect, useState, useRef } from "react";
+import React, { useEffect, useState } from "react";
 import VideoJS from "./VideoJS";
 import { defaultAutoplayOptions } from "./VideoJS";
 
 const VideoSlideshow = ({ videos }: { videos: string[] }) => {
     const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
-    const playerRef = useRef(null);
 
     useEffect(() => {
         const timer = setTimeout(goToNextVideo, 5000);
