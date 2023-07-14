@@ -1,0 +1,15 @@
+{
+  "include": ["src/**/*"],
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "module": "commonjs",
+    "allowJs": true,
+    "checkJs": true,
+    "target": "ES6",
+    "sourceMap": true,
+    "esModuleInterop": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

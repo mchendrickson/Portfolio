@@ -44,7 +44,7 @@ function NavBar() {
           <Navbar.Toggle
               aria-controls="responsive-navbar-nav"
               onClick={() => {
-                updateExpanded(expand ? false : "expanded");
+                updateExpanded(!expand);
               }}
           >
             <span></span>

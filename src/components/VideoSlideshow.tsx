@@ -26,7 +26,7 @@ const VideoSlideshow = ({ videos }) => {
 
     return (
         <div className="video-wrapper">
-            {videos.map((video, index) => (
+            {videos.map((video: string, index: number) => (
                 <div
                     key={index}
                     style={{ display: index === currentVideoIndex ? "block" : "none" }}

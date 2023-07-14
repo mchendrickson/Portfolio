@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Particle from "../Particle";
 import Type from "./Type";
 import About from "../About/About";
 import Projects from "../Projects/Projects";

@@ -2,7 +2,6 @@ import React from 'react';
 import videojs from 'video.js';
 import 'video.js/dist/video-js.css';
 
-
 export const defaultAutoplayOptions = {
     autoplay: true,
     controls: false,
