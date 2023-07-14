@@ -114,7 +114,7 @@ function Imperius() {
                                         src: ImperiusPathfinding,
                                         type: 'video/mp4'
                                     }]
-                                }}/>
+                                }} onReady={undefined}/>
                             </Col>
                             <Col md={4}>
                                 <img src={ImperiusOctree} alt="about" className="img-fluid rounded" />
@@ -153,7 +153,7 @@ function Imperius() {
                                src: ImperiusCombat,
                                type: 'video/mp4'
                            }]
-                       }}/>
+                       }}onReady={undefined}/>
 
                     </Col>
                     <br />
@@ -186,7 +186,7 @@ function Imperius() {
                                 src: ImperiusMLAgents,
                                 type: 'video/mp4'
                             }]
-                        }}/>
+                        }}onReady={undefined}/>
 
                     </Col>
                     <br />
@@ -202,7 +202,7 @@ function Imperius() {
                                 src: ImperiusClustering,
                                 type: 'video/mp4'
                             }]
-                        }}/>
+                        }}onReady={undefined}/>
                     </Col>
                     <br />
                     <br />
@@ -218,7 +218,7 @@ function Imperius() {
                                     src: ImperiusNuke,
                                     type: 'video/mp4'
                                 }]
-                            }}/>
+                            }}onReady={undefined}/>
                         </Col>
                         <Col>
                             <VideoJS options={{
@@ -227,7 +227,7 @@ function Imperius() {
                                     src: ImperiusShield,
                                     type: 'video/mp4'
                                 }]
-                            }}/>
+                            }}onReady={undefined}/>
                         </Col>
                     </Row>
                     <Row>
@@ -238,7 +238,7 @@ function Imperius() {
                                     src: ImperiusEMP,
                                     type: 'video/mp4'
                                 }]
-                            }}/>
+                            }}onReady={undefined}/>
                         </Col>
                         <Col>
                             <VideoJS options={{
@@ -247,7 +247,7 @@ function Imperius() {
                                     src: ImperiusFTL,
                                     type: 'video/mp4'
                                 }]
-                            }}/>
+                            }}onReady={undefined}/>
                         </Col>
                     </Row>
                     <Row>
@@ -258,7 +258,7 @@ function Imperius() {
                                     src: ImperiusInvis,
                                     type: 'video/mp4'
                                 }]
-                            }}/>
+                            }}onReady={undefined}/>
                         </Col>
                         <Col>
                             <VideoJS options={{
@@ -267,7 +267,7 @@ function Imperius() {
                                     src: ImperiusArty,
                                     type: 'video/mp4'
                                 }]
-                            }}/>
+                            }}onReady={undefined}/>
                         </Col>
                     </Row>
                     <br />

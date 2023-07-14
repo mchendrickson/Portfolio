@@ -1,11 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, To} from "react-router-dom";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import { CgWebsite } from "react-icons/cg";
-import { BsGithub } from "react-icons/bs";
+import {CgWebsite} from "react-icons/cg";
+import {BsGithub} from "react-icons/bs";
 
-function ProjectCards(props) {
+function ProjectCards(props: { linkTo: To; imgPath: string | undefined; title: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | null | undefined; description: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | null | undefined; ghLink: string | undefined; isBlog: any; demoLink: string | undefined; }) {
     return (
         <Card className="project-card-view">
             <Link to={props.linkTo} style={{ textDecoration: 'none', color: 'inherit' }} >

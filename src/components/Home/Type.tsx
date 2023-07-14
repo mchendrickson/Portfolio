@@ -7,16 +7,16 @@ function Type() {
         onInit={(typewriter) => {
             typewriter
                 .typeString('Game Designer')
-                .pauseFor(500)
+                .pauseFor(10500)
                 .deleteAll()
                 .typeString('Computer Scientist')
-                .pauseFor(500)
+                .pauseFor(10500)
                 .deleteAll()
                 .typeString('Systems Programmer')
-                .pauseFor(500)
+                .pauseFor(10500)
                 .deleteAll()
                 .typeString('Software Engineer')
-                .pauseFor(500)
+                .pauseFor(10500)
                 .deleteAll()
                 .start();
         }}
@@ -24,7 +24,7 @@ function Type() {
         autoStart: true,
         loop: true,
         deleteSpeed: 1,
-        delay: 15,
+        delay: 1,
       }}
     />
   );

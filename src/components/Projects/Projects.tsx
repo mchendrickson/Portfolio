@@ -27,8 +27,10 @@ function Projects() {
               isBlog={false}
               title="Imperius"
               description="Led a team of six developers to create a 3D space real-time strategy game featuring a six mission campaign and four player multiplayer."
-              //demoLink="https://store.steampowered.com/app/1653880/Imperius/"
-            />
+              demoLink={undefined}
+              ghLink={undefined}/>
+                //demoLink="https://store.steampowered.com/app/1653880/Imperius/"
+
           </Col>
             <Col md={4} className="project-card">
               <ProjectCard
@@ -37,6 +39,8 @@ function Projects() {
                   isBlog={false}
                   title="Badmin"
                   description="Led a team of four developers to create a top down shooter where you play as a server moderator."
+                  demoLink={undefined}
+                  ghLink={undefined}
               />
             </Col>
           <Col md={4} className="project-card">
@@ -47,6 +51,8 @@ function Projects() {
               title="Hospital Tracking System"
               description="Led a team of eleven programmers to create a medical equipment tracking and workflow application to demo features to the Brigham & Women’s Hospital representatives."
               //ghLink="https://github.com/mchrpt/Hospital-Application"
+              demoLink={undefined}
+              ghLink={undefined}
             />
           </Col>
         </Row>
@@ -59,7 +65,9 @@ function Projects() {
               isBlog={false}
               title="Machine Learning with ASSISTments"
               description="Added features to the award winning ASSISTments learning software using contextual bandits."
-              //demoLink="https://digitalwpi.wpi.edu/concern/student_works/2801pk90w?locale=en"
+              demoLink={undefined}
+              ghLink={undefined}
+                //demoLink="https://digitalwpi.wpi.edu/concern/student_works/2801pk90w?locale=en"
             />
           </Col>
         <Col md={4} className="project-card">
@@ -69,6 +77,8 @@ function Projects() {
               isBlog={false}
               title="p5.js Creations"
               description="Various sketched created with p5.js, many of them graphical representations of math or computer science topics."
+              demoLink={undefined}
+              ghLink={undefined}
               //demoLink="https://editor.p5js.org/mchendrickson/sketches"
           />
         </Col>

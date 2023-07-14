@@ -39,7 +39,7 @@ function Badmin() {
                                     src: Badmin1,
                                     type: 'video/mp4'
                                 }]
-                            }}/>
+                            }}onReady={undefined}/>
 
                         </Col>
                         I have contributed to this project in a multitude of different
@@ -77,7 +77,7 @@ function Badmin() {
                                 src: Badmin2,
                                 type: 'video/mp4'
                             }]
-                        }}/>
+                        }}onReady={undefined}/>
 
                     </Col>
                     <br />
@@ -100,7 +100,7 @@ function Badmin() {
                                 src: Badmin3,
                                 type: 'video/mp4'
                             }]
-                        }}/>
+                        }}onReady={undefined}/>
 
                     </Col>
                 </Col>

@@ -12,9 +12,9 @@ export const defaultAutoplayOptions = {
     pictureInPictureToggle: false,
 };
 
-export const VideoJS = (props) => {
-    const videoRef = React.useRef(null);
-    const playerRef = React.useRef(null);
+export const VideoJS = (props: { options: any; onReady: any; }) => {
+    const videoRef : any = React.useRef(null);
+    const playerRef : any = React.useRef(null);
     const {options, onReady} = props;
 
     React.useEffect(() => {

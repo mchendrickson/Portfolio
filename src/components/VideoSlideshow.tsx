@@ -2,7 +2,7 @@ import React, { useEffect, useState, useRef } from "react";
 import VideoJS from "./VideoJS";
 import { defaultAutoplayOptions } from "./VideoJS";
 
-const VideoSlideshow = ({ videos }) => {
+const VideoSlideshow = ({ videos }: { videos: string[] }) => {
     const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
     const playerRef = useRef(null);
 
@@ -17,7 +17,7 @@ const VideoSlideshow = ({ videos }) => {
         );
     };
 
-    const handlePlayerReady = (player) => {
+    const handlePlayerReady = (player : any) => {
         // Play the current video when the player is ready
         if (player) {
             player.play();

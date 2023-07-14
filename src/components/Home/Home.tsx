@@ -11,7 +11,7 @@ import ImperiusCombat from "../../Assets/Projects/Imperius/ImperiusCombat.mp4";
 import ImperiusEMP from "../../Assets/Projects/Imperius/ImperiusEMP.mp4";
 import ImperiusArty from "../../Assets/Projects/Imperius/ImperiusArty.mp4";
 
-const videos = [
+const videos : string[] = [
   ImperiusNuke,
   ImperiusPathfinding,
   ImperiusCombat,
