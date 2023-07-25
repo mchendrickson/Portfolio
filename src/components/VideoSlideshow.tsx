@@ -36,7 +36,7 @@ const VideoSlideshow = ({ videos }: { videos: string[] }) => {
                             autoplay: index === currentVideoIndex,
                             sources: {
                                 src: video,
-                                type: "video/mp4",
+                                type: "video/youtube",
                             },
                         }}
                         onReady={handlePlayerReady}

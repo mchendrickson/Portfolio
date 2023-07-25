@@ -5,11 +5,11 @@ import About from "../About/About";
 import Projects from "../Projects/Projects";
 import VideoSlideshow from "../VideoSlideshow";
 
-import ImperiusNuke from "../../Assets/Projects/Imperius/ImperiusNuke.mp4";
-import ImperiusPathfinding from "../../Assets/Projects/Imperius/ImperiusPathfinding.mp4";
-import ImperiusCombat from "../../Assets/Projects/Imperius/ImperiusCombat.mp4";
-import ImperiusEMP from "../../Assets/Projects/Imperius/ImperiusEMP.mp4";
-import ImperiusArty from "../../Assets/Projects/Imperius/ImperiusArty.mp4";
+let ImperiusEMP = "https://youtu.be/8jZwxN59QVQ";
+let ImperiusNuke = "https://youtu.be/jjtsBKnWVV0";
+let ImperiusPathfinding = "https://youtu.be/s1hWoogmJIo";
+let ImperiusCombat = "https://youtu.be/d3N5FiW7Rgc";
+let ImperiusArty = "https://youtu.be/iX19pFwEtmk";
 
 const videos : string[] = [
   ImperiusNuke,

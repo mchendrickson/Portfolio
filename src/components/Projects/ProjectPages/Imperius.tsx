@@ -4,25 +4,27 @@ import Particle from "../../Particle";
 import { VscDebugBreakpointLogUnverified } from "react-icons/vsc";
 import TechstackImperius from "../TechstackImperius";
 import ImperiusArtillery from "../../../Assets/Projects/Imperius/ImperiusArtillery.jpg";
-import ImperiusNuke from "../../../Assets/Projects/Imperius/ImperiusNuke.mp4";
-import ImperiusShield from "../../../Assets/Projects/Imperius/ImperiusShield.mp4";
-import ImperiusPathfinding from "../../../Assets/Projects/Imperius/ImperiusPathfinding.mp4";
-import ImperiusCombat from "../../../Assets/Projects/Imperius/ImperiusCombat.mp4";
-import ImperiusFTL from "../../../Assets/Projects/Imperius/ImperiusFTL.mp4";
-import ImperiusInvis from "../../../Assets/Projects/Imperius/ImperiusInvis.mp4";
-import ImperiusEMP from "../../../Assets/Projects/Imperius/ImperiusEMP.mp4";
-import ImperiusArty from "../../../Assets/Projects/Imperius/ImperiusArty.mp4";
 import ImperiusOctree from "../../../Assets/Projects/Imperius/ImperiusOctree.png";
 import ImperiusShowfest from "../../../Assets/Projects/Imperius/ImperiusShowfest.png";
 import ImperiusMultiplayer from "../../../Assets/Projects/Imperius/ImperiusMultiplayer.jpg";
-import ImperiusMLAgents from "../../../Assets/Projects/Imperius/ImperiusMLAgents.mp4";
-import ImperiusClustering from "../../../Assets/Projects/Imperius/ImperiusClustering.mp4";
 import ImperiusModel1 from "../../../Assets/Projects/Imperius/ImperiusModel1.png";
 import ImperiusModel2 from "../../../Assets/Projects/Imperius/ImperiusModel2.png";
 import ImperiusModel3 from "../../../Assets/Projects/Imperius/ImperiusModel3.png";
 import ImperiusModel4 from "../../../Assets/Projects/Imperius/ImperiusModel4.png";
 import VideoJS from "../../VideoJS";
 import { defaultAutoplayOptions } from "../../VideoJS";
+
+let ImperiusEMP = "https://youtu.be/8jZwxN59QVQ";
+let ImperiusClustering = "https://youtu.be/YschcX_E9sQ";
+let ImperiusMLAgents = "https://youtu.be/_66QWsxGb4k";
+let ImperiusNuke = "https://youtu.be/jjtsBKnWVV0";
+let ImperiusShield = "https://youtu.be/joLg3yalzK8";
+let ImperiusPathfinding = "https://youtu.be/s1hWoogmJIo";
+let ImperiusCombat = "https://youtu.be/d3N5FiW7Rgc";
+let ImperiusFTL = "https://youtu.be/nie6nHvoUeM";
+let ImperiusInvis = "https://youtu.be/wECx-iToygA";
+let ImperiusArty = "https://youtu.be/iX19pFwEtmk";
+
 
 function Imperius() {
     return (
@@ -112,7 +114,7 @@ function Imperius() {
                                     ...defaultAutoplayOptions,
                                     sources: [{
                                         src: ImperiusPathfinding,
-                                        type: 'video/mp4'
+                                        type: 'video/youtube'
                                     }]
                                 }} onReady={undefined}/>
                             </Col>
@@ -151,7 +153,7 @@ function Imperius() {
                            ...defaultAutoplayOptions,
                            sources: [{
                                src: ImperiusCombat,
-                               type: 'video/mp4'
+                               type: 'video/youtube'
                            }]
                        }}onReady={undefined}/>
 
@@ -184,7 +186,7 @@ function Imperius() {
                             ...defaultAutoplayOptions,
                             sources: [{
                                 src: ImperiusMLAgents,
-                                type: 'video/mp4'
+                                type: 'video/youtube'
                             }]
                         }}onReady={undefined}/>
 
@@ -200,7 +202,7 @@ function Imperius() {
                             ...defaultAutoplayOptions,
                             sources: [{
                                 src: ImperiusClustering,
-                                type: 'video/mp4'
+                                type: 'video/youtube'
                             }]
                         }}onReady={undefined}/>
                     </Col>
@@ -216,7 +218,7 @@ function Imperius() {
                                 ...defaultAutoplayOptions,
                                 sources: [{
                                     src: ImperiusNuke,
-                                    type: 'video/mp4'
+                                    type: 'video/youtube'
                                 }]
                             }}onReady={undefined}/>
                         </Col>
@@ -225,7 +227,7 @@ function Imperius() {
                                 ...defaultAutoplayOptions,
                                 sources: [{
                                     src: ImperiusShield,
-                                    type: 'video/mp4'
+                                    type: 'video/youtube'
                                 }]
                             }}onReady={undefined}/>
                         </Col>
@@ -236,8 +238,8 @@ function Imperius() {
                                 ...defaultAutoplayOptions,
                                 sources: [{
                                     src: ImperiusEMP,
-                                    type: 'video/mp4'
-                                }]
+                                    type: 'video/youtube'
+                                }],
                             }}onReady={undefined}/>
                         </Col>
                         <Col>
@@ -245,7 +247,7 @@ function Imperius() {
                                 ...defaultAutoplayOptions,
                                 sources: [{
                                     src: ImperiusFTL,
-                                    type: 'video/mp4'
+                                    type: 'video/youtube'
                                 }]
                             }}onReady={undefined}/>
                         </Col>
@@ -256,7 +258,7 @@ function Imperius() {
                                 ...defaultAutoplayOptions,
                                 sources: [{
                                     src: ImperiusInvis,
-                                    type: 'video/mp4'
+                                    type: 'video/youtube'
                                 }]
                             }}onReady={undefined}/>
                         </Col>
@@ -265,7 +267,7 @@ function Imperius() {
                                 ...defaultAutoplayOptions,
                                 sources: [{
                                     src: ImperiusArty,
-                                    type: 'video/mp4'
+                                    type: 'video/youtube'
                                 }]
                             }}onReady={undefined}/>
                         </Col>

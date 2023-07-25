@@ -1,6 +1,7 @@
 import React from 'react';
 import videojs from 'video.js';
 import 'video.js/dist/video-js.css';
+import "videojs-youtube";
 
 export const defaultAutoplayOptions = {
     autoplay: true,
