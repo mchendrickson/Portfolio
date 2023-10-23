@@ -201,13 +201,7 @@ function Imperius() {
                          <b className="purple"> dynamic</b> visual enhancements that greatly amplify the overall impact of Imperius.</p>
                     <Row>
                         <Col>
-                            <VideoJS options={{
-                                ...defaultAutoplayOptions,
-                                sources: [{
-                                    src: ImperiusNuke,
-                                    type: 'video/youtube'
-                                }]
-                            }}onReady={undefined}/>
+                            <VimeoVideo videoId={"877208282"} videoTitle={"Imperius Pathfinding"}/>
                         </Col>
                         <Col>
                             <VideoJS options={{
@@ -221,13 +215,7 @@ function Imperius() {
                     </Row>
                     <Row>
                         <Col>
-                            <VideoJS options={{
-                                ...defaultAutoplayOptions,
-                                sources: [{
-                                    src: ImperiusEMP,
-                                    type: 'video/youtube'
-                                }],
-                            }}onReady={undefined}/>
+                            <VimeoVideo videoId={"877208504"} videoTitle={"Imperius Pathfinding"}/>
                         </Col>
                         <Col>
                             <VideoJS options={{

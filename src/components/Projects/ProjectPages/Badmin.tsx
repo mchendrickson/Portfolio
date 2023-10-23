@@ -2,11 +2,8 @@ import React from "react";
 import { Container, Col} from "react-bootstrap";
 import Particle from "../../Particle";
 import { VscDebugBreakpointLogUnverified } from "react-icons/vsc";
-import Badmin1 from "../../../Assets/Projects/Badmin/Badmin1.mp4";
-import Badmin2 from "../../../Assets/Projects/Badmin/Badmin2.mp4";
-import Badmin3 from "../../../Assets/Projects/Badmin/Badmin3.mp4";
 import TechstackBadmin from "../TechstackBadmin";
-import VideoJS, {defaultAutoplayOptions} from "../../VideoJS";
+import VimeoVideo from "../../../VimeoVideo";
 
 function Badmin() {
     return (
@@ -33,14 +30,7 @@ function Badmin() {
                             style={{ paddingTop: "40px", paddingBottom: "40px" }}
                             className="img-container"
                         >
-                            <VideoJS options={{
-                                ...defaultAutoplayOptions,
-                                sources: [{
-                                    src: Badmin1,
-                                    type: 'video/mp4'
-                                }]
-                            }}onReady={undefined}/>
-
+                            <VimeoVideo videoId={"877212425"} videoTitle={"Badmin Gameplay"}/>
                         </Col>
                         I have contributed to this project in a multitude of different
                         ways:
@@ -71,14 +61,7 @@ function Badmin() {
                         style={{ paddingTop: "40px", paddingBottom: "40px" }}
                         className="img-container"
                     >
-                        <VideoJS options={{
-                            ...defaultAutoplayOptions,
-                            sources: [{
-                                src: Badmin2,
-                                type: 'video/mp4'
-                            }]
-                        }}onReady={undefined}/>
-
+                        <VimeoVideo videoId={"877212490"} videoTitle={"Badmin Abilities"}/>
                     </Col>
                     <br />
                     <br />
@@ -93,15 +76,7 @@ function Badmin() {
                         style={{ paddingTop: "40px", paddingBottom: "40px" }}
                         className="img-container"
                     >
-
-                        <VideoJS options={{
-                            ...defaultAutoplayOptions,
-                            sources: [{
-                                src: Badmin3,
-                                type: 'video/mp4'
-                            }]
-                        }}onReady={undefined}/>
-
+                        <VimeoVideo videoId={"877214056"} videoTitle={"Badmin Behaviors"}/>
                     </Col>
                 </Col>
             </Container>
