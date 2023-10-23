@@ -5,6 +5,8 @@ import { VscDebugBreakpointLogUnverified } from "react-icons/vsc";
 import TechstackImperius from "../TechstackImperius";
 import ImperiusArtillery from "../../../Assets/Projects/Imperius/ImperiusArtillery.jpg";
 import ImperiusOctree from "../../../Assets/Projects/Imperius/ImperiusOctree.png";
+import ImperiusHero from "../../../Assets/Projects/Imperius/ImperiusHero.png";
+import ImperiusLogo from "../../../Assets/Projects/Imperius/ImperiusLogo.png";
 import ImperiusShowfest from "../../../Assets/Projects/Imperius/ImperiusShowfest.png";
 import ImperiusMultiplayer from "../../../Assets/Projects/Imperius/ImperiusMultiplayer.jpg";
 import ImperiusModel1 from "../../../Assets/Projects/Imperius/ImperiusModel1.png";
@@ -13,6 +15,7 @@ import ImperiusModel3 from "../../../Assets/Projects/Imperius/ImperiusModel3.png
 import ImperiusModel4 from "../../../Assets/Projects/Imperius/ImperiusModel4.png";
 import VideoJS from "../../VideoJS";
 import { defaultAutoplayOptions } from "../../VideoJS";
+import VimeoVideo from "../../../VimeoVideo";
 
 let ImperiusEMP = "https://youtu.be/8jZwxN59QVQ";
 let ImperiusClustering = "https://youtu.be/YschcX_E9sQ";
@@ -30,6 +33,7 @@ function Imperius() {
     return (
         <Container fluid className="about-section">
             <Container>
+
                 <Col
                     md={12}
                     style={{
@@ -38,60 +42,56 @@ function Imperius() {
                         paddingBottom: "50px",
                     }}
                 >
-                    <h1 style={{ fontSize: "4em", paddingBottom: "20px" }}>
-                        Imperius
-                    </h1>
-                    <TechstackImperius />
+                    <img src={ImperiusLogo} alt="about" className="img-fluid rounded" style={{ width: "70%" }} />
+                    <br/>
+                    <br/>
+
+                    <Row>
+                        <Col>
+                            <TechstackImperius />
+                        </Col>
+                        <Col>
+                            <iframe src="https://store.steampowered.com/widget/1653880/" frameBorder="0" width="646" height="190"></iframe>
+                        </Col>
+                    </Row>
+
                     <p style={{ textAlign: "left" }}>
                         Imperius is a <b className="purple">3D space RTS </b>, that I have
                         been the <b className="purple"> lead developer </b> on and off for
                         the last <b className="purple"> 3 years.</b> It is the culmination
                         of my entire skillset. It features a 6 mission campaign, 24 unique
                         units, and a comprehensive economy system.
-                        <br />
-                        <Col
-                            md={12}
-                            style={{ paddingTop: "40px", paddingBottom: "40px" }}
-                            className="img-container"
-                        >
-                            <Row>
-                                <Col md={3}>
-                                    <img src={ImperiusShowfest} alt="about" className="img-fluid rounded" />
-                                </Col>
-                                <Col md={8}>
-                                    <img src={ImperiusArtillery} alt="about" className="img-fluid rounded" />
-                                </Col>
-                            </Row>
-                        </Col>
-                        I have contributed to this project in a multitude of different
-                        ways:
-                        <br />
-                        <br />
+                    </p>
+
+                    <img src={ImperiusHero} alt="about" className="img-fluid rounded" />
+                    <br/>
+                    <br/>
+
+                    <p style={{ textAlign: "left" }}> I have contributed to this project in a multitude of different
+                        ways: </p>
                         <ul>
                             <li className="about-activity">
-                                <VscDebugBreakpointLogUnverified /> Project Manager
+                                <VscDebugBreakpointLogUnverified /> <b className="purple">Project Manager:</b> Recruited, coordinated, and managed a team of 6 developers using Agile/Scrum as well as oversaw 20+ voice actors during recordings
                             </li>
                             <li className="about-activity">
-                                <VscDebugBreakpointLogUnverified /> Lead Programmer
+                                <VscDebugBreakpointLogUnverified /> <b className="purple">Lead Programmer:</b> Wrote a majority of the projects' codebase, as well as employed version control to manage other developers.
                             </li>
                             <li className="about-activity">
-                                <VscDebugBreakpointLogUnverified /> Systems Programmer
+                                <VscDebugBreakpointLogUnverified /> <b className="purple">Systems Programmer:</b> Designed and implemented several crucial game mechanics, including the economy, special abilities, and ship variants.
                             </li>
                             <li className="about-activity">
-                                <VscDebugBreakpointLogUnverified /> Audio Programmer
+                                <VscDebugBreakpointLogUnverified /> <b className="purple">Audio Programmer:</b> Integrated FMOD middleware to ensure authentic and realistic soundscapes.
                             </li>
                             <li className="about-activity">
-                                <VscDebugBreakpointLogUnverified /> Narrative Designer
+                                <VscDebugBreakpointLogUnverified /> <b className="purple">Narrative Designer:</b> Crafted an immersive 60+ page narrative and fictional universe.
                             </li>
                             <li className="about-activity">
-                                <VscDebugBreakpointLogUnverified /> VFX Artist
+                                <VscDebugBreakpointLogUnverified /> <b className="purple">VFX Artist:</b> Developed and adapted a comprehensive range of VFX assets including both
+                                particle effects and HLSL shaders.
                             </li>
                         </ul>
-                        I have also designed numerous complex and nuanced systems, bridging
-                        together multiple complex APIs together to create intuitive systems.
-                    </p>
-                    <br />
-                    <br />
+                    <br/>
+                    <br/>
                     <h2 style={{ fontSize: "2em", paddingBottom: "20px" }}>
                         3D Pathfinding
                     </h2>
@@ -110,13 +110,7 @@ function Imperius() {
                     >
                         <Row>
                             <Col md={7}>
-                                <VideoJS options={{
-                                    ...defaultAutoplayOptions,
-                                    sources: [{
-                                        src: ImperiusPathfinding,
-                                        type: 'video/youtube'
-                                    }]
-                                }} onReady={undefined}/>
+                                <VimeoVideo videoId={"876956727"} videoTitle={"Imperius Pathfinding"}/>
                             </Col>
                             <Col md={4}>
                                 <img src={ImperiusOctree} alt="about" className="img-fluid rounded" />
@@ -144,18 +138,11 @@ function Imperius() {
                         collisions, decreasing CPU strain.
                     </p>
                     <Col
-                        md={8}
+                        md={10}
                         style={{ paddingTop: "40px", paddingBottom: "40px" }}
                         className="img-container"
                     >
-
-                       <VideoJS options={{
-                           ...defaultAutoplayOptions,
-                           sources: [{
-                               src: ImperiusCombat,
-                               type: 'video/youtube'
-                           }]
-                       }}onReady={undefined}/>
+                        <VimeoVideo videoId={"876967223"} videoTitle={"Imperius Pathfinding"}/>
 
                     </Col>
                     <br />
