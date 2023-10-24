@@ -3,21 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Type from "./Type";
 import About from "../About/About";
 import Projects from "../Projects/Projects";
-import VideoSlideshow from "../VideoSlideshow";
-
-let ImperiusEMP = "https://youtu.be/8jZwxN59QVQ";
-let ImperiusNuke = "https://youtu.be/jjtsBKnWVV0";
-let ImperiusPathfinding = "https://youtu.be/s1hWoogmJIo";
-let ImperiusCombat = "https://youtu.be/d3N5FiW7Rgc";
-let ImperiusArty = "https://youtu.be/iX19pFwEtmk";
-
-const videos : string[] = [
-  ImperiusNuke,
-  ImperiusPathfinding,
-  ImperiusCombat,
-  ImperiusEMP,
-  ImperiusArty,
-];
+import VimeoVideo from "../../VimeoVideo";
 
 function Home() {
   return (
@@ -35,9 +21,7 @@ function Home() {
                 </div>
               </Col>
               <Col md={6} className="align-top">
-                <div className="video-wrapper">
-                  <VideoSlideshow videos={videos} />
-                </div>
+                <VimeoVideo videoId={"877375771"} videoTitle={"Imperius Combat"}/>
               </Col>
             </Row>
           </Container>

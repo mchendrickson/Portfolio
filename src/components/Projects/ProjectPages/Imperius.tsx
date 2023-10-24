@@ -3,31 +3,15 @@ import { Container, Col, Row} from "react-bootstrap";
 import Particle from "../../Particle";
 import { VscDebugBreakpointLogUnverified } from "react-icons/vsc";
 import TechstackImperius from "../TechstackImperius";
-import ImperiusArtillery from "../../../Assets/Projects/Imperius/ImperiusArtillery.jpg";
 import ImperiusOctree from "../../../Assets/Projects/Imperius/ImperiusOctree.png";
 import ImperiusHero from "../../../Assets/Projects/Imperius/ImperiusHero.png";
 import ImperiusLogo from "../../../Assets/Projects/Imperius/ImperiusLogo.png";
-import ImperiusShowfest from "../../../Assets/Projects/Imperius/ImperiusShowfest.png";
 import ImperiusMultiplayer from "../../../Assets/Projects/Imperius/ImperiusMultiplayer.jpg";
 import ImperiusModel1 from "../../../Assets/Projects/Imperius/ImperiusModel1.png";
 import ImperiusModel2 from "../../../Assets/Projects/Imperius/ImperiusModel2.png";
 import ImperiusModel3 from "../../../Assets/Projects/Imperius/ImperiusModel3.png";
 import ImperiusModel4 from "../../../Assets/Projects/Imperius/ImperiusModel4.png";
-import VideoJS from "../../VideoJS";
-import { defaultAutoplayOptions } from "../../VideoJS";
 import VimeoVideo from "../../../VimeoVideo";
-
-let ImperiusEMP = "https://youtu.be/8jZwxN59QVQ";
-let ImperiusClustering = "https://youtu.be/YschcX_E9sQ";
-let ImperiusMLAgents = "https://youtu.be/_66QWsxGb4k";
-let ImperiusNuke = "https://youtu.be/jjtsBKnWVV0";
-let ImperiusShield = "https://youtu.be/joLg3yalzK8";
-let ImperiusPathfinding = "https://youtu.be/s1hWoogmJIo";
-let ImperiusCombat = "https://youtu.be/d3N5FiW7Rgc";
-let ImperiusFTL = "https://youtu.be/nie6nHvoUeM";
-let ImperiusInvis = "https://youtu.be/wECx-iToygA";
-let ImperiusArty = "https://youtu.be/iX19pFwEtmk";
-
 
 function Imperius() {
     return (
@@ -45,13 +29,12 @@ function Imperius() {
                     <img src={ImperiusLogo} alt="about" className="img-fluid rounded" style={{ width: "70%" }} />
                     <br/>
                     <br/>
-
                     <Row>
                         <Col>
                             <TechstackImperius />
                         </Col>
                         <Col>
-                            <iframe src="https://store.steampowered.com/widget/1653880/" frameBorder="0" width="646" height="190"></iframe>
+                            <iframe src="https://store.steampowered.com/widget/1653880/" width="646" height="190" title="Imperius Steam"></iframe>
                         </Col>
                     </Row>
 
@@ -142,8 +125,7 @@ function Imperius() {
                         style={{ paddingTop: "40px", paddingBottom: "40px" }}
                         className="img-container"
                     >
-                        <VimeoVideo videoId={"876967223"} videoTitle={"Imperius Pathfinding"}/>
-
+                        <VimeoVideo videoId={"877370656"} videoTitle={"Imperius Combat"}/>
                     </Col>
                     <br />
                     <br />
@@ -169,82 +151,36 @@ function Imperius() {
                         style={{ paddingTop: "40px", paddingBottom: "40px" }}
                         className="img-container"
                     >
-                        <VideoJS options={{
-                            ...defaultAutoplayOptions,
-                            sources: [{
-                                src: ImperiusMLAgents,
-                                type: 'video/youtube'
-                            }]
-                        }}onReady={undefined}/>
-
+                        <VimeoVideo videoId={"877373924"} videoTitle={"Imperius Combat"}/>
                     </Col>
-                    <br />
-                    <br />
                     <Col
                         md={8}
                         style={{ paddingTop: "40px", paddingBottom: "40px" }}
                         className="img-container"
                     >
-                        <VideoJS options={{
-                            ...defaultAutoplayOptions,
-                            sources: [{
-                                src: ImperiusClustering,
-                                type: 'video/youtube'
-                            }]
-                        }}onReady={undefined}/>
+                        <VimeoVideo videoId={"877372429"} videoTitle={"Imperius Clustering"}/>
                     </Col>
-                    <br />
-                    <br />
                     <h2 style={{ fontSize: "2em", paddingBottom: "20px" }}>VFX</h2>
                     <p style={{ textAlign: "left" }}>By skillfully modifying pre-existing assets and creating original visual
                         effects from scratch, I have transformed these elements into <b className="purple">captivating</b> and
                          <b className="purple"> dynamic</b> visual enhancements that greatly amplify the overall impact of Imperius.</p>
                     <Row>
                         <Col>
-                            <VimeoVideo videoId={"877208282"} videoTitle={"Imperius Pathfinding"}/>
+                            <VimeoVideo videoId={"877208282"} videoTitle={"Imperius Black Holes"}/>
                         </Col>
                         <Col>
-                            <VideoJS options={{
-                                ...defaultAutoplayOptions,
-                                sources: [{
-                                    src: ImperiusShield,
-                                    type: 'video/youtube'
-                                }]
-                            }}onReady={undefined}/>
+                            <VimeoVideo videoId={"877261195"} videoTitle={"Imperius Artillery"}/>
+
                         </Col>
                     </Row>
+                    <br />
                     <Row>
                         <Col>
                             <VimeoVideo videoId={"877208504"} videoTitle={"Imperius Pathfinding"}/>
                         </Col>
                         <Col>
-                            <VideoJS options={{
-                                ...defaultAutoplayOptions,
-                                sources: [{
-                                    src: ImperiusFTL,
-                                    type: 'video/youtube'
-                                }]
-                            }}onReady={undefined}/>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col>
-                            <VideoJS options={{
-                                ...defaultAutoplayOptions,
-                                sources: [{
-                                    src: ImperiusInvis,
-                                    type: 'video/youtube'
-                                }]
-                            }}onReady={undefined}/>
-                        </Col>
-                        <Col>
-                            <VideoJS options={{
-                                ...defaultAutoplayOptions,
-                                sources: [{
-                                    src: ImperiusArty,
-                                    type: 'video/youtube'
-                                }]
-                            }}onReady={undefined}/>
+                            <VimeoVideo videoId={"876967223"} videoTitle={"Imperius Pathfinding"}/>
+
                         </Col>
                     </Row>
                     <br />
