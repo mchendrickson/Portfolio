@@ -595,12 +595,12 @@ button:focus {
   color: white !important;
 }
 
-.tech-icons {
-  font-size: 4em !important;
-  margin: 10px !important;
+.techstack-icons,
+.techstack-icons-small {
+  margin: 5px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
-  border: 1.7px solid rgba(137, 156, 230, 0.64) !important;
+  border: 1px solid rgba(137, 156, 230, 0.64) !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 10px !important;
@@ -610,13 +610,21 @@ button:focus {
   transition: all 0.4s ease 0s !important;
 }
 
+.techstack-icons {
+  font-size: 4em !important;
+}
+
+.techstack-icons-small {
+  font-size: 2.5em !important;
+}
+
 @media (max-width: 767px) {
-  .tech-icons {
+  .techstack-icons {
     margin: 10px !important;
   }
 }
 
-.tech-icons:hover {
+.techstack-icons:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
   border: 2.2px solid rgba(115, 138, 230, 0.88) !important;
@@ -638,6 +646,14 @@ button:focus {
   font-weight: bold;
   text-align: center;
 }
+
+.icon-label-small {
+  margin-top: 5px;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
 
 .about-activity {
   list-style: none !important;

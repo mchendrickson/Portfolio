@@ -1,40 +1,29 @@
-import React from "react";
-import { Col, Row } from "react-bootstrap";
+import React from 'react';
+import IconStack from '../IconStack';
 import {
     DiGit,
-} from "react-icons/di";
+} from 'react-icons/di';
 import {
     SiPython,
     SiPytorch,
     SiTensorflow,
     SiPostgresql,
-} from "react-icons/si";
+} from 'react-icons/si';
 
-function TechstackAssistments() {
-    return (
-        <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-            <Col xs={4} md={1} className="tech-icons">
-                <SiPython />
-                <div className="icon-label">Python</div>
-            </Col>
-            <Col xs={4} md={1} className="tech-icons">
-                <SiPostgresql />
-                <div className="icon-label">PostgreSQL</div>
-            </Col>
-            <Col xs={4} md={1} className="tech-icons">
-                <SiPytorch />
-                <div className="icon-label">Pytorch</div>
-            </Col>
-            <Col xs={4} md={1} className="tech-icons">
-                <SiTensorflow />
-                <div className="icon-label">Tensorflow</div>
-            </Col>
-            <Col xs={4} md={1} className="tech-icons">
-                <DiGit />
-                <div className="icon-label">Git</div>
-            </Col>
-        </Row>
-    );
+interface TechstackAssistmentsProps {
+    small?: boolean;
+}
+
+function TechstackAssistments({small}: TechstackAssistmentsProps) {
+    const items = [
+        { icon: SiPython, label: 'Python' },
+        { icon: SiPostgresql, label: 'PostgreSQL' },
+        { icon: SiPytorch, label: 'Pytorch' },
+        { icon: SiTensorflow, label: 'Tensorflow' },
+        { icon: DiGit, label: 'Git' },
+    ];
+
+    return <IconStack items={items} small={small} />;
 }
 
 export default TechstackAssistments;

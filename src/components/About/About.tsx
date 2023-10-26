@@ -2,9 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Github from "./Github";
-import Techstack from "./Techstack";
+import TechStackAll from "./TechStackAll";
 import Aboutcard from "./AboutCard";
-import Toolstack from "./Toolstack";
+import ToolStack from "./ToolStack";
 import Tilt from "react-parallax-tilt";
 import myImg from "../../Assets/matt-photo-edited2.png";
 
@@ -41,12 +41,12 @@ function About() {
           Professional <strong className="purple">Skillset </strong>
         </h1>
 
-        <Techstack />
+        <TechStackAll />
 
         <h1 className="project-heading">
           <strong className="purple">Tools</strong> I use
         </h1>
-        <Toolstack />
+        <ToolStack />
 
         <Github />
       </Container>

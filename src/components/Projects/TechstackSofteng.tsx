@@ -1,30 +1,25 @@
-import React from "react";
-import { Col, Row } from "react-bootstrap";
+import React from 'react';
+import IconStack from '../IconStack';
 import {
     DiGit,
     DiJava
-} from "react-icons/di";
+} from 'react-icons/di';
 import {
     SiPostgresql
-} from "react-icons/si";
+} from 'react-icons/si';
 
-function TechstackSofteng() {
-    return (
-        <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-            <Col xs={4} md={1} className="tech-icons">
-                <DiJava />
-                <div className="icon-label">Java</div>
-            </Col>
-            <Col xs={4} md={1} className="tech-icons">
-                <SiPostgresql />
-                <div className="icon-label">PostgreSQL</div>
-            </Col>
-            <Col xs={4} md={1} className="tech-icons">
-                <DiGit />
-                <div className="icon-label">Git</div>
-            </Col>
-        </Row>
-    );
+interface TechstackSoftengProps {
+    small?: boolean;
+}
+
+function TechstackSofteng({small}: TechstackSoftengProps) {
+    const items = [
+        { icon: DiJava, label: 'Java' },
+        { icon: SiPostgresql, label: 'PostgreSQL' },
+        { icon: DiGit, label: 'Git' },
+    ];
+
+    return <IconStack items={items} small={small} />;
 }
 
 export default TechstackSofteng;

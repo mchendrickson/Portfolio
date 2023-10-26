@@ -1,35 +1,27 @@
-import React from "react";
-import { Col, Row } from "react-bootstrap";
+import React from 'react';
+import IconStack from '../IconStack';
 import {
     DiGit,
-} from "react-icons/di";
+} from 'react-icons/di';
 import {
     SiCsharp,
     SiUnity,
-    SiVisualstudio
-} from "react-icons/si";
+    SiVisualstudio,
+} from 'react-icons/si';
 
-function TechstackBadmin() {
-  return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-        <Col xs={4} md={1} className="tech-icons">
-            <SiUnity />
-            <div className="icon-label">Unity</div>
-        </Col>
-      <Col xs={4} md={1} className="tech-icons">
-        <SiCsharp />
-          <div className="icon-label">C#</div>
-      </Col>
-      <Col xs={4} md={1} className="tech-icons">
-        <DiGit />
-          <div className="icon-label">Git</div>
-      </Col>
-        <Col xs={4} md={1} className="tech-icons">
-            <SiVisualstudio />
-            <div className="icon-label">Visual Studio</div>
-        </Col>
-    </Row>
-  );
+interface TechstackBadminProps {
+    small?: boolean;
+}
+
+function TechstackBadmin({small}: TechstackBadminProps) {
+    const items = [
+        { icon: SiUnity, label: 'Unity' },
+        { icon: SiCsharp, label: 'C#' },
+        { icon: DiGit, label: 'Git' },
+        { icon: SiVisualstudio, label: 'Visual Studio' },
+    ];
+
+    return <IconStack items={items} small={small}/>;
 }
 
 export default TechstackBadmin;

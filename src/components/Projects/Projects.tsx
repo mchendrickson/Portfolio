@@ -8,6 +8,11 @@ import softeng from "../../Assets/Projects/SoftEng/softeng.png";
 import assistments from "../../Assets/Projects/Assistments/assistmentslogo.jpg";
 import p5js from "../../Assets/Projects/Misc/p5js.png"
 import badmin from "../../Assets/Projects/Badmin/BadminTitle.png";
+import TechstackImperius from "./TechstackImperius";
+import TechstackBadmin from "./TechstackBadmin";
+import TechstackSofteng from "./TechstackSofteng";
+import TechstackAssistments from "./TechstackAssistments";
+import TechstackP5 from "./TechstackP5";
 
 function Projects() {
     return (
@@ -26,33 +31,28 @@ function Projects() {
                         <ProjectCard
                             imgPath={imperius}
                             linkTo="Imperius"
-                            isBlog={false}
                             title="Imperius"
                             description="Led a team of six developers to create a 3D space real-time strategy game featuring a six mission campaign and four player multiplayer."
-                            demoLink={undefined}
-                            ghLink={undefined}/>
+                            footerElement={ <TechstackImperius small={true}/> }
+                        />
 
                     </Col>
                     <Col md={4} className="project-card">
                         <ProjectCard
                             imgPath={badmin}
                             linkTo="Badmin"
-                            isBlog={false}
                             title="Badmin"
                             description="Led a team of four developers to create a top down shooter where you play as a server moderator."
-                            demoLink={undefined}
-                            ghLink={undefined}
+                            footerElement={ <TechstackBadmin small={true}/> }
                         />
                     </Col>
                     <Col md={4} className="project-card">
                         <ProjectCard
                             imgPath={softeng}
                             linkTo="softeng"
-                            isBlog={false}
                             title="Hospital Tracking System"
                             description="Led a team of eleven programmers to create a medical equipment tracking and workflow application to demo features to the Brigham & Women’s Hospital representatives."
-                            demoLink={undefined}
-                            ghLink={undefined}
+                            footerElement={ <TechstackSofteng small={true}/> }
                         />
                     </Col>
                 </Row>
@@ -62,22 +62,18 @@ function Projects() {
                         <ProjectCard
                             imgPath={assistments}
                             linkTo="assistments"
-                            isBlog={false}
                             title="Machine Learning with ASSISTments"
                             description="Added features to the award winning ASSISTments learning software using contextual bandits."
-                            demoLink={undefined}
-                            ghLink={undefined}
+                            footerElement={ <TechstackAssistments small={true}/> }
                         />
                     </Col>
                     <Col md={4} className="project-card">
                         <ProjectCard
                             imgPath={p5js}
                             linkTo="Pfivejs"
-                            isBlog={false}
                             title="p5.js Creations"
                             description="Various sketched created with p5.js, many of them graphical representations of math or computer science topics."
-                            demoLink={undefined}
-                            ghLink={undefined}
+                            footerElement={ <TechstackP5 small={true}/> }
                         />
                     </Col>
                 </Row>

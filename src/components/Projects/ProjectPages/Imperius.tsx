@@ -180,7 +180,6 @@ function Imperius() {
                         </Col>
                         <Col>
                             <VimeoVideo videoId={"876967223"} videoTitle={"Imperius Pathfinding"}/>
-
                         </Col>
                     </Row>
                     <br />
