@@ -5,7 +5,7 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
-import Resume from "./components/Resume/ResumeNew";
+import Resume from "./components/Resume";
 import Imperius from "./components/Projects/ProjectPages/Imperius";
 import ASSISTments from "./components/Projects/ProjectPages/ASSISTments";
 import Softeng from "./components/Projects/ProjectPages/Softeng";
