@@ -12,7 +12,7 @@ function Pfivejs() {
                 </h1>
                 <TechstackP5/>
                 <p style={{ color: "white" }}>
-                    This page is desktop only due to the limitations of p5.js.
+                    This page is <b className="purple">desktop only</b> due to the limitations of p5.js. Click and drag on any frame to rotate the camera.
                 </p>
                 <br/>
                 <Row>
