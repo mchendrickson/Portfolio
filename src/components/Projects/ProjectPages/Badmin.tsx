@@ -21,59 +21,53 @@ function Badmin() {
                         Badmin
                     </h1>
                     <TechstackBadmin />
-                    <p style={{ textAlign: "left" }}>
-                        Badmin is a top down shooter with a twist, you have access to moderator abilities!
-                        Do your utmost to abuse your powers while hiding from the admin, who seems to have a few screws loose.
+                    <p style={{ textAlign: "left", paddingTop: "10px", paddingBottom: "40px"}}>
+                        Badmin is a top down shooter with a twist, you have access to <b className="purple">moderator abilities!</b> Do your utmost to <b className="purple">abuse your powers</b> while hiding from the admin, who seems to have a few screws loose.
                         <br />
-                        <Col
-                            md={12}
-                            style={{ paddingTop: "40px", paddingBottom: "40px" }}
-                            className="img-container"
-                        >
-                            <VimeoVideo videoId={"877212425"} videoTitle={"Badmin Gameplay"}/>
-                        </Col>
-                        I have contributed to this project in a multitude of different
-                        ways:
+                        <br />
+                        My contributions:
                         <br />
                         <br />
                         <ul>
                             <li className="about-activity">
-                                <VscDebugBreakpointLogUnverified /> Project Manager
+                                <VscDebugBreakpointLogUnverified /> <b className="purple">Project Manager:</b> Led a team of four game developers in all stages of the game development pipeline.
                             </li>
                             <li className="about-activity">
-                                <VscDebugBreakpointLogUnverified /> Systems Programmer
+                                <VscDebugBreakpointLogUnverified /> <b className="purple">Systems Programmer:</b> Developed substantial gameplay elements and systems.
                             </li>
                             <li className="about-activity">
-                                <VscDebugBreakpointLogUnverified /> AI Programmer
+                                <VscDebugBreakpointLogUnverified /> <b className="purple">AI Programmer:</b> Developed the AI for all NPC characters and their various quirks.
                             </li>
                         </ul>
+                        <Col
+                            md={12}
+                            className="img-container"
+                        >
+                            <VimeoVideo videoId={"877212425"} videoTitle={"Badmin Gameplay"}/>
+                        </Col>
                     </p>
-                    <br />
-                    <br />
                     <h2 style={{ fontSize: "2em", paddingBottom: "20px" }}>
                         AI Behaviors
                     </h2>
                     <p style={{ textAlign: "left" }}>
-                        I designed all the AI behaviors, including using Unity's 2D Navmesh system to create dynamic pathfinding solutions amongst a dozen agents.
+                        I designed all the <b className="purple">AI behaviors</b>, including using <b className="purple">Unity's 2D Navmesh</b> system to create dynamic pathfinding solutions amongst a dozen agents. I also designed "cheating" behaviors for each of the NPCs, such as speedhacking, wallhacking, and noclipping.
                     </p>
                     <Col
                         md={12}
-                        style={{ paddingTop: "40px", paddingBottom: "40px" }}
+                        style={{ paddingTop: "10px", paddingBottom: "40px" }}
                         className="img-container"
                     >
                         <VimeoVideo videoId={"877212490"} videoTitle={"Badmin Abilities"}/>
                     </Col>
-                    <br />
-                    <br />
                     <h2 style={{ fontSize: "2em", paddingBottom: "20px" }}>
                         Abilities
                     </h2>
                     <p style={{ textAlign: "left" }}>
-                        I designed each of the abilities, including balancing penalties for using them and implementing particle effects.
+                        I designed each of the six <b className="purple">moderator abilities</b>, including balancing penalties for using them.
                     </p>
                     <Col
                         md={12}
-                        style={{ paddingTop: "40px", paddingBottom: "40px" }}
+                        style={{ paddingTop: "10px", paddingBottom: "40px" }}
                         className="img-container"
                     >
                         <VimeoVideo videoId={"877214056"} videoTitle={"Badmin Behaviors"}/>

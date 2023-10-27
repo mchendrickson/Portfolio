@@ -4,24 +4,22 @@ import {
     DiGit,
 } from 'react-icons/di';
 import {
-    SiPytorch,
     SiCsharp,
     SiUnity,
 } from 'react-icons/si';
 
-interface TechstackImperiusProps {
+interface TechstackFBDProps {
     small?: boolean;
 }
 
-function TechstackImperius({small}: TechstackImperiusProps) {
+function TechstackFBDApp({small}: TechstackFBDProps) {
     const items = [
         { icon: SiUnity, label: 'Unity' },
         { icon: SiCsharp, label: 'C#' },
         { icon: DiGit, label: 'Git' },
-        { icon: SiPytorch, label: 'Pytorch' },
     ];
 
-    return <IconStack items={items} small={small} />;
+    return <IconStack items={items} small={small}/>;
 }
 
-export default TechstackImperius;
+export default TechstackFBDApp;

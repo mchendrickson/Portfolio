@@ -32,23 +32,24 @@ function Softeng() {
                 <b className="purple"> Scrum/Agile methodologies</b> to successfully deliver the project.
                 <br />
                 <br />
-                <img src={SoftengTitle} alt="about" className="img-fluid" />
-                <br />
-                <br />
-                These are some of the roles I took on during this project:
-                <br />
+                My contributions:
                 <br />
                 <ul>
                   <li className="about-activity">
-                    <VscDebugBreakpointLogUnverified /> Project Manager
+                    <VscDebugBreakpointLogUnverified /> <b className="purple">Project Manager:</b> Led a team of eleven programmers to successfully develop a working application.
                   </li>
                   <li className="about-activity">
-                    <VscDebugBreakpointLogUnverified /> Full Stack Engineer
+                    <VscDebugBreakpointLogUnverified /> <b className="purple">Full Stack Engineer:</b> Developed significant parts of the codebase and incorporated work from other programmers.
                   </li>
                   <li className="about-activity">
-                    <VscDebugBreakpointLogUnverified /> Lead Presenter
+                    <VscDebugBreakpointLogUnverified /> <b className="purple">Lead Presenter:</b> Presented to hospital employees and coached others in presenting.
                   </li>
                 </ul>
+                <br />
+                <br />
+                <img src={SoftengTitle} alt="about" className="img-fluid" />
+                <br />
+                <br />
               </p>
               <h2 style={{ fontSize: "2em", paddingBottom: "20px" }}>
                 Service Requests

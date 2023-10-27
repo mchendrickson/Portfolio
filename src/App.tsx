@@ -23,6 +23,7 @@ import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import {Analytics} from "@vercel/analytics/react";
+import FreeBodyDiagramApp from "./components/Projects/ProjectPages/FreeBodyDiagramApp";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -53,11 +54,13 @@ function App() {
           <Route path="/project/Softeng" element={<Softeng/>} />
           <Route path="/project/pfivejs" element={<Pfivejs/>} />
           <Route path="/project/badmin" element={<Badmin/>} />
+          <Route path="/project/FBDApp" element={<FreeBodyDiagramApp/>} />
           <Route path="/Imperius" element={<Imperius/>} />
           <Route path="/ASSISTments" element={<ASSISTments/>} />
           <Route path="/Softeng" element={<Softeng/>} />
           <Route path="/pfivejs" element={<Pfivejs/>} />
           <Route path="/badmin" element={<Badmin/>} />
+          <Route path="/FBDApp" element={<FreeBodyDiagramApp/>} />
         </Routes>
         <Footer />
       </div>

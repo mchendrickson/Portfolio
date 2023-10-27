@@ -6,7 +6,6 @@ import {
 import {
     SiCsharp,
     SiUnity,
-    SiVisualstudio,
 } from 'react-icons/si';
 
 interface TechstackBadminProps {
@@ -18,7 +17,6 @@ function TechstackBadmin({small}: TechstackBadminProps) {
         { icon: SiUnity, label: 'Unity' },
         { icon: SiCsharp, label: 'C#' },
         { icon: DiGit, label: 'Git' },
-        { icon: SiVisualstudio, label: 'Visual Studio' },
     ];
 
     return <IconStack items={items} small={small}/>;

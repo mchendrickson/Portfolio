@@ -6,6 +6,7 @@ import Particle from "../Particle";
 import imperius from "../../Assets/Projects/Imperius/ImperiusLogo.jpg";
 import softeng from "../../Assets/Projects/SoftEng/softeng.png";
 import assistments from "../../Assets/Projects/Assistments/assistmentslogo.jpg";
+import fbdapp from "../../Assets/Projects/FBDApp/FBDApplogo.png";
 import p5js from "../../Assets/Projects/Misc/p5js.png"
 import badmin from "../../Assets/Projects/Badmin/BadminTitle.png";
 import TechstackImperius from "./TechstackImperius";
@@ -13,6 +14,7 @@ import TechstackBadmin from "./TechstackBadmin";
 import TechstackSofteng from "./TechstackSofteng";
 import TechstackAssistments from "./TechstackAssistments";
 import TechstackP5 from "./TechstackP5";
+import TechstackFBDApp from "./TechstackFBDApp";
 
 function Projects() {
     return (
@@ -39,20 +41,20 @@ function Projects() {
                     </Col>
                     <Col md={4} className="project-card">
                         <ProjectCard
+                            imgPath={fbdapp}
+                            linkTo="fbdapp"
+                            title="Free Body Diagram App"
+                            description="Mobile app design in the Unity Engine for a free body diagram game to help students conceptualize engineering/physics concepts."
+                            footerElement={ <TechstackFBDApp small={true}/> }
+                        />
+                    </Col>
+                    <Col md={4} className="project-card">
+                        <ProjectCard
                             imgPath={badmin}
                             linkTo="Badmin"
                             title="Badmin"
                             description="Led a team of four developers to create a top down shooter where you play as a server moderator."
                             footerElement={ <TechstackBadmin small={true}/> }
-                        />
-                    </Col>
-                    <Col md={4} className="project-card">
-                        <ProjectCard
-                            imgPath={softeng}
-                            linkTo="softeng"
-                            title="Hospital Tracking System"
-                            description="Led a team of eleven programmers to create a medical equipment tracking and workflow application to demo features to the Brigham & Women’s Hospital representatives."
-                            footerElement={ <TechstackSofteng small={true}/> }
                         />
                     </Col>
                 </Row>
@@ -65,6 +67,15 @@ function Projects() {
                             title="Machine Learning with ASSISTments"
                             description="Added features to the award winning ASSISTments learning software using contextual bandits."
                             footerElement={ <TechstackAssistments small={true}/> }
+                        />
+                    </Col>
+                    <Col md={4} className="project-card">
+                        <ProjectCard
+                            imgPath={softeng}
+                            linkTo="softeng"
+                            title="Hospital Tracking System"
+                            description="Led a team of eleven programmers to create a medical equipment tracking and workflow application to demo features to the Brigham & Women’s Hospital representatives."
+                            footerElement={ <TechstackSofteng small={true}/> }
                         />
                     </Col>
                     <Col md={4} className="project-card">

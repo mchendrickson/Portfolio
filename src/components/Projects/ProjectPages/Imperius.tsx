@@ -49,12 +49,10 @@ function Imperius() {
                     <img src={ImperiusHero} alt="about" className="img-fluid rounded" />
                     <br/>
                     <br/>
-
-                    <p style={{ textAlign: "left" }}> I have contributed to this project in a multitude of different
-                        ways: </p>
+                    <p style={{ textAlign: "left" }}> My contributions: </p>
                         <ul>
                             <li className="about-activity">
-                                <VscDebugBreakpointLogUnverified /> <b className="purple">Project Manager:</b> Recruited, coordinated, and managed a team of 6 developers using Agile/Scrum as well as oversaw 20+ voice actors during recordings
+                                <VscDebugBreakpointLogUnverified /> <b className="purple">Project Manager:</b> Recruited, coordinated, and managed a team of 6 developers using Agile/Scrum as well as oversaw 20+ voice actors during recordings.
                             </li>
                             <li className="about-activity">
                                 <VscDebugBreakpointLogUnverified /> <b className="purple">Lead Programmer:</b> Wrote a majority of the projects' codebase, as well as employed version control to manage other developers.
@@ -75,7 +73,31 @@ function Imperius() {
                         </ul>
                     <br/>
                     <br/>
-                    <h2 style={{ fontSize: "2em", paddingBottom: "20px" }}>
+                    <h2 style={{ fontSize: "2em", paddingTop: "10px", paddingBottom: "40px" }}>
+                        Combat Systems
+                    </h2>
+                    <p style={{ textAlign: "left" }}>
+                        I combined Unity's <b className="purple">particle systems</b>{" "}
+                        alongside several <b className="purple">algorithms </b>that each
+                        weapon fired would predict an enemies location using their current{" "}
+                        <b className="purple">trajectory</b>, and prioritize specific unit
+                        types based on a <b className="purple">priority queue</b>. This
+                        eclectic approach allowed for hundreds of units each with dozens of
+                        weapons to fire at specific enemies. <b className="purple">
+                        GPU instancing </b> on the particle systems allowed for <b className="purple">
+                        multi-threaded </b>collisions, decreasing CPU strain.
+                    </p>
+                    <Col
+                        md={10}
+                        style={{ paddingTop: "10px", paddingBottom: "40px" }}
+                        className="img-container"
+                    >
+                        <VimeoVideo videoId={"877370656"} videoTitle={"Imperius Combat"}/>
+                    </Col>
+
+                    <br/>
+                    <br/>
+                    <h2 style={{ fontSize: "2em", paddingTop: "10px", paddingBottom: "40px" }}>
                         3D Pathfinding
                     </h2>
                     <p style={{ textAlign: "left" }}>
@@ -88,7 +110,7 @@ function Imperius() {
                     </p>
                     <Col
                         md={12}
-                        style={{ paddingTop: "40px", paddingBottom: "40px" }}
+                        style={{ paddingTop: "10px", paddingBottom: "40px" }}
                         className="img-container"
                     >
                         <Row>
@@ -102,38 +124,11 @@ function Imperius() {
                     </Col>
                     <br />
                     <br />
-                    <h2 style={{ fontSize: "2em", paddingBottom: "20px" }}>
-                        Combat Systems
-                    </h2>
-                    <p style={{ textAlign: "left" }}>
-                        I combined Unity's <b className="purple">particle systems</b>{" "}
-                        alongside several <b className="purple">algorithms </b>that each
-                        weapon fired would predict an enemies location using their current{" "}
-                        <b className="purple">trajectory</b>, and prioritize specific unit
-                        types based on a <b className="purple">priority queue</b>. This
-                        eclectic approach allowed for hundreds of units each with dozens of
-                        weapons to fire at specific enemies. <b className="purple">
-                        GPU instancing
-                    </b>{" "}
-                        on the particle systems allowed for <b className="purple">
-                        multi-threaded{" "}
-                    </b>
-                        collisions, decreasing CPU strain.
-                    </p>
-                    <Col
-                        md={10}
-                        style={{ paddingTop: "40px", paddingBottom: "40px" }}
-                        className="img-container"
-                    >
-                        <VimeoVideo videoId={"877370656"} videoTitle={"Imperius Combat"}/>
-                    </Col>
-                    <br />
-                    <br />
                     <h2 style={{ fontSize: "2em", paddingBottom: "20px" }}>Multiplayer</h2>
-                    <p style={{ textAlign: "left" }}>Utilizing Unity's <b className="purple"> Netcode for GameObjects </b> and <b className="purple">Facepunch Transport</b>, I implemented a <b className="purple"> server authoritative 4-player skirmish mode </b> that can interface with the Steam client.</p>
+                    <p style={{ textAlign: "left" }}>Leveraging the power of <b className="purple">Unity's Netcode for GameObjects</b> in conjunction with <b className="purple">Facepunch Transport</b>, I successfully engineered a <b className="purple">server-authoritative 4-player skirmish mode</b> that seamlessly integrates with the <b className="purple">Steam client</b>. The implementation embraces a <b className="purple">Peer-to-Peer (P2P)</b> architecture, ensuring a decentralized and efficient network communication capable of managing <b className="purple">hundreds of units</b> simultaneously.</p>
                     <Col
                         md={8}
-                        style={{ paddingTop: "40px", paddingBottom: "40px" }}
+                        style={{ paddingTop: "10px", paddingBottom: "40px" }}
                         className="img-container"
                     >
                         <img src={ImperiusMultiplayer} alt="about" className="img-fluid rounded" />
@@ -143,25 +138,24 @@ function Imperius() {
                     <br />
                     <h2 style={{ fontSize: "2em", paddingBottom: "20px" }}>Artificial Intelligence</h2>
                     <p style={{ textAlign: "left" }}>
-                        I experimented with Unity's <b className="purple">ML-Agents</b> package to attempt to elicit RTS attacking behaviors.
-                        I also created a <b className="purple">custom clustering algorithm</b> so that the AI can discriminate against groups of units efficiently.
+                        I conducted trials using Unity's <b className="purple">ML-Agents</b> package, aiming to derive RTS-style attacking behaviors, and developed a <b className="purple">custom clustering algorithm</b> to efficiently distinguish between different unit groups. In addressing the complex nature of AI in RTS games, I integrated <b className="purple">genetic algorithms, simulated annealing, and utility functions</b> to navigate the vast state space, transitioning from analyzing an immense number of potential states to a manageable few thousand, while ensuring a balance between diversity and precision in decision-making.
                     </p>
                     <Col
                         md={8}
-                        style={{ paddingTop: "40px", paddingBottom: "40px" }}
+                        style={{ paddingTop: "10px", paddingBottom: "40px" }}
                         className="img-container"
                     >
                         <VimeoVideo videoId={"877373924"} videoTitle={"Imperius Combat"}/>
                     </Col>
                     <Col
                         md={8}
-                        style={{ paddingTop: "40px", paddingBottom: "40px" }}
+                        style={{ paddingTop: "10px", paddingBottom: "40px" }}
                         className="img-container"
                     >
                         <VimeoVideo videoId={"877372429"} videoTitle={"Imperius Clustering"}/>
                     </Col>
                     <h2 style={{ fontSize: "2em", paddingBottom: "20px" }}>VFX</h2>
-                    <p style={{ textAlign: "left" }}>By skillfully modifying pre-existing assets and creating original visual
+                    <p style={{ textAlign: "left" }}>By skillfully modifying pre-existing assets as well as creating original visual
                         effects from scratch, I have transformed these elements into <b className="purple">captivating</b> and
                          <b className="purple"> dynamic</b> visual enhancements that greatly amplify the overall impact of Imperius.</p>
                     <Row>
@@ -170,7 +164,6 @@ function Imperius() {
                         </Col>
                         <Col>
                             <VimeoVideo videoId={"877261195"} videoTitle={"Imperius Artillery"}/>
-
                         </Col>
                     </Row>
                     <br />

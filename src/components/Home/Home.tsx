@@ -26,8 +26,8 @@ function Home() {
             </Row>
           </Container>
         </Container>
-        <About />
         <Projects />
+        <About />
       </section>
   );
 }
