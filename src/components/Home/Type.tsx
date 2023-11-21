@@ -6,26 +6,9 @@ function Type() {
     <Typewriter
         onInit={(typewriter) => {
             typewriter
-                .typeString('Game Designer')
-                .pauseFor(10500)
-                .deleteAll()
-                .typeString('Computer Scientist')
-                .pauseFor(10500)
-                .deleteAll()
-                .typeString('Systems Programmer')
-                .pauseFor(10500)
-                .deleteAll()
-                .typeString('Software Engineer')
-                .pauseFor(10500)
-                .deleteAll()
-                .start();
+                .typeString("Game Programmer")
+                .start()
         }}
-        options={{
-        autoStart: true,
-        loop: true,
-        deleteSpeed: 1,
-        delay: 1,
-      }}
     />
   );
 }

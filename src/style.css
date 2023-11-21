@@ -258,6 +258,7 @@ button:focus {
   z-index: 1;
   background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   background-position: top center;
+  background-size: cover;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
   padding-top: 30px !important;
@@ -268,6 +269,10 @@ button:focus {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 aspect ratio (height divided by width) */
   height: 0;
+  border-radius: 10px;
+  background-repeat: no-repeat;  /* Prevents the image from repeating */
+  background-size: cover;        /* Makes the image cover the entire area */
+  background-position: center;
   overflow: hidden;
 }
 
