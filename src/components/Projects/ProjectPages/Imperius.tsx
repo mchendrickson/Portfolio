@@ -17,7 +17,6 @@ function Imperius() {
     return (
         <Container fluid className="about-section">
             <Container>
-
                 <Col
                     md={12}
                     style={{
@@ -39,14 +38,17 @@ function Imperius() {
                     </Row>
 
                     <p style={{ textAlign: "left" }}>
-                        Imperius is a <b className="purple">3D space RTS </b>, that I have
-                        been the <b className="purple"> lead developer </b> on and off for
-                        the last <b className="purple"> 3 years.</b> It is the culmination
-                        of my entire skillset. It features a 6 mission campaign, 24 unique
-                        units, and a comprehensive economy system.
+                        <b className="purple">Imperius</b> is a fully completed and released <b className="purple">3D space RTS</b> that I
+                        was both team lead and lead programmer for over the course of several years of development. It is the culmination
+                        of my entire skillset, featuring dozens of unique units and buildings as well as <b className="purple">Steam-integrated networked multiplayer</b>.
                     </p>
-
-                    <img src={ImperiusHero} alt="about" className="img-fluid rounded" />
+                    <Col
+                        md={10}
+                        style={{ paddingTop: "10px", paddingBottom: "40px" }}
+                        className="img-container"
+                    >
+                        <VimeoVideo videoId={"1067973072"} videoTitle={"Imperius Combat"}/>
+                    </Col>
                     <br/>
                     <br/>
                     <p style={{ textAlign: "left" }}> My contributions: </p>
@@ -71,6 +73,9 @@ function Imperius() {
                                 particle effects and HLSL shaders.
                             </li>
                         </ul>
+                    <br/>
+                    <br/>
+                    <img src={ImperiusHero} alt="about" className="img-fluid rounded" />
                     <br/>
                     <br/>
                     <h2 style={{ fontSize: "2em", paddingTop: "10px", paddingBottom: "40px" }}>

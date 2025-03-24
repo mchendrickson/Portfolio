@@ -1,7 +1,6 @@
 import React, {ReactElement, ReactNode} from 'react';
 import { Link, To } from 'react-router-dom';
 import Card from 'react-bootstrap/Card';
-import {Col} from "react-bootstrap";
 
 interface ProjectCardsProps {
     linkTo: To;
