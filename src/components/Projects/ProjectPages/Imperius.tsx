@@ -140,6 +140,19 @@ function Imperius() {
                     </Col>
                     <br />
                     <br />
+                    <h2 style={{ fontSize: "2em", paddingBottom: "20px" }}>Hardpoints</h2>
+                    <p style={{ textAlign: "left" }}>
+                       Hardpoints are  <b className="purple">destructible subsystems</b> on units and buildings that can be  <b className="purple">individually targeted</b> and destroyed during combat. Hardpoints take the form of weapons, engines, or other critical components. This adds another <b className="purple">strategic gameplay layer</b> for the player to manage and exploit.
+                    </p>
+                    <Col
+                        md={8}
+                        style={{ paddingTop: "10px", paddingBottom: "40px" }}
+                        className="img-container"
+                    >
+                        <VimeoVideo videoId={"1069317063"} videoTitle={"Imperius Hardpoints"}/>
+                    </Col>
+                    <br />
+                    <br />
                     <h2 style={{ fontSize: "2em", paddingBottom: "20px" }}>Artificial Intelligence</h2>
                     <p style={{ textAlign: "left" }}>
                         I conducted trials using Unity's <b className="purple">ML-Agents</b> package, aiming to derive RTS-style attacking behaviors, and developed a <b className="purple">custom clustering algorithm</b> to efficiently distinguish between different unit groups. In addressing the complex nature of AI in RTS games, I integrated <b className="purple">genetic algorithms, simulated annealing, and utility functions</b> to navigate the vast state space, transitioning from analyzing an immense number of potential states to a manageable few thousand, while ensuring a balance between diversity and precision in decision-making.
