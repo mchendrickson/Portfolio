@@ -21,7 +21,7 @@ function FreeBodyDiagramApp() {
                     </h1>
                     <TechstackFBDApp />
                     <p style={{ textAlign: "left" }}>
-                        A <b className="purple">mobile application</b> designed to help <b className="purple">mechanical engineering students learn statics concepts</b> by working with free body diagrams. Through a series of increasingly difficult problems, students will be able to reinforce what is taught in lectures and complete any free body diagram they are presented with.
+                        A <b className="purple">mobile application</b> designed to help mechanical engineering students <b className="purple">learn statics concepts</b> by working with free body diagrams. Through a series of increasingly difficult problems, students will be able to reinforce what is taught in lectures and complete any free body diagram they are presented with.
                     </p>
                     <p style={{ textAlign: "left" }}>
                         My contributions:

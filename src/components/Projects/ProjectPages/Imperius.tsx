@@ -84,7 +84,7 @@ function Imperius() {
                     <p style={{ textAlign: "left" }}>
                         I combined Unity's <b className="purple">particle systems</b>{" "}
                         alongside several <b className="purple">algorithms </b>that each
-                        weapon fired would predict an enemies location using their current{" "}
+                        weapon fired would predict an enemies' location using their current{" "}
                         <b className="purple">trajectory</b>, and prioritize specific unit
                         types based on a <b className="purple">priority queue</b>. This
                         eclectic approach allowed for hundreds of units each with dozens of
