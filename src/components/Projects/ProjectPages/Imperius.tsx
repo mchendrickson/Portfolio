@@ -130,14 +130,13 @@ function Imperius() {
                     <br />
                     <br />
                     <h2 style={{ fontSize: "2em", paddingBottom: "20px" }}>Multiplayer</h2>
-                    <p style={{ textAlign: "left" }}>Leveraging the power of <b className="purple">Unity's Netcode for GameObjects</b> in conjunction with <b className="purple">Facepunch Transport</b>, I successfully engineered a <b className="purple">server-authoritative 4-player skirmish mode</b> that seamlessly integrates with the <b className="purple">Steam client</b>. The implementation embraces a <b className="purple">Peer-to-Peer (P2P)</b> architecture, ensuring a decentralized and efficient network communication capable of managing <b className="purple">hundreds of units</b> simultaneously.</p>
+                    <p style={{ textAlign: "left" }}>Leveraging the power of <b className="purple">Unity's Netcode for GameObjects</b> in conjunction with <b className="purple">Facepunch Transport</b>, I successfully engineered a <b className="purple">server-authoritative 4-player skirmish mode</b> that seamlessly integrates with the <b className="purple">Steam client</b>. The implementation embraces a <b className="purple">Peer-to-Peer (P2P)</b> architecture, ensuring a decentralized and efficient network communication capable of managing <b className="purple">over a hundred units</b> simultaneously.</p>
                     <Col
                         md={8}
                         style={{ paddingTop: "10px", paddingBottom: "40px" }}
                         className="img-container"
                     >
-                        <img src={ImperiusMultiplayer} alt="about" className="img-fluid rounded" />
-
+                        <VimeoVideo videoId={"1069315982"} videoTitle={"Imperius Multiplayer"}/>
                     </Col>
                     <br />
                     <br />
