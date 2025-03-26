@@ -17,14 +17,12 @@ const HeaderSection: React.FC = () => {
             <br/>
             <br/>
             <Row>
-                <Col>
+                <Col md={6}>
                     <TechstackImperius/>
                 </Col>
-                <Col>
-                    <iframe
+                <Col md={6}>
+                    <iframe className="steam-iframe-wrapper"
                         src="https://store.steampowered.com/widget/1653880/"
-                        width="646"
-                        height="190"
                         title="Imperius Steam"
                     ></iframe>
                 </Col>

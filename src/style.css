@@ -285,6 +285,22 @@ button:focus {
   height: 100%;
 }
 
+.steam-iframe-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  min-height: 225px;
+
+}
+
+.steam-iframe-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
 .home-content {
   padding: 9rem 0 2rem !important;
