@@ -1,13 +1,19 @@
 import React from "react";
+import AnimatedWrapper from "./../AnimatedWrapper"; // adjust path as needed
 
 interface SectionProps {
     title?: string;
     children: React.ReactNode;
     className?: string;
-    size?: "large" | "medium" | "small"; // title size control
+    size?: "large" | "medium" | "small";
 }
 
-const Section: React.FC<SectionProps> = ({ title, children, className, size = "medium" }) => {
+const Section: React.FC<SectionProps> = ({
+                                             title,
+                                             children,
+                                             className,
+                                             size = "medium",
+                                         }) => {
     const renderHeading = () => {
         if (!title) return null;
 
@@ -25,10 +31,15 @@ const Section: React.FC<SectionProps> = ({ title, children, className, size = "m
     };
 
     return (
-        <section className={className}>
+        <AnimatedWrapper
+            className={className}
+            tag="section"
+            staggerChildren
+            threshold={0.25}
+        >
             {renderHeading()}
             {children}
-        </section>
+        </AnimatedWrapper>
     );
 };
 
