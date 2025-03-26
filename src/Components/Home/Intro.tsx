@@ -16,9 +16,15 @@ const Intro: React.FC = () => {
                         style={{paddingBottom: "2rem"}}
                     >
                         <AnimatedWrapper
-                            initial={{ opacity: 0, y: -60 }}
-                            animate={{ opacity: 1, y: 0}}
-                            transition={{ duration: 0.6, ease: "easeOut" }}
+                            initial={{ y: -200, opacity: 0, rotate: -10 }}
+                            animate={{ y: 0, opacity: 1, rotate: 0 }}
+                            transition={{
+                                duration: 0.8,
+                                ease: "easeOut",
+                                type: "spring",
+                                stiffness: 120,
+                                damping: 12
+                            }}
                         >
                             <h1 className="heading" style={{paddingBottom: "15px"}}>
                                 Hello There!
