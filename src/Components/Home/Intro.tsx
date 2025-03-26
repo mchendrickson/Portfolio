@@ -1,7 +1,9 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import {Col, Container, Row} from "react-bootstrap";
 import Type from "./Type";
 import VimeoVideo from "../../VimeoVideo";
+import AnimatedWrapper from "../AnimatedWrapper";
+
 
 const Intro: React.FC = () => {
     return (
@@ -11,19 +13,25 @@ const Intro: React.FC = () => {
                     <Col
                         md={6}
                         className="text-md-start text-center"
-                        style={{ paddingBottom: "2rem" }}
+                        style={{paddingBottom: "2rem"}}
                     >
-                        <h1 className="heading" style={{ paddingBottom: "15px" }}>
-                            Hello There!
-                        </h1>
+                        <AnimatedWrapper
+                            initial={{ opacity: 0, y: -60 }}
+                            animate={{ opacity: 1, y: 0}}
+                            transition={{ duration: 0.6, ease: "easeOut" }}
+                        >
+                            <h1 className="heading" style={{paddingBottom: "15px"}}>
+                                Hello There!
+                            </h1>
+                        </AnimatedWrapper>
                         <h1 className="heading-name">
                             I'M <strong className="main-name">MATTHEW HENDRICKSON</strong>
                         </h1>
-                        <Type />
+                        <Type/>
                     </Col>
 
                     <Col md={6} className="text-center">
-                        <VimeoVideo videoId={"877375771"} videoTitle={"Home Intro"} />
+                        <VimeoVideo videoId={"877375771"} videoTitle={"Home Intro"}/>
                     </Col>
                 </Row>
             </Container>
