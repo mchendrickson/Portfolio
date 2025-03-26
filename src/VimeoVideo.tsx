@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react';
+import {useInView} from "react-intersection-observer";
 
 interface VimeoVideoProps {
     videoId: string;
@@ -76,17 +77,23 @@ const VimeoVideo: React.FC<VimeoVideoProps> = ({videoId, videoTitle}) => {
 
     // For a public video, we just build the standard embed URL
     const embedSrc = `https://player.vimeo.com/video/${videoId}?autoplay=1&muted=1&loop=1&background=1`;
-
+    const {ref, inView} = useInView({
+        rootMargin: '400px', // Preload when 400px away from viewport
+        threshold: 0,      // Trigger when the video is in view
+        triggerOnce: true,   // Load video only once
+    });
     return (
-        <div
-            className="video-wrapper"
-            style={{backgroundImage: `url(${thumbnailUrl})`}}
+        <div ref={ref}
+             className="video-wrapper"
+             style={{backgroundImage: `url(${thumbnailUrl})`}}
         >
-            <iframe
-                src={embedSrc}
-                allow="autoplay"
-                title={videoTitle}
-            />
+            {inView && (
+                <iframe
+                    src={embedSrc}
+                    allow="autoplay"
+                    title={videoTitle}
+                />
+            )}
         </div>
     );
 };
