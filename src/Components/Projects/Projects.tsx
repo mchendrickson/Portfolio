@@ -1,27 +1,30 @@
 import React from "react";
-import {Col, Container, Row} from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
+// ----- Project Assets -----
 import ImperiusCardHero from "../../Assets/Projects/Imperius/ImperiusLogo.jpg";
-import BrighamWomensHospitalCardHero from "../../Assets/Projects/BrighamWomensHospital/softeng.png";
-import AssistmentsCardHero from "../../Assets/Projects/Assistments/assistmentslogo.jpg";
-import FreeBodyDiagramAppCardHero from "../../Assets/Projects/FBDApp/FBDApplogo.png";
-import PfivejsCardHero from "../../Assets/Projects/Misc/p5js.png"
+import CorporateClashCardHero from "../../Assets/Projects/CorporateClash/CorporateClashLogo.png";
 import BadminCardHero from "../../Assets/Projects/Badmin/BadminTitle.png";
-import CorporateClashCardHero from "../../Assets/Projects/CorporateClash/CorporateClashLogo.png"
+import FreeBodyDiagramAppCardHero from "../../Assets/Projects/FBDApp/FBDApplogo.png";
+import AssistmentsCardHero from "../../Assets/Projects/Assistments/assistmentslogo.jpg";
+import BrighamWomensHospitalCardHero from "../../Assets/Projects/BrighamWomensHospital/softeng.png";
+import PfivejsCardHero from "../../Assets/Projects/Misc/p5js.png";
+
+// ----- Tech Stack Components -----
 import TechstackImperius from "./TechStacks/TechstackImperius";
-import TechstackBadmin from "./TechStacks/TechstackBadmin";
-import TechstackBrighamWomensHospital from "./TechStacks/TechstackSofteng";
-import TechstackAssistments from "./TechStacks/TechstackAssistments";
-import TechstackP5 from "./TechStacks/TechstackP5";
-import TechstackFBDApp from "./TechStacks/TechstackFBDApp";
 import TechstackCorporateClash from "./TechStacks/TechstackCorporateClash";
+import TechstackBadmin from "./TechStacks/TechstackBadmin";
+import TechstackFBDApp from "./TechStacks/TechstackFBDApp";
+import TechstackAssistments from "./TechStacks/TechstackAssistments";
+import TechstackBrighamWomensHospital from "./TechStacks/TechstackSofteng";
+import TechstackP5 from "./TechStacks/TechstackP5";
+
 
 function Projects() {
     return (
         <Container fluid className="project-section">
-            <Particle/>
             <Container>
                 <h1 className="project-heading">
                     My Projects and Other <strong className="purple">Works </strong>
@@ -30,6 +33,8 @@ function Projects() {
                     Several projects I have worked on in my professional career. <b className="purple">Click on a
                     card</b> to learn more.
                 </p>
+
+                {/* ---- First Row ---- */}
                 <Row style={{justifyContent: "center", paddingBottom: "10px"}}>
                     <Col md={4} className="project-card">
                         <ProjectCard
@@ -61,6 +66,8 @@ function Projects() {
                         />
                     </Col>
                 </Row>
+
+                {/* ---- Second Row ---- */}
                 <Row style={{justifyContent: "center", paddingBottom: "10px"}}>
                     <Col md={4} className="project-card">
                         <ProjectCard
@@ -90,6 +97,8 @@ function Projects() {
                         />
                     </Col>
                 </Row>
+
+                {/* ---- Third Row ---- */}
                 <Row>
                     <Col md={4} className="project-card">
                         <ProjectCard
@@ -102,6 +111,7 @@ function Projects() {
                     </Col>
                 </Row>
             </Container>
+            <Particle/>
         </Container>
     );
 }
