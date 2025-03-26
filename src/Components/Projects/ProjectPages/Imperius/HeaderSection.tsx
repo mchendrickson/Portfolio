@@ -41,7 +41,7 @@ const HeaderSection: React.FC = () => {
 
             <Col
                 md={10}
-                className="img-container"
+                className="vimeo-container"
                 style={{paddingTop: "10px"}}
             >
                 <VimeoVideo videoId="1067973072" videoTitle="Imperius Trailer"/>

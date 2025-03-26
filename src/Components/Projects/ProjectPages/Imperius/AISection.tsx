@@ -20,14 +20,14 @@ const AISection: React.FC = () => {
 
             <Col
                 md={8}
-                className="img-container"
+                className="vimeo-container"
                 style={{paddingTop: "10px"}}
             >
                 <VimeoVideo videoId="877373924" videoTitle="Imperius AI"/>
             </Col>
             <Col
                 md={8}
-                className="img-container"
+                className="vimeo-container"
                 style={{paddingTop: "10px"}}
             >
                 <VimeoVideo videoId="877372429" videoTitle="Imperius Clustering"/>

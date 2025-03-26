@@ -13,7 +13,7 @@ const AbilitiesSection: React.FC = () => {
 
             <Col
                 md={8}
-                className="img-container"
+                className="vimeo-container"
                 style={{paddingTop: "10px"}}
             >
                 <VimeoVideo videoId="877214056" videoTitle="Badmin Behaviors"/>

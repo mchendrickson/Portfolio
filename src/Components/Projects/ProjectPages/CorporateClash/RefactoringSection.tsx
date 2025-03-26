@@ -33,7 +33,7 @@ const RefactoringSection: React.FC = () => {
 
             <Col
                 md={8}
-                className="img-container"
+                className="vimeo-container"
                 style={{paddingTop: "10px"}}
             >
                 <VimeoVideo videoId="1068446232" videoTitle="Rainmaker Boss Fight"/>

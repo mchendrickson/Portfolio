@@ -266,14 +266,14 @@ button:focus {
 }
 
 .video-wrapper {
+  aspect-ratio: 16 / 9;
   position: relative;
-  height: 0;
-  padding-bottom: 56.25%;
+  width: 100%;
   border-radius: 10px;
-  background-repeat: no-repeat;  /* Prevents the image from repeating */
-  background-size: cover;        /* Makes the image cover the entire area */
-  background-position: center;
   overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .video-wrapper iframe,

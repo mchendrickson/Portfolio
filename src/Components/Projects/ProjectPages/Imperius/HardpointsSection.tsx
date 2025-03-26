@@ -16,7 +16,7 @@ const HardpointsSection: React.FC = () => {
 
             <Col
                 md={8}
-                className="img-container"
+                className="vimeo-container"
                 style={{paddingTop: "10px"}}
             >
                 <VimeoVideo videoId="1069317063" videoTitle="Imperius Hardpoints"/>

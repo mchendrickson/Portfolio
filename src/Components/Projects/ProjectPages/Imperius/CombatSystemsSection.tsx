@@ -19,7 +19,7 @@ const CombatSection: React.FC = () => {
             </p>
             <Col
                 md={8}
-                className="img-container"
+                className="vimeo-container"
                 style={{paddingTop: "10px"}}
             >
                 <VimeoVideo videoId="877370656" videoTitle="Imperius Combat"/>

@@ -31,7 +31,7 @@ const NewContentSection: React.FC = () => {
 
             <Col
                 md={8}
-                className="img-container"
+                className="vimeo-container"
                 style={{paddingTop: "10px", paddingBottom: "40px"}}
             >
                 <VimeoVideo videoId="1068230483" videoTitle="The Directors Cut"/>

@@ -18,7 +18,7 @@ const PathfindingSection: React.FC = () => {
                 were key components in this project alongside <b className="purple">strong code management skills</b>.
             </p>
 
-            <Col md={12} className="img-container" style={{paddingTop: "10px"}}>
+            <Col md={12} className="vimeo-container" style={{paddingTop: "10px"}}>
                 <Row>
                     <Col md={7}>
                         <VimeoVideo videoId="876956727" videoTitle="Imperius Pathfinding"/>
