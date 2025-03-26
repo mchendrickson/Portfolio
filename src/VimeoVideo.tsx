@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, {useEffect, useState} from 'react';
 
 interface VimeoVideoProps {
     videoId: string;
@@ -25,7 +25,7 @@ async function tryUpgradeResolution(
     const biggerUrl = prefix + `-d_${desiredWidth}`;
 
     try {
-        const response = await fetch(biggerUrl, { method: 'HEAD' });
+        const response = await fetch(biggerUrl, {method: 'HEAD'});
         if (response.ok) {
             // 200 or 204 => We can use the bigger thumbnail
             return biggerUrl;
@@ -37,7 +37,7 @@ async function tryUpgradeResolution(
     return originalUrl;
 }
 
-const VimeoVideo: React.FC<VimeoVideoProps> = ({ videoId, videoTitle }) => {
+const VimeoVideo: React.FC<VimeoVideoProps> = ({videoId, videoTitle}) => {
     const [thumbnailUrl, setThumbnailUrl] = useState('');
 
     useEffect(() => {
@@ -80,7 +80,7 @@ const VimeoVideo: React.FC<VimeoVideoProps> = ({ videoId, videoTitle }) => {
     return (
         <div
             className="video-wrapper"
-            style={{ backgroundImage: `url(${thumbnailUrl})` }}
+            style={{backgroundImage: `url(${thumbnailUrl})`}}
         >
             <iframe
                 src={embedSrc}

@@ -267,8 +267,8 @@ button:focus {
 
 .video-wrapper {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio (height divided by width) */
   height: 0;
+  padding-bottom: 56.25%;
   border-radius: 10px;
   background-repeat: no-repeat;  /* Prevents the image from repeating */
   background-size: cover;        /* Makes the image cover the entire area */
@@ -600,6 +600,14 @@ button:focus {
   color: white !important;
 }
 
+.project-page {
+  position: relative !important;
+  padding-top: 100px !important;
+  padding-bottom: 30px !important;
+  background-image: var(--section-background-color) !important;
+  color: white !important;
+}
+
 .techstack-icons,
 .techstack-icons-small {
   margin: 5px !important;
@@ -813,4 +821,12 @@ button:focus {
 }
 .fork-btn-inner::after {
   display: none !important;
+}
+
+.section-heading {
+  font-size: 2em;
+}
+
+section {
+  margin-bottom: 80px;
 }

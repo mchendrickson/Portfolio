@@ -1,5 +1,5 @@
 import React, {ReactElement, ReactNode} from 'react';
-import { Link, To } from 'react-router-dom';
+import {Link, To} from 'react-router-dom';
 import Card from 'react-bootstrap/Card';
 
 interface ProjectCardsProps {
@@ -13,11 +13,11 @@ interface ProjectCardsProps {
 const ProjectCards: React.FC<ProjectCardsProps> = (props) => {
     return (
         <Card className="project-card-view">
-            <Link to={props.linkTo} style={{ textDecoration: 'none', color: 'inherit' }}>
-                <Card.Img variant="top" src={props.imgPath} alt="card-img" />
+            <Link to={props.linkTo} style={{textDecoration: 'none', color: 'inherit'}}>
+                <Card.Img variant="top" src={props.imgPath} alt="card-img"/>
                 <Card.Body>
                     <Card.Title>{props.title}</Card.Title>
-                    <Card.Text style={{ textAlign: "left" }}>
+                    <Card.Text style={{textAlign: "left"}}>
                         {props.description}
                     </Card.Text>
                 </Card.Body>
