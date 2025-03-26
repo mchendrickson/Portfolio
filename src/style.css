@@ -283,15 +283,10 @@ button:focus {
   left: 0;
   width: 100%;
   height: 100%;
+  border-radius: 10px;
 }
 
-/* Media query for smaller screens */
-@media (max-width: 768px) {
-  .video-wrapper {
-    /* Styles for smaller screens */
-    padding-bottom: 75%; /* 4:3 aspect ratio for example */
-  }
-}
+
 .home-content {
   padding: 9rem 0 2rem !important;
   color: whitesmoke;
