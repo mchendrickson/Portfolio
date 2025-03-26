@@ -1,32 +1,19 @@
 import React from "react";
-import {Col, Row} from "react-bootstrap";
-import {VscDebugBreakpointLogUnverified} from "react-icons/vsc";
+import { Col, Row } from "react-bootstrap";
 import Section from "../../Section";
+import BulletList from "../../BulletList";
 
 const ContributionsSection: React.FC = () => {
+    const bullets = [
+        <>Refactored the <b className="purple">entire codebase</b> to align with <b className="purple">OOP methodologies</b>.</>,
+        <>Implemented <b className="purple">missing documentation</b> and <b className="purple">updated current documentation</b> to be more descriptive.</>,
+        <>Reworked <b className="purple">tracking documents</b> to be more concise and understandable.</>,
+    ];
+
     return (
         <Section title="My Contributions">
-            <ul>
-                <li className="about-activity">
-                    <VscDebugBreakpointLogUnverified/> Refactored the <b className="purple">entire codebase</b> to align
-                    with{" "}
-                    <b className="purple">OOP methodologies</b>.
-                </li>
-                <li className="about-activity">
-                    <VscDebugBreakpointLogUnverified/> Implemented <b className="purple">missing
-                    documentation</b> and{" "}
-                    <b className="purple">updated current documentation</b> to be more descriptive.
-                </li>
-                <li className="about-activity">
-                    <VscDebugBreakpointLogUnverified/> Reworked <b className="purple">tracking documents</b> to be more
-                    concise and understandable.
-                </li>
-            </ul>
-            <Col
-                md={8}
-                className="img-container"
-                style={{paddingTop: "10px"}}
-            >
+            <BulletList items={bullets} />
+            <Col md={8} className="img-container" style={{ paddingTop: "10px" }}>
                 <Row>
                     <Col>
                         <img
