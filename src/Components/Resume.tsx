@@ -7,7 +7,10 @@ import {AiOutlineDownload} from "react-icons/ai";
 import {Document, Page, pdfjs} from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
+pdfjs.GlobalWorkerOptions.workerSrc = new URL(
+    'pdfjs-dist/build/pdf.worker.min.mjs',
+    import.meta.url,
+).toString();
 
 const resumeLink =
     "https://raw.githubusercontent.com/mchrpt/portfolio/master/src/Assets/Matthew Hendrickson Resume Web.pdf";
@@ -37,7 +40,7 @@ function Resume() {
 
                 <Row className="resume">
                     <Document file={resumeLink} className="d-flex justify-content-center">
-                        <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6}/>
+                        <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} renderTextLayer={false}/>
                     </Document>
                 </Row>
 
