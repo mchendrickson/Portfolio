@@ -5,11 +5,11 @@ import Intro from "./Intro";
 
 function Home() {
     return (
-        <section>
+        <>
             <Intro/>
             <Projects/>
             <About/>
-        </section>
+        </>
     );
 }
 
