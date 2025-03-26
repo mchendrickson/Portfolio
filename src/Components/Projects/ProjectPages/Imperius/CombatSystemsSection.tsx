@@ -18,7 +18,7 @@ const CombatSection: React.FC = () => {
                 <b className="purple">multi-threaded</b> collisions, decreasing CPU strain.
             </p>
             <Col
-                md={10}
+                md={8}
                 className="img-container"
                 style={{paddingTop: "10px"}}
             >
