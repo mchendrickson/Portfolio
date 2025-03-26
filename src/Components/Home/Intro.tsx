@@ -7,19 +7,22 @@ const Intro: React.FC = () => {
     return (
         <Container fluid className="home-section" id="home">
             <Container className="home-content">
-                <Row>
-                    <Col md={6} className="home-header">
-                        <h1 style={{ paddingBottom: 15 }} className="heading">
+                <Row className="align-items-center">
+                    <Col
+                        md={6}
+                        className="text-md-start text-center"
+                        style={{ paddingBottom: "2rem" }}
+                    >
+                        <h1 className="heading" style={{ paddingBottom: "15px" }}>
                             Hello There!
                         </h1>
                         <h1 className="heading-name">
                             I'M <strong className="main-name">MATTHEW HENDRICKSON</strong>
                         </h1>
-                        <div style={{ padding: 45, textAlign: "left" }}>
-                            <Type />
-                        </div>
+                        <Type />
                     </Col>
-                    <Col md={6} className="align-top">
+
+                    <Col md={6} className="text-center">
                         <VimeoVideo videoId={"877375771"} videoTitle={"Home Intro"} />
                     </Col>
                 </Row>
