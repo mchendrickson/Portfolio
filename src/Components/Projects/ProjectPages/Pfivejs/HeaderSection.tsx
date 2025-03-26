@@ -4,10 +4,7 @@ import TechstackP5 from "../../TechStacks/TechstackP5";
 
 const HeaderSection: React.FC = () => {
     return (
-        <Section title={""}>
-            <h1 style={{fontSize: "4em", paddingBottom: "20px"}}>
-                Various p5.js Projects
-            </h1>
+        <Section title={"p5.js Projects"} size={"large"}>
 
             <TechstackP5/>
 

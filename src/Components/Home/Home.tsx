@@ -21,7 +21,7 @@ function Home() {
                             </div>
                         </Col>
                         <Col md={6} className="align-top">
-                            <VimeoVideo videoId={"877375771"} videoTitle={"Imperius Combat"}/>
+                            <VimeoVideo videoId={"877375771"} videoTitle={"Home Intro"}/>
                         </Col>
                     </Row>
                 </Container>

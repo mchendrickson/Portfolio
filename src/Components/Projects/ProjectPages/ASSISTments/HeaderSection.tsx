@@ -5,8 +5,7 @@ import AssistmentsTitle from "../../../../Assets/Projects/Assistments/assistment
 
 const HeaderSection: React.FC = () => {
     return (
-        <Section title="">
-            <h1 style={{fontSize: "4em", paddingBottom: "20px"}}> ASSISTments: Reinforcement Learning </h1>
+        <Section title="ASSISTments: Reinforcement Learning" size={"large"}>
 
             <TechstackAssistments/>
 

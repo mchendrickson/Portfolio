@@ -5,10 +5,7 @@ import SoftengTitle from "../../../../Assets/Projects/BrighamWomensHospital/soft
 
 const HeaderSection: React.FC = () => {
     return (
-        <Section title={""}>
-            <h1 style={{fontSize: "4em", paddingBottom: "20px"}}>
-                Hospital Tracking System
-            </h1>
+        <Section title={"Hospital Tracking System"} size={"large"}>
 
             <TechstackSofteng/>
 

@@ -6,10 +6,7 @@ import VimeoVideo from "../../../../VimeoVideo";
 
 const HeaderSection: React.FC = () => {
     return (
-        <Section title="">
-            <h1 style={{fontSize: "4em", paddingBottom: "20px"}}>
-                Toontown: Corporate Clash
-            </h1>
+        <Section title="Toontown: Corporate Clash" size={"large"}>
 
             <TechstackCorporateClash/>
 

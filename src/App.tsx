@@ -1,25 +1,25 @@
 import React, {useEffect, useState} from "react";
-import Preloader from "./components/Pre";
-import Navbar from "./components/Navbar";
-import Home from "./components/Home/Home";
-import About from "./components/About/About";
-import Projects from "./components/Projects/Projects";
-import Footer from "./components/Footer";
-import Resume from "./components/Resume";
-import Imperius from "./components/Projects/ProjectPages/Imperius/Imperius";
-import ASSISTments from "./components/Projects/ProjectPages/ASSISTments/ASSISTments";
-import BrighamWomensHospital from "./components/Projects/ProjectPages/BrighamWomensHospital/BrighamWomensHospital";
-import Pfivejs from "./components/Projects/ProjectPages/Pfivejs/Pfivejs";
-import Badmin from "./components/Projects/ProjectPages/Badmin/Badmin";
+import Preloader from "./Components/Pre";
+import Navbar from "./Components/Navbar";
+import Home from "./Components/Home/Home";
+import About from "./Components/About/About";
+import Projects from "./Components/Projects/Projects";
+import Footer from "./Components/Footer";
+import Resume from "./Components/Resume";
+import Imperius from "./Components/Projects/ProjectPages/Imperius/Imperius";
+import ASSISTments from "./Components/Projects/ProjectPages/ASSISTments/ASSISTments";
+import BrighamWomensHospital from "./Components/Projects/ProjectPages/BrighamWomensHospital/BrighamWomensHospital";
+import Pfivejs from "./Components/Projects/ProjectPages/Pfivejs/Pfivejs";
+import Badmin from "./Components/Projects/ProjectPages/Badmin/Badmin";
 
 import {BrowserRouter as Router, Navigate, Route, Routes} from "react-router-dom";
-import ScrollToTop from "./components/ScrollToTop";
+import ScrollToTop from "./Components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import {Analytics} from "@vercel/analytics/react";
-import FreeBodyDiagramApp from "./components/Projects/ProjectPages/FreeBodyDiagramApp/FreeBodyDiagramApp";
-import CorporateClash from "./components/Projects/ProjectPages/CorporateClash/CorporateClash";
+import FreeBodyDiagramApp from "./Components/Projects/ProjectPages/FreeBodyDiagramApp/FreeBodyDiagramApp";
+import CorporateClash from "./Components/Projects/ProjectPages/CorporateClash/CorporateClash";
 
 function App() {
     const [load, upadateLoad] = useState(true);
@@ -47,16 +47,16 @@ function App() {
                     <Route path="*" element={<Navigate to="/"/>}/>
                     <Route path="/project/Imperius" element={<Imperius/>}/>
                     <Route path="/project/ASSISTments" element={<ASSISTments/>}/>
-                    <Route path="/project/Softeng" element={<BrighamWomensHospital/>}/>
+                    <Route path="/project/BrighamWomensHospital" element={<BrighamWomensHospital/>}/>
                     <Route path="/project/pfivejs" element={<Pfivejs/>}/>
-                    <Route path="/project/badmin" element={<Badmin/>}/>
+                    <Route path="/project/Badmin" element={<Badmin/>}/>
                     <Route path="/project/FBDApp" element={<FreeBodyDiagramApp/>}/>
                     <Route path="/project/CorporateClash" element={<CorporateClash/>}/>
                     <Route path="/Imperius" element={<Imperius/>}/>
                     <Route path="/ASSISTments" element={<ASSISTments/>}/>
-                    <Route path="/Softeng" element={<BrighamWomensHospital/>}/>
+                    <Route path="/BrighamWomensHospital" element={<BrighamWomensHospital/>}/>
                     <Route path="/pfivejs" element={<Pfivejs/>}/>
-                    <Route path="/badmin" element={<Badmin/>}/>
+                    <Route path="/Badmin" element={<Badmin/>}/>
                     <Route path="/FBDApp" element={<FreeBodyDiagramApp/>}/>
                     <Route path="/CorporateClash" element={<CorporateClash/>}/>
                 </Routes>

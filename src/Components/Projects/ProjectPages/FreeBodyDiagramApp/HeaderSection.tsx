@@ -4,8 +4,7 @@ import TechstackFBDApp from "../../TechStacks/TechstackFBDApp";
 
 const HeaderSection: React.FC = () => {
     return (
-        <Section title="">
-            <h1 style={{fontSize: "4em", paddingBottom: "20px"}}> Free Body Diagram App </h1>
+        <Section title="Free Body Diagram App" size={"large"}>
 
             <TechstackFBDApp/>
 
