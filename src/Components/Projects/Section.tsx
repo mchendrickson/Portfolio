@@ -14,7 +14,7 @@ const containerVariants = {
     hidden: {},
     visible: {
         transition: {
-            staggerChildren: 0.15,
+            staggerChildren: 0.20,
         },
     },
 };
@@ -31,8 +31,9 @@ const Section: React.FC<SectionProps> = ({
                                              size = "medium",
                                          }) => {
     const { ref, inView } = useInView({
+        rootMargin: '-200px 0px -200px 0px',
         triggerOnce: true,
-        threshold: 0.2,
+        threshold: 0.0,
     });
     const { preloaderDone } = usePreloader();
     const renderHeading = () => {
