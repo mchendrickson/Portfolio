@@ -5,11 +5,17 @@ import Intro from "./Intro";
 
 function Home() {
     return (
-        <>
-            <Intro/>
-            <Projects/>
-            <About/>
-        </>
+        <div className="scroll-snap-container">
+            <section className="snap-child scrollable-section">
+                <Intro/>
+            </section>
+            <section className="snap-child scrollable-section">
+                <Projects/>
+            </section>
+            <section className="snap-child scrollable-section">
+                <About/>
+            </section>
+        </div>
     );
 }
 
