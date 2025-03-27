@@ -1,30 +1,41 @@
+/* ================================= */
+/* Root Variables and Utility Styles */
+/* ================================= */
+
 html {
   --section-background-color: linear-gradient(
-    to bottom left,
-    rgba(16, 16, 17, 0.58),
-    rgba(0, 17, 49, 0.9)
+          to bottom left,
+          rgba(16, 16, 17, 0.58),
+          rgba(0, 17, 49, 0.9)
   );
 
   --image-gradient: linear-gradient(
-    to bottom left,
-    rgba(17, 16, 17, 0.67),
-    rgba(17, 10, 22, 0.86)
+          to bottom left,
+          rgba(17, 16, 17, 0.67),
+          rgba(17, 10, 22, 0.86)
   );
 
-  --imp-text-color: #b451f6;
+  --imp-text-color: #b451f6
 }
 
 .purple {
   color: var(--imp-text-color) !important;
+  text-shadow: 0 0 6px #b451f6;
 }
 
 button:focus {
   box-shadow: none !important;
 }
 
-/* --------- */
-/*  Preloader */
-/* --------- */
+#no-scroll {
+  overflow: hidden;
+  height: 100vh;
+}
+
+/* =============== */
+/* Preloader Styles */
+/* =============== */
+
 #preloader {
   position: fixed;
   top: 0;
@@ -42,39 +53,78 @@ button:focus {
   opacity: 0;
 }
 
-#no-scroll {
-  overflow: hidden;
-  height: 100vh;
+/* ================= */
+/* Typography Effects */
+/* ================= */
+
+.gradient-text {
+  font-weight: 700;
+  font-size: 2rem;
+  background: linear-gradient(to bottom, #ffffff, #a5acba);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
 }
 
-/* --------- */
-/*Scrollbar   */
-/* --------- */
+.neon-text {
+  color: #b451f6;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-shadow:
+          0 0 25px #b451f6,
+          0 0 15px #b451f6,
+          0 0 20px #b451f6;
+  padding: 0 -2rem;
+}
+
+/* ================ */
+/* Divider Component */
+/* ================ */
+
+.neon-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  position: relative;
+  margin: 2rem 0;
+}
+
+.neon-divider::before,
+.neon-divider::after {
+  content: "";
+  flex: 1;
+  height: 2px;
+  background: linear-gradient(to right, transparent, #b451f6, transparent);
+  opacity: 0.8;
+}
+
+/* ================= */
+/* Scrollbar Styling */
+/* ================= */
 
 ::-webkit-scrollbar {
   width: 7px;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
   background: #503a19;
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
   background: rgba(216, 200, 121, 0.96);
   border-radius: 12px;
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(130, 191, 235, 0.91);
   border-radius: 12px;
 }
 
-/* --------- */
-/* Navbar Section  */
-/* --------- */
+/* ============== */
+/* Navbar Section */
+/* ============== */
+
 .sticky {
   background-color: rgba(26, 29, 46, 0.66) !important;
   transition: all 0.3s ease-out 0s !important;
@@ -114,7 +164,6 @@ button:focus {
 
 .navbar-toggler span:nth-child(1),
 .navbar-toggler span:nth-child(3) {
-  transition: transform 0.35s ease-in-out !important;
   transition: transform 0.35s ease-in-out !important;
 }
 
@@ -199,48 +248,36 @@ button:focus {
   .navbar-nav {
     margin-top: 10px;
   }
+
   .navbar-nav .nav-link {
     color: #fff;
     padding: 10px 20px;
   }
 }
-/* --------- */
-/* Home section */
-/* --------- */
+
+/* ============== */
+/* Home Section */
+/* ============== */
+
 .wave {
-  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
-  animation-duration: 2.1s; /* Change to speed up or slow down */
-  animation-iteration-count: infinite; /* Never stop waving :) */
-  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  animation-name: wave-animation;
+  animation-duration: 2.1s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
   display: inline-block;
 }
 
 @keyframes wave-animation {
-  0% {
-    transform: rotate(0deg);
-  }
-  10% {
-    transform: rotate(14deg);
-  } /* The following five values can be played with to make the waving more or less extreme */
-  20% {
-    transform: rotate(-8deg);
-  }
-  30% {
-    transform: rotate(14deg);
-  }
-  40% {
-    transform: rotate(-4deg);
-  }
-  50% {
-    transform: rotate(10deg);
-  }
-  60% {
-    transform: rotate(0deg);
-  } /* Reset for the last half to pause */
-  100% {
-    transform: rotate(0deg);
-  }
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(14deg); }
+  20% { transform: rotate(-8deg); }
+  30% { transform: rotate(14deg); }
+  40% { transform: rotate(-4deg); }
+  50% { transform: rotate(10deg); }
+  60% { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
 }
+
 #tsparticles {
   position: fixed !important;
   background-repeat: no-repeat !important;
@@ -291,7 +328,6 @@ button:focus {
   height: 100%;
   overflow: hidden;
   min-height: 225px;
-
 }
 
 .steam-iframe-wrapper iframe {
@@ -313,15 +349,15 @@ button:focus {
 }
 
 .video-slideshow {
-  position: relative; right: 30%; bottom: 30%;
+  position: relative;
+  right: 30%;
+  bottom: 30%;
   transform: scale(0.3, 0.3);
   transition: all 0.1s ease-in-out;
 }
 
-/* Media query for smaller screens */
 @media (max-width: 768px) {
   .video-slideshow {
-    /* Styles for smaller screens */
     transform: scale(0.3, 0.3);
   }
 }
@@ -347,6 +383,7 @@ button:focus {
   color: #7f6adf !important;
   font-weight: 600 !important;
 }
+
 .Typewriter__cursor {
   font-size: 2.4em !important;
   color: #ac00f8 !important;
@@ -363,6 +400,10 @@ button:focus {
     padding-bottom: 2em !important;
   }
 }
+
+/* ========================== */
+/* Home About and Social Area */
+/* ========================== */
 
 .home-about-section {
   position: relative;
@@ -445,15 +486,17 @@ button:focus {
   color: #0c2886 !important;
 }
 
-/* --------- */
-/* Footer */
-/* --------- */
+/* ============ */
+/* Footer Styles */
+/* ============ */
+
 .footer {
   background-color: rgb(4, 8, 22);
   bottom: 0 !important;
   padding-top: 10px !important;
-  padding-bottom: 8px !important ;
+  padding-bottom: 8px !important;
 }
+
 .footer-copywright {
   text-align: center !important;
 }
@@ -464,10 +507,7 @@ button:focus {
 }
 
 @media (max-width: 767px) {
-  .footer-copywright {
-    text-align: center !important;
-  }
-
+  .footer-copywright,
   .footer-body {
     text-align: center !important;
   }
@@ -479,6 +519,7 @@ button:focus {
   margin-top: 0.5em !important;
   margin-bottom: 0.5em !important;
 }
+
 .footer-icons {
   margin-top: 0.5em !important;
   margin-bottom: 0.5em !important;
@@ -488,51 +529,49 @@ button:focus {
 .blockquote-footer {
   color: #8891c0 !important;
 }
-/* --------- */
-/* Projects */
-/* --------- */
+
+/* ================ */
+/* Projects Section */
+/* ================ */
+
 .project-section {
   position: relative !important;
   padding: 5rem 0 2rem !important;
   background-image: var(--section-background-color) !important;
 }
 
-.project-card {
-  padding-top: 50px !important;
-  padding-bottom: 50px !important;
-  padding-left: 25px !important;
-  padding-right: 25px !important;
+.project-card,
+.blog-card {
+  padding: 50px 25px !important;
   height: auto !important;
+}
+
+.project-card-view,
+.blog-card-view {
+  background-color: transparent !important;
+  color: white !important;
+  height: 100% !important;
+  transition: all 0.5s ease 0s !important;
 }
 
 .project-card-view {
   box-shadow: 1px 4px 5px 3px rgb(1, 105, 190) !important;
-  color: white !important;
-  background-color: transparent !important;
-  opacity: 1.0 !important;
-  transition: all 0.5s ease 0s !important;
-  height: 100% !important;
 }
+
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
   box-shadow: 1px 4px 4px 5px rgb(140, 0, 255) !important;
 }
 
-.blog-card {
-  padding-top: 50px !important;
-  padding-bottom: 50px !important;
-  padding-left: 25px !important;
-  padding-right: 25px !important;
-  height: auto !important;
+.blog-card-view {
+  box-shadow: 0 3px 3px 2px rgba(77, 91, 161, 0.46) !important;
 }
 
-.blog-card-view {
-  background-color: transparent !important;
-  box-shadow: 0 3px 3px 2px rgba(77, 91, 161, 0.46) !important;
-  color: white !important;
-  transition: all 0.5s ease 0s !important;
-  height: 100% !important;
+.blog-card-view:hover {
+  transform: scale(1.02) !important;
+  overflow: hidden !important;
+  box-shadow: 0 3px 3px 5px rgba(88, 112, 173, 0.65) !important;
 }
 
 .blog-link {
@@ -542,12 +581,6 @@ button:focus {
 
 .blog-link:hover {
   cursor: pointer !important;
-}
-
-.blog-card-view:hover {
-  transform: scale(1.02) !important;
-  overflow: hidden !important;
-  box-shadow: 0 3px 3px 5px rgba(88, 112, 173, 0.65) !important;
 }
 
 .card-img-top {
@@ -569,14 +602,15 @@ button:focus {
 }
 
 .btn-primary:hover {
-  color: #fff !important;
   background-color: rgba(32, 59, 197, 0.84) !important;
   border-color: rgba(32, 59, 197, 0.84) !important;
 }
+
 .btn:focus {
   outline: none !important;
   box-shadow: none !important;
 }
+
 .project-heading {
   color: white !important;
   font-size: 2.3em !important;
@@ -584,11 +618,12 @@ button:focus {
   padding-top: 10px !important;
 }
 
-/* --------- */
-/* About */
-/* --------- */
+/* ================ */
+/* About Section */
+/* ================ */
 
-.about-section {
+.about-section,
+.project-page {
   position: relative !important;
   padding: 5rem 0 2rem !important;
   background-image: var(--section-background-color) !important;
@@ -596,11 +631,8 @@ button:focus {
 }
 
 .project-page {
-  position: relative !important;
   padding-top: 100px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
-  color: white !important;
 }
 
 .techstack-icons,
@@ -618,25 +650,18 @@ button:focus {
   transition: all 0.4s ease 0s !important;
 }
 
-.techstack-icons {
-  font-size: 4em !important;
-}
-
-.techstack-icons-small {
-  font-size: 2.5em !important;
-}
+.techstack-icons { font-size: 4em !important; }
+.techstack-icons-small { font-size: 2.5em !important; }
 
 @media (max-width: 767px) {
-  .techstack-icons {
-    margin: 10px !important;
-  }
+  .techstack-icons { margin: 10px !important; }
 }
 
 .techstack-icons:hover {
   transform: scale(1.05) !important;
-  overflow: hidden !important;
   border: 2.2px solid rgba(115, 138, 230, 0.88) !important;
 }
+
 .tech-icon-images {
   padding: 20px !important;
   line-height: 1.6 !important;
@@ -644,37 +669,29 @@ button:focus {
 
 .quote-card-view {
   border: none !important;
-  color: white !important;
   background-color: transparent !important;
+  color: white !important;
 }
 
-.icon-label {
-  margin-top: 5px;
-  font-size: 14px;
-  font-weight: bold;
-  text-align: center;
-}
-
+.icon-label,
 .icon-label-small {
   margin-top: 5px;
-  font-size: 10px;
   font-weight: bold;
   text-align: center;
 }
 
+.icon-label { font-size: 14px; }
+.icon-label-small { font-size: 10px; }
 
-.about-activity {
+.about-activity,
+.bullet-list {
   list-style: none !important;
   text-align: left !important;
   padding-left: 1px !important;
 }
 
 .bullet-list {
-  text-align: left;
-  list-style: none;
-  padding-left: 0;
-  padding-top: 10px;
-  padding-bottom: 30px;
+  padding: 10px 0 30px;
   margin: 0;
 }
 
@@ -695,9 +712,10 @@ button:focus {
     padding-top: 0 !important;
   }
 }
-/* --------- */
-/* Resume */
-/* --------- */
+
+/* ================= */
+/* Resume Section */
+/* ================= */
 
 .resume-section {
   position: relative !important;
@@ -713,30 +731,20 @@ button:focus {
   justify-content: center;
 }
 
-.resume-left {
-  padding-right: 80px !important;
-}
-
-.resume-right {
-  padding-left: 80px !important;
-}
+.resume-left { padding-right: 80px !important; }
+.resume-right { padding-left: 80px !important; }
 
 @media (max-width: 767px) {
-  .resume-left {
-    padding-right: 15px !important;
-    padding-left: 15px !important;
-  }
-
+  .resume-left,
   .resume-right {
-    padding-right: 15px !important;
-    padding-left: 15px !important;
+    padding: 0 15px !important;
   }
 }
+
 .resume .resume-title {
   font-size: 2em;
   font-weight: 700;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 30px 0;
 }
 
 .resume .resume-item {
@@ -782,6 +790,10 @@ button:focus {
   border: 2px solid #4956a8;
 }
 
+/* ============== */
+/* Interactive Buttons */
+/* ============== */
+
 .like-item {
   padding-top: 10px !important;
   font-size: 1.1em !important;
@@ -808,13 +820,10 @@ button:focus {
   animation-fill-mode: forwards;
   animation-duration: 0.85s;
 }
+
 @keyframes likeAnimation {
-  0% {
-    transform: scale(1.5);
-  }
-  100% {
-    transform: scale(1);
-  }
+  0% { transform: scale(1.5); }
+  100% { transform: scale(1); }
 }
 
 .fork-btn {
@@ -835,9 +844,14 @@ button:focus {
   background-color: rgba(76, 93, 206, 0.37) !important;
   border-color: rgba(76, 93, 206, 0.37) !important;
 }
+
 .fork-btn-inner::after {
   display: none !important;
 }
+
+/* ============ */
+/* Section Spacing */
+/* ============ */
 
 .section-heading {
   font-size: 2em;
