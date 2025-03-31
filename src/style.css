@@ -422,6 +422,7 @@ button:focus {
 
 .main-name {
   color: var(--main-name-color);
+  text-shadow: 0 0 15px var(--main-name-color);
 }
 
 .Typewriter__wrapper {
