@@ -10,6 +10,7 @@ import VFXSection from "./VFXSection";
 import ModelingSection from "./ModelingSection";
 import HeaderSection from "./HeaderSection";
 import ContributionsSection from "./ContributionsSection";
+import SpecialAbilitiesSection from "./SpecialAbilitiesSection";
 
 function Imperius() {
     return (
@@ -18,6 +19,7 @@ function Imperius() {
                 <HeaderSection/>
                 <ContributionsSection/>
                 <CombatSystemsSection/>
+                <SpecialAbilitiesSection/>
                 <PathfindingSection/>
                 <MultiplayerSection/>
                 <HardpointsSection/>
