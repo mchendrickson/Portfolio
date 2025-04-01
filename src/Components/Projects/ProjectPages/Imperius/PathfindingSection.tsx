@@ -3,30 +3,34 @@ import {Col, Row} from "react-bootstrap";
 import Section from "../../Section";
 import VimeoVideo from "../../../../VimeoVideo";
 import ImperiusOctree from "../../../../Assets/Projects/Imperius/ImperiusOctree.png";
+import BulletList from "../../BulletList";
 
 const PathfindingSection: React.FC = () => {
+    const bullets = [
+        <><b className="purple">Octrees:</b> To efficiently generate the position nodes the units can traverse. </>,
+        <><b className="purple">A* Pathfinding:</b> To generate the best possible path through the position nodes. </>,
+        <><b className="purple">Catmull-Rom Splines:</b> To create a smooth, natural looking path for each unit to follow. </>,
+        <><b className="purple">Tweening:</b> To create dynamic animations for each unit as they speed up, slow down, and rotate. </>,
+    ];
+
     return (
         <Section title="3D Pathfinding">
             <p style={{textAlign: "left"}}>
-                I combined <b className="purple">Aron Granberg's A* Pathfinding project</b>, an open source{" "}
-                <b className="purple">Octree</b>, <b className="purple">DOTween</b>, and open source{" "}
-                <b className="purple">Catmull-rom splines</b> to create a fast, efficient, and accurate{" "}
-                <b className="purple">3D pathfinding</b> solution working with hundreds of agents simultaneously with
-                little/no
-                performance overhead. <b className="purple">Multithreading</b> techniques and efficient use of data
-                structures
-                were key components in this project alongside <b className="purple">strong code management skills</b>.
+                I created a fast, efficient, and accurate <b className="purple">3D pathfinding</b> solution
+                that works with hundreds of agents simultaneously with little/no performance overhead.
+                Units are able to move seamlessly in a 3D environment without colliding into any obstacles
+                and organize themselves efficiently into formations.
             </p>
-
-            <Col md={12} className="vimeo-container" style={{paddingTop: "10px"}}>
-                <Row>
-                    <Col md={7}>
-                        <VimeoVideo videoId="876956727" videoTitle="Imperius Pathfinding"/>
-                    </Col>
-                    <Col md={4}>
-                        <img src={ImperiusOctree} alt="Imperius Octree" className="img-fluid rounded"/>
-                    </Col>
-                </Row>
+            <p style={{textAlign: "left"}}>
+                Many algorithms and heuristics were used in parallel to bring this system to life:
+            </p>
+            <BulletList items={bullets} />
+            <Col
+                md={8}
+                className="vimeo-container"
+                style={{paddingTop: "10px"}}
+            >
+                <VimeoVideo videoId="876956727" videoTitle="Imperius Pathfinding"/>
             </Col>
         </Section>
     );
