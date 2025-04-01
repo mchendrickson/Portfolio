@@ -2,21 +2,28 @@ import React from "react";
 import {Col} from "react-bootstrap";
 import Section from "../../Section"
 import VimeoVideo from "../../../../VimeoVideo";
+import BulletList from "../../BulletList";
 
 const CombatSection: React.FC = () => {
+    const bullets = [
+        <><b className="purple">Kinematics:</b> To calculate a weapon's optimal firing position by predicting the future position of it's target.</>,
+        <><b className="purple">Batch Raycasting:</b> To perform multithreaded raycasts, ensuring each weapon has line of sight to their target.</>,
+        <><b className="purple">Particle Systems:</b> To create each bullet, laser, and missile and all other weapon projectiles, and for multithreaded collision detection.</>,
+        <><b className="purple">GPU Instancing:</b> To reduce draw calls for repeated weaponsfire, easing CPU/GPU load.</>,
+    ];
+
     return (
         <Section title="Combat Systems">
             <p style={{textAlign: "left"}}>
-                I combined Unity's <b className="purple">particle systems</b> alongside several{" "}
-                <b className="purple">algorithms</b> that each weapon fired would predict an enemies' location using
-                their current{" "}
-                <b className="purple">trajectory</b>, and prioritize specific unit types based on a{" "}
-                <b className="purple">priority queue</b>. This eclectic approach allowed for hundreds of units each with
-                dozens of
-                weapons to fire at specific enemies. <b className="purple">GPU instancing</b> on the particle systems
-                allowed for{" "}
-                <b className="purple">multi-threaded</b> collisions, decreasing CPU strain.
+                Each ship in <i>Imperius</i> is equipped with shields, health, and anywhere from a single weapon to <b className="purple">dozens of weapon systems</b>.
+                There are over a <b className="purple">dozen weapon types</b>, each with distinct strengths and weaknesses against different units.
+                Weapons can be aimed at individual ship subsystems—known as <b className="purple">hardpoints</b>—to disable or weaken opponents.
+                Every weapon has a <b className="purple">limited firing arc</b>; for example, port-side weapons cannot fire to starboard, making ship orientation a key tactical element.
             </p>
+            <p style={{textAlign: "left"}}>
+                Supporting dozens—or even hundreds—of weapons firing simultaneously demanded a high-performance, multi-layered programming solution:
+            </p>
+            <BulletList items={bullets} />
             <Col
                 md={8}
                 className="vimeo-container"
