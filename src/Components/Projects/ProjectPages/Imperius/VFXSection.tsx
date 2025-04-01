@@ -7,11 +7,7 @@ const VFXSection: React.FC = () => {
     return (
         <Section title="VFX">
             <p style={{textAlign: "left"}}>
-                By skillfully modifying pre-existing assets as well as creating original visual effects from scratch, I
-                have
-                transformed these elements into <b className="purple">captivating</b> and <b
-                className="purple">dynamic</b> visual
-                enhancements that greatly amplify the overall impact of Imperius.
+                I created the majority of the <b className="purple">VFX</b> for <i>Imperius</i>, including particle effects, post processing, and lighting.
             </p>
 
             <Row>
