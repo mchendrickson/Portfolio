@@ -11,6 +11,10 @@ import ModelingSection from "./ModelingSection";
 import HeaderSection from "./HeaderSection";
 import ContributionsSection from "./ContributionsSection";
 import SpecialAbilitiesSection from "./SpecialAbilitiesSection";
+import EconomySection from "./EconomySection";
+import TerritoryCaptureSection from "./TerritoryCaptureSection";
+import BaseBuildingSection from "./BaseBuildingSection";
+import AudioProgrammingSection from "./AudioProgrammingSection";
 
 function Imperius() {
     return (
@@ -19,11 +23,15 @@ function Imperius() {
                 <HeaderSection/>
                 <ContributionsSection/>
                 <CombatSystemsSection/>
+                <HardpointsSection/>
                 <SpecialAbilitiesSection/>
                 <PathfindingSection/>
+                <EconomySection/>
+                <BaseBuildingSection/>
+                <TerritoryCaptureSection/>
                 <MultiplayerSection/>
-                <HardpointsSection/>
                 <AISection/>
+                <AudioProgrammingSection/>
                 <VFXSection/>
                 <ModelingSection/>
             </Container>
