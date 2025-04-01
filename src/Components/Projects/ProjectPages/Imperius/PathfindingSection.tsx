@@ -1,8 +1,7 @@
 import React from "react";
-import {Col, Row} from "react-bootstrap";
+import {Col} from "react-bootstrap";
 import Section from "../../Section";
 import VimeoVideo from "../../../../VimeoVideo";
-import ImperiusOctree from "../../../../Assets/Projects/Imperius/ImperiusOctree.png";
 import BulletList from "../../BulletList";
 
 const PathfindingSection: React.FC = () => {
@@ -30,7 +29,7 @@ const PathfindingSection: React.FC = () => {
                 className="vimeo-container"
                 style={{paddingTop: "10px"}}
             >
-                <VimeoVideo videoId="876956727" videoTitle="Imperius Pathfinding"/>
+                <VimeoVideo videoId="1071579959" videoTitle="Imperius Pathfinding"/>
             </Col>
         </Section>
     );
