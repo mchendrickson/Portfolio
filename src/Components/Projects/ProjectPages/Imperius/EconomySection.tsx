@@ -23,8 +23,7 @@ const EconomySection: React.FC = () => {
             <img
                 src={ImperiusHomeMenu}
                 alt="Imperius Home Menu"
-                className="img-fluid rounded"
-                style={{width: "70%"}}
+                className="display-image-container rounded"
             />
         </Section>
     );

@@ -12,8 +12,7 @@ const AudioProgrammingSection: React.FC = () => {
             <img
                 src={ImperiusFMODStudio}
                 alt="Imperius FMOD Studio"
-                className="img-fluid rounded"
-                style={{width: "70%"}}
+                className="display-image-container rounded"
             />
         </Section>
     );

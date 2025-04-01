@@ -22,8 +22,7 @@ const BaseBuildingSection: React.FC = () => {
             <img
                 src={ImperiusBuildingSlot}
                 alt="Imperius Building Slot"
-                className="img-fluid rounded"
-                style={{width: "70%"}}
+                className="display-image-container rounded"
             />
 
         </Section>
