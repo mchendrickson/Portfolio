@@ -2,6 +2,8 @@ import React from "react";
 import Section from "../../Section";
 import BulletList from "../../BulletList";
 import ImperiusBuildingSlot from "../../../../Assets/Projects/Imperius/ImperiusBuildingSlot.png";
+import VimeoVideo from "../../../../VimeoVideo";
+import {Col} from "react-bootstrap";
 
 const BaseBuildingSection: React.FC = () => {
     const bullets = [
@@ -18,12 +20,13 @@ const BaseBuildingSection: React.FC = () => {
                 Players can <b className="purple">construct and upgrade</b> a <b className="purple">variety of structures</b> in <i>Imperius</i>, each with a different role to play in the gameplay loop.
             </p>
             <BulletList items={bullets} />
-
-            <img
-                src={ImperiusBuildingSlot}
-                alt="Imperius Building Slot"
-                className="display-image-container rounded"
-            />
+            <Col
+                md={8}
+                className="vimeo-container"
+                style={{paddingTop: "10px"}}
+            >
+                <VimeoVideo videoId="1071901283" videoTitle="Imperius Base Building"/>
+            </Col>
 
         </Section>
     );
