@@ -1,7 +1,6 @@
 import React from "react";
 import Section from "../../Section";
 import BulletList from "../../BulletList";
-import ImperiusHomeMenu from "../../../../Assets/Projects/Imperius/ImperiusHomeMenu.png";
 import VimeoVideo from "../../../../VimeoVideo";
 import {Col} from "react-bootstrap";
 
