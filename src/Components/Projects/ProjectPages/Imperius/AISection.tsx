@@ -10,6 +10,7 @@ const AISection: React.FC = () => {
         <><b className="purple">Genetic Algorithms:</b> Multiple candidate solutions (children) are generated, crossed over, and mutated to evolve optimal decisions for unit assignments.</>,
         <><b className="purple">Simulated Annealing:</b> Mutation intensity decreases over time, reducing randomness as the solution converges toward an optimal state.</>,
         <><b className="purple">Real-Time Clustering:</b> Units are grouped dynamically by spatial proximity to reduce state space complexity and improve AI decision speed.</>,
+        <><b className="purple">Individual Unit Logic:</b> Each unit runs a custom state machine to handle movement, targeting, and defense logic based on in-game conditions.</>,
         <><b className="purple">Job Offloading:</b> All high-level AI computations run asynchronously on a separate thread, keeping the main game loop smooth and responsive.</>,
     ];
 
