@@ -713,7 +713,8 @@ button:focus {
 
 .techstack-icons:hover {
   transform: scale(1.05) !important;
-  border: 2.2px solid rgba(115, 138, 230, 0.88) !important;
+  border: 1px solid #b451f6 !important;
+  box-shadow: 4px 5px 4px 3px #250050 !important;
 }
 
 .tech-icon-images {
