@@ -6,27 +6,16 @@ function AboutCard() {
         <Card className="quote-card-view">
             <Card.Body>
                 <blockquote className="blockquote mb-0">
-                    <p style={{textAlign: "left"}}>
-                        My name is <b className="purple">Matthew Hendrickson</b>,
-                        I'm from <b className="purple"> Connecticut</b>.
-                        I graduated with a double major in <b className="purple">
-                        Computer Science </b> and <b className="purple">
-                        Interactive Media and Game Development </b> with a 4.0 GPA
-                        at Worcester Polytechnic Institute.
-                        <br/>
-                        <br/>
-                        I am searching for a job as a <b className="purple">game programmer</b> or other coding role at
-                        a game studio. I specialize in RTS games, but I also have experience coding for other genres
-                        such as platformers, shooters, and VR games. &nbsp;
-                        <br/>
-                        <br/>
-                        I am fluent in object oriented languages such as <b className="purple"> Java, C#, Javascript,
-                        and Python. </b> I have plenty of experience in <b className="purple">managing</b> software
-                        development teams. I code primarily in the <b className="purple">Unity</b> game engine.
-                        <br/>
-                        <br/>
-                        <br/>
+                    <p style={{ textAlign: "left" }}>
+                        My name is <b className="purple">Matthew Hendrickson</b>, and I'm based in <b className="purple">Connecticut</b>. I'm seeking a position as a <b className="purple">game programmer</b> or a developer role at a game studio.
                     </p>
+                    <p style={{ textAlign: "left" }}>
+                        I specialize in <b className="purple">real-time strategy</b> (RTS) games and have additional experience developing platformers, shooters, and virtual reality (VR) titles. I'm fluent in object-oriented languages including <b className="purple">C#, Java, TypeScript, and Python</b>, and I primarily work in the <b className="purple">Unity</b> game engine.
+                    </p>
+                    <p style={{ textAlign: "left" }}>
+                        Currently, I work as a Full-Stack Software Developer at <b className="purple">SAVVAS Learning Company</b>, where I help build and maintain a suite of K–12 online learning services. I earned a double major in <b className="purple">Computer Science</b> and <b className="purple">Interactive Media & Game Development</b> from Worcester Polytechnic Institute, graduating with a <b className="purple">4.0 GPA</b>.
+                    </p>
+
                 </blockquote>
             </Card.Body>
         </Card>
