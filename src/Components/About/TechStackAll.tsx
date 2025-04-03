@@ -1,7 +1,7 @@
 import React from "react";
 import IconStack from "../IconStack";
 import {DiGit, DiJava, DiJavascript1, DiPython,} from "react-icons/di";
-import {SiCplusplus, SiCsharp, SiPostgresql, SiPytorch, SiTensorflow, SiWebgl,} from "react-icons/si";
+import {SiCsharp, SiPostgresql, SiPytorch, SiTensorflow, SiWebgl,} from "react-icons/si";
 
 interface TechstackProps {
     small?: boolean;
@@ -15,7 +15,6 @@ function TechStackAll({small}: TechstackProps) {
         {icon: DiJavascript1, label: 'Javascript'},
         {icon: SiPostgresql, label: 'PostgreSQL'},
         {icon: DiGit, label: 'Git'},
-        {icon: SiCplusplus, label: 'C++'},
         {icon: SiPytorch, label: 'Pytorch'},
         {icon: SiTensorflow, label: 'Tensorflow'},
         {icon: SiWebgl, label: 'WebGL'},

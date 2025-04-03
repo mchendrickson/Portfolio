@@ -11,7 +11,8 @@ import {
     AiOutlineGithub,
     AiOutlineHome,
     AiOutlineLinkedin,
-    AiOutlineUser
+    AiOutlineUser,
+    AiOutlineMail
 } from "react-icons/ai";
 
 function NavBar() {
@@ -87,6 +88,16 @@ function NavBar() {
                                 onClick={() => updateExpanded(false)}
                             >
                                 <CgFileDocument style={{marginBottom: "2px"}}/> Resume
+                            </Nav.Link>
+                        </Nav.Item>
+
+                        <Nav.Item>
+                            <Nav.Link
+                                href="mailto:mchendrickson@protonmail.com"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <AiOutlineMail style={{marginBottom: "2px"}}/> Email
                             </Nav.Link>
                         </Nav.Item>
 
