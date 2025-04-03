@@ -9,7 +9,6 @@ const ContributionsSection: React.FC = () => {
         <><b className="purple">Lead Programmer:</b> Wrote a majority of the project's codebase, as well as employed version control to manage other developers.</>,
         <><b className="purple">Systems Programmer:</b> Designed and implemented several crucial game mechanics, including the economy, special abilities, and ship variants.</>,
         <><b className="purple">Audio Programmer:</b> Integrated FMOD middleware to ensure authentic and realistic soundscapes.</>,
-        <><b className="purple">Narrative Designer:</b> Crafted an immersive 60+ page narrative and fictional universe.</>,
         <><b className="purple">VFX Artist:</b> Developed and adapted a comprehensive range of VFX assets including both particle effects and HLSL shaders.</>,
     ];
 
