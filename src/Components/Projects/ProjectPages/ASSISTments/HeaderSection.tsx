@@ -11,13 +11,13 @@ const HeaderSection: React.FC = () => {
 
             <p style={{textAlign: "left"}}>
                 This project was an eclectic development of various features for the{" "}
-                <b className="purple">ASSISTments online learning platform</b>. We designed features to identify student
+                <span className="purple">ASSISTments online learning platform</span>. We designed features to identify student
                 gaming
-                behaviors, used <b className="purple">trigram matching</b> to determine similarity between hints and
+                behaviors, used <span className="purple">trigram matching</span> to determine similarity between hints and
                 explanations
                 of problems, concatenated data to find streaks of correctly answered problems, and{" "}
-                <b className="purple">clustered Common Core descriptions</b> based on embeddings from{" "}
-                <b className="purple">MathBERT</b>.
+                <span className="purple">clustered Common Core descriptions</span> based on embeddings from{" "}
+                <span className="purple">MathBERT</span>.
             </p>
 
             <img
@@ -28,14 +28,14 @@ const HeaderSection: React.FC = () => {
             />
 
             <p style={{textAlign: "left", marginTop: "20px"}}>
-                We also simulated using <b className="purple">deep Bayesian bandits</b> to recommend content in the form
+                We also simulated using <span className="purple">deep Bayesian bandits</span> to recommend content in the form
                 of supports
                 to struggling students. Our models were able to predict whether or not a student would get the next
                 problem correct
-                more frequently than random using an <b className="purple">epsilon-greedy (RMS) model</b>. All features
+                more frequently than random using an <span className="purple">epsilon-greedy (RMS) model</span>. All features
                 were completed
-                successfully and integrated into the <b className="purple">ASSISTments Automatic Personalized Learning
-                Service (APLS)</b>.
+                successfully and integrated into the <span className="purple">ASSISTments Automatic Personalized Learning
+                Service (APLS)</span>.
             </p>
         </Section>
     );

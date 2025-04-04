@@ -5,13 +5,13 @@ import AstronPandas from "../../../../Assets/Projects/CorporateClash/AstronPanda
 
 const ContributionsSection: React.FC = () => {
     const bullets = [
-        <><b className="purple">Engine & Networking Integration:</b> Worked extensively with the Panda3D engine and
+        <><span className="purple">Engine & Networking Integration:</span> Worked extensively with the Panda3D engine and
             Astron Networking Project to develop core systems and maintain online infrastructure.</>,
-        <><b className="purple">Security Enhancements:</b> Implemented client and server-side safety features to protect
+        <><span className="purple">Security Enhancements:</span> Implemented client and server-side safety features to protect
             player experience and mitigate potential exploits.</>,
-        <><b className="purple">Content Development:</b> Designed and implemented new gameplay content while assisting
+        <><span className="purple">Content Development:</span> Designed and implemented new gameplay content while assisting
             in debugging and improving existing features.</>,
-        <><b className="purple">Legacy Refactoring:</b> Modernized legacy code to reduce technical debt, improve
+        <><span className="purple">Legacy Refactoring:</span> Modernized legacy code to reduce technical debt, improve
             maintainability, and support long-term scalability.</>,
     ];
 

@@ -6,18 +6,18 @@ import BulletList from "../../BulletList";
 
 const MultiplayerSection: React.FC = () => {
     const bullets = [
-        <><b className="purple">Peer-to-Peer Architecture:</b> Using Unity's Netcode package to communicate directly between clients, and eliminate the need for dedicated servers. </>,
-        <><b className="purple">Server-Authoritative Structure:</b> To ensure smooth gameplay between clients and enforce game security. </>,
-        <><b className="purple">Steam API Integration:</b> Using Facepunch Transport to incorporate the game with Steam features such as joining a friend's lobby. </>,
+        <><span className="purple">Peer-to-Peer Architecture:</span> Using Unity's Netcode package to communicate directly between clients, and eliminate the need for dedicated servers. </>,
+        <><span className="purple">Server-Authoritative Structure:</span> To ensure smooth gameplay between clients and enforce game security. </>,
+        <><span className="purple">Steam API Integration:</span> Using Facepunch Transport to incorporate the game with Steam features such as joining a friend's lobby. </>,
     ];
 
     return (
         <Section title="Multiplayer">
             <p style={{textAlign: "left"}}>
-                Imperius features <b className="purple">4-player multiplayer</b> with <b className="purple">full Steam integration</b>.
-                Players engage in deathmatch—free-for-all or team-based—choosing between <b className="purple">two factions</b>, each with twelve units and six structures.
+                Imperius features <span className="purple">4-player multiplayer</span> with <span className="purple">full Steam integration</span>.
+                Players engage in deathmatch—free-for-all or team-based—choosing between <span className="purple">two factions</span>, each with twelve units and six structures.
                 Gameplay combines territory control, base building, economy management, and real-time combat. Decentralized and efficient
-                netcode allowed <b className="purple">over a hundred units</b> to fight simultaneously with <b className="purple">very little lag</b>.
+                netcode allowed <span className="purple">over a hundred units</span> to fight simultaneously with <span className="purple">very little lag</span>.
             </p>
             <p style={{textAlign: "left"}}>
                 Relevant technical features include:

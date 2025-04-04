@@ -6,10 +6,10 @@ import VimeoVideo from "../../../../VimeoVideo";
 
 const ContributionsSection: React.FC = () => {
     const bullets = [
-        <><b className="purple">Project Manager:</b> Led a team of four game developers in all stages of the game
+        <><span className="purple">Project Manager:</span> Led a team of four game developers in all stages of the game
             development pipeline.</>,
-        <><b className="purple">Systems Programmer:</b> Developed substantial gameplay elements and systems.</>,
-        <><b className="purple">AI Programmer:</b> Developed the AI for all NPC characters and their various quirks.</>,
+        <><span className="purple">Systems Programmer:</span> Developed substantial gameplay elements and systems.</>,
+        <><span className="purple">AI Programmer:</span> Developed the AI for all NPC characters and their various quirks.</>,
     ];
 
     return (

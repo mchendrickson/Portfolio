@@ -8,23 +8,23 @@ const NewContentSection: React.FC = () => {
     return (
         <Section title="New Content">
             <p style={{textAlign: "left"}}>
-                I contributed to the <b className="purple">The Director's Cut</b> and the upcoming{" "}
-                <b className="purple">Hammerspace</b> updates by improving systems, refining features, and strengthening
+                I contributed to the <span className="purple">The Director's Cut</span> and the upcoming{" "}
+                <span className="purple">Hammerspace</span> updates by improving systems, refining features, and strengthening
                 release readiness:
             </p>
 
             <ul>
                 <li className="about-activity">
-                    <VscDebugBreakpointLogUnverified/> <b className="purple">Spawn Weight Tuning:</b> Increased the
+                    <VscDebugBreakpointLogUnverified/> <span className="purple">Spawn Weight Tuning:</span> Increased the
                     frequency of new enemy types during the celebration event to highlight recent content and enhance
                     combat variety.
                 </li>
                 <li className="about-activity">
-                    <VscDebugBreakpointLogUnverified/> <b className="purple">Legacy Code Refactor:</b> Rewrote outdated
+                    <VscDebugBreakpointLogUnverified/> <span className="purple">Legacy Code Refactor:</span> Rewrote outdated
                     systems to reduce technical debt and streamline the development pipeline for future updates.
                 </li>
                 <li className="about-activity">
-                    <VscDebugBreakpointLogUnverified/> <b className="purple">QA and Bug Triage:</b> Conducted in-depth
+                    <VscDebugBreakpointLogUnverified/> <span className="purple">QA and Bug Triage:</span> Conducted in-depth
                     testing on unreleased features to ensure stability, polish, and design consistency.
                 </li>
             </ul>

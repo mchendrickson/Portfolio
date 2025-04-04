@@ -6,17 +6,17 @@ import {Col} from "react-bootstrap";
 
 const BaseBuildingSection: React.FC = () => {
     const bullets = [
-        <><b className="purple">Command Centers:</b> Can construct units, generates resources, and allows the construction of other buildings. </>,
-        <><b className="purple">Supply Depots:</b> Generates materials, which are used to create other buildings and ships. </>,
-        <><b className="purple">Solar Panels:</b> Increases the power cap-which in turn allows more structures to be built. </>,
-        <><b className="purple">Dockyards:</b> Can construct small-medium sized ships. </>,
-        <><b className="purple">Shipyards:</b> Can construct medium-large sized ships. </>,
-        <><b className="purple">Turrets:</b> Static defensive structures to defend other buildings and hold territory. </>,
+        <><span className="purple">Command Centers:</span> Can construct units, generates resources, and allows the construction of other buildings. </>,
+        <><span className="purple">Supply Depots:</span> Generates materials, which are used to create other buildings and ships. </>,
+        <><span className="purple">Solar Panels:</span> Increases the power cap-which in turn allows more structures to be built. </>,
+        <><span className="purple">Dockyards:</span> Can construct small-medium sized ships. </>,
+        <><span className="purple">Shipyards:</span> Can construct medium-large sized ships. </>,
+        <><span className="purple">Turrets:</span> Static defensive structures to defend other buildings and hold territory. </>,
     ];
     return (
         <Section title="Base Building">
             <p style={{ textAlign: "left" }}>
-                Players can <b className="purple">construct and upgrade</b> a <b className="purple">variety of structures</b> in <i>Imperius</i>, each with a different role to play in the gameplay loop.
+                Players can <span className="purple">construct and upgrade</span> a <span className="purple">variety of structures</span> in <i>Imperius</i>, each with a different role to play in the gameplay loop.
             </p>
             <BulletList items={bullets} />
             <Col

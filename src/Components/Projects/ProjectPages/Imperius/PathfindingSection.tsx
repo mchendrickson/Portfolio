@@ -6,16 +6,16 @@ import BulletList from "../../BulletList";
 
 const PathfindingSection: React.FC = () => {
     const bullets = [
-        <><b className="purple">Octrees:</b> To efficiently generate the position nodes the units can traverse. </>,
-        <><b className="purple">A* Pathfinding:</b> To generate the best possible path through the position nodes. </>,
-        <><b className="purple">Catmull-Rom Splines:</b> To create a smooth, natural looking path for each unit to follow. </>,
-        <><b className="purple">Tweening:</b> To create dynamic animations for each unit as they speed up, slow down, and rotate. </>,
+        <><span className="purple">Octrees:</span> To efficiently generate the position nodes the units can traverse. </>,
+        <><span className="purple">A* Pathfinding:</span> To generate the best possible path through the position nodes. </>,
+        <><span className="purple">Catmull-Rom Splines:</span> To create a smooth, natural looking path for each unit to follow. </>,
+        <><span className="purple">Tweening:</span> To create dynamic animations for each unit as they speed up, slow down, and rotate. </>,
     ];
 
     return (
         <Section title="3D Pathfinding">
             <p style={{textAlign: "left"}}>
-                I created a fast, efficient, and accurate <b className="purple">3D pathfinding</b> solution
+                I created a fast, efficient, and accurate <span className="purple">3D pathfinding</span> solution
                 that works with hundreds of agents simultaneously with little/no performance overhead.
                 Units are able to move seamlessly in a 3D environment without colliding into any obstacles
                 and organize themselves efficiently into formations.

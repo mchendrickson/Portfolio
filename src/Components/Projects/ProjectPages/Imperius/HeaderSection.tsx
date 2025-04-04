@@ -29,12 +29,12 @@ const HeaderSection: React.FC = () => {
             </Row>
 
             <p style={{textAlign: "left"}}>
-                <b className="purple">Imperius</b> is a fully completed and released{" "}
-                <b className="purple">3D space RTS</b> that I was both team lead and lead programmer for over the course
+                <span className="purple">Imperius</span> is a fully completed and released{" "}
+                <span className="purple">3D space RTS</span> that I was both team lead and lead programmer for over the course
                 of several
                 years of development. It is the culmination of my entire skillset, featuring dozens of unique units and
                 buildings
-                as well as <b className="purple">Steam-integrated networked multiplayer</b>.
+                as well as <span className="purple">Steam-integrated networked multiplayer</span>.
             </p>
 
             <Col

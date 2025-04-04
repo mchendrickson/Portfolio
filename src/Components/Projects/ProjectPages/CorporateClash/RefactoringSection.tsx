@@ -14,18 +14,18 @@ const RefactoringSection: React.FC = () => {
 
             <ul>
                 <li className="about-activity">
-                    <VscDebugBreakpointLogUnverified/> <b className="purple">Login-Time Datetime
-                    Validation:</b> Designed and implemented a preventative check that ensures server-client datetime
+                    <VscDebugBreakpointLogUnverified/> <span className="purple">Login-Time Datetime
+                    Validation:</span> Designed and implemented a preventative check that ensures server-client datetime
                     alignment during login, eliminating time-based sync errors that previously caused critical gameplay
                     bugs.
                 </li>
                 <li className="about-activity">
-                    <VscDebugBreakpointLogUnverified/> <b className="purple">Clubs Netcode Refactor:</b> Untangled
+                    <VscDebugBreakpointLogUnverified/> <span className="purple">Clubs Netcode Refactor:</span> Untangled
                     tightly coupled network logic and modularized the backend to dramatically improve the reliability
                     and performance of the Clubs feature under high concurrency.
                 </li>
                 <li className="about-activity">
-                    <VscDebugBreakpointLogUnverified/> <b className="purple">Rainmaker Boss Debugging:</b> Targeted
+                    <VscDebugBreakpointLogUnverified/> <span className="purple">Rainmaker Boss Debugging:</span> Targeted
                     playtesting and debugging of the Rainmaker boss fight, resolving gameplay-breaking edge cases and
                     improving the consistency of mechanics.
                 </li>

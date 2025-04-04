@@ -30,8 +30,8 @@ function Projects() {
                     My Projects and Other <strong className="purple">Works </strong>
                 </h1>
                 <p style={{color: "white"}}>
-                    Several projects I have worked on in my professional career. <b className="purple">Click on a
-                    card</b> to learn more.
+                    Several projects I have worked on in my professional career. <span className="purple">Click on a
+                    card</span> to learn more.
                 </p>
 
                 {/* ---- First Row ---- */}

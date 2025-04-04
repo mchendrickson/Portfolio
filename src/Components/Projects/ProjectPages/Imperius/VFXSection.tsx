@@ -7,7 +7,7 @@ const VFXSection: React.FC = () => {
     return (
         <Section title="VFX">
             <p style={{textAlign: "left"}}>
-                I created the majority of the <b className="purple">VFX</b> for <i>Imperius</i>, including particle effects, post processing, and lighting.
+                I created the majority of the <span className="purple">VFX</span> for <i>Imperius</i>, including particle effects, post processing, and lighting.
             </p>
 
             <Row>

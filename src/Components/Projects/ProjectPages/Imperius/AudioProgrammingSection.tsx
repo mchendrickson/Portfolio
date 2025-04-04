@@ -6,7 +6,7 @@ const AudioProgrammingSection: React.FC = () => {
     return (
         <Section title="Audio Programming">
             <p style={{ textAlign: "left" }}>
-                I integrated <b className="purple">audio triggers</b> into <i>Imperius</i> using the Unity plugin for the industry-standard middleware <b className="purple">FMOD</b>, and contributed to a dynamic <b className="purple">variable mix</b> system that adjusts musical intensity in real time based on gameplay action.
+                I integrated <span className="purple">audio triggers</span> into <i>Imperius</i> using the Unity plugin for the industry-standard middleware <span className="purple">FMOD</span>, and contributed to a dynamic <span className="purple">variable mix</span> system that adjusts musical intensity in real time based on gameplay action.
             </p>
 
             <img

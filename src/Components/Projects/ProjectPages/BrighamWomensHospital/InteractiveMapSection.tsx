@@ -6,12 +6,12 @@ const InteractiveMapSection: React.FC = () => {
     return (
         <Section title="Interactive Map">
             <p style={{textAlign: "left"}}>
-                As part of our team, I played a key role in developing an <b className="purple">interactive map</b> of
+                As part of our team, I played a key role in developing an <span className="purple">interactive map</span> of
                 the hospital,
                 which incorporated real-life locations as positions on the map. The map allowed storage of{" "}
-                <b className="purple">equipment, service requests, patients, and employees</b>. My specific
+                <span className="purple">equipment, service requests, patients, and employees</span>. My specific
                 responsibilities included
-                creating the <b className="purple">pathfinding component</b> and ensuring smooth backend functionality
+                creating the <span className="purple">pathfinding component</span> and ensuring smooth backend functionality
                 for the map.
             </p>
 

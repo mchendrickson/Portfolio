@@ -7,11 +7,11 @@ const SpecialAbilitiesSection: React.FC = () => {
     return (
         <Section title="Special Abilities">
             <p style={{textAlign: "left"}}>
-                I designed and developed <b className="purple">15 distinct special abilities</b> for the units in Imperius,
-                ranging from <b className="purple">force fields</b> to <b className="purple">EMP bursts</b> to devastating <b className="purple">nuclear WMD strikes</b>.
+                I designed and developed <span className="purple">15 distinct special abilities</span> for the units in Imperius,
+                ranging from <span className="purple">force fields</span> to <span className="purple">EMP bursts</span> to devastating <span className="purple">nuclear WMD strikes</span>.
                 These abilities provided players with powerful tools to gain tactical advantages over their opponents.
                 The system was carefully balanced to allow certain abilities to counter others,
-                introducing a dynamic <b className="purple">rock-paper-scissors</b> style of strategic warfare.
+                introducing a dynamic <span className="purple">rock-paper-scissors</span> style of strategic warfare.
             </p>
             <Col
                 md={8}

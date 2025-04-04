@@ -6,15 +6,15 @@ import {Col} from "react-bootstrap";
 
 const EconomySection: React.FC = () => {
     const bullets = [
-        <><b className="purple">Materials:</b> Used for constructing units, buildings, and unlocking upgrades. </>,
-        <><b className="purple">Tech:</b> Progresses through five tiers, each requiring more materials. Higher tiers unlock advanced buildings and high-cost units. </>,
-        <><b className="purple">Power:</b> Caps at 100%; exceeding this limit restricts building/unit production and reduces material generation. </>,
+        <><span className="purple">Materials:</span> Used for constructing units, buildings, and unlocking upgrades. </>,
+        <><span className="purple">Tech:</span> Progresses through five tiers, each requiring more materials. Higher tiers unlock advanced buildings and high-cost units. </>,
+        <><span className="purple">Power:</span> Caps at 100%; exceeding this limit restricts building/unit production and reduces material generation. </>,
     ];
 
     return (
         <Section title="Economy">
             <p style={{ textAlign: "left" }}>
-                <i>Imperius</i> has <b className="purple">three distinct resources</b> that make the backbone of its economy:
+                <i>Imperius</i> has <span className="purple">three distinct resources</span> that make the backbone of its economy:
             </p>
             <BulletList items={bullets} />
             <p style={{ textAlign: "left" }}>

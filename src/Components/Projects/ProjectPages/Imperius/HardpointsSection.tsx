@@ -7,8 +7,8 @@ const HardpointsSection: React.FC = () => {
     return (
         <Section title="Hardpoints">
             <p style={{textAlign: "left"}}>
-                Hardpoints are <b className="purple">destructible subsystems</b>—like weapons or engines—that can be <b
-                className="purple">individually targeted</b> to cripple a ship's functionality, adding another layer of
+                Hardpoints are <span className="purple">destructible subsystems</span>—like weapons or engines—that can be <span
+                className="purple">individually targeted</span> to cripple a ship's functionality, adding another layer of
                 strategy for players to micromanage and exploit.
             </p>
 

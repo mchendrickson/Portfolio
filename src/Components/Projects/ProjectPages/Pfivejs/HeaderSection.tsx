@@ -9,7 +9,7 @@ const HeaderSection: React.FC = () => {
             <TechstackP5/>
 
             <p style={{color: "white"}}>
-                This page is <b className="purple">desktop only</b> due to the limitations of p5.js. Click and drag
+                This page is <span className="purple">desktop only</span> due to the limitations of p5.js. Click and drag
                 on any frame to rotate the camera.
             </p>
         </Section>

@@ -7,7 +7,7 @@ const AbilitiesSection: React.FC = () => {
     return (
         <Section title="Abilities">
             <p style={{textAlign: "left"}}>
-                I designed each of the six <b className="purple">moderator abilities</b>, including balancing penalties
+                I designed each of the six <span className="purple">moderator abilities</span>, including balancing penalties
                 for using them.
             </p>
 

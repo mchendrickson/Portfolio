@@ -10,7 +10,7 @@ const ModelingSection: React.FC = () => {
     return (
         <Section title="3D Modeling">
             <p style={{textAlign: "left"}}>
-                I have also contributed to Imperius via <b className="purple">3D modeling</b> space ships and space
+                I have also contributed to Imperius via <span className="purple">3D modeling</span> space ships and space
                 stations.
             </p>
 

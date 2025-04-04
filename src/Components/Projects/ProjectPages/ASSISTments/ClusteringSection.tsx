@@ -9,10 +9,10 @@ const ClusteringSection: React.FC = () => {
     return (
         <Section title="Clustering MathBERT Embeddings">
             <p style={{textAlign: "left"}}>
-                Combining <b className="purple">MathBERT</b>, a large language model, we set out to embed and cluster
+                Combining <span className="purple">MathBERT</span>, a large language model, we set out to embed and cluster
                 around 450
-                mathematical Common Core skill descriptions using several different <b className="purple">clustering
-                methods</b> in Python.
+                mathematical Common Core skill descriptions using several different <span className="purple">clustering
+                methods</span> in Python.
             </p>
 
             {/* Centered top image using Row + Col */}

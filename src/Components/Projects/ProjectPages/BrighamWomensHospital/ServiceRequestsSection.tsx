@@ -6,12 +6,12 @@ const ServiceRequestsSection: React.FC = () => {
     return (
         <Section title="Service Requests">
             <p style={{textAlign: "left"}}>
-                Within this project, various <b className="purple">service requests</b> were implemented to simulate
+                Within this project, various <span className="purple">service requests</span> were implemented to simulate
                 a{" "}
-                <b className="purple">hospital tracking system</b>. Additionally, I played a vital role in performing
+                <span className="purple">hospital tracking system</span>. Additionally, I played a vital role in performing
                 extensive{" "}
-                <b className="purple">backend work</b> to ensure seamless data storage and manipulation with{" "}
-                <b className="purple">PostgreSQL</b>.
+                <span className="purple">backend work</span> to ensure seamless data storage and manipulation with{" "}
+                <span className="purple">PostgreSQL</span>.
             </p>
 
             <img

@@ -10,13 +10,13 @@ const HeaderSection: React.FC = () => {
             <TechstackSofteng/>
 
             <p style={{textAlign: "left"}}>
-                We partnered with <b className="purple">Brigham & Women&apos;s Hospital</b> to develop a
+                We partnered with <span className="purple">Brigham & Women&apos;s Hospital</span> to develop a
                 comprehensive{" "}
-                <b className="purple">medical equipment tracking and workflow application</b> for demonstration
+                <span className="purple">medical equipment tracking and workflow application</span> for demonstration
                 purposes.
-                As the team leader, I effectively managed a group of <b className="purple">eleven software engineers</b>,
+                As the team leader, I effectively managed a group of <span className="purple">eleven software engineers</span>,
                 utilizing{" "}
-                <b className="purple">Scrum/Agile methodologies</b> to successfully deliver the project.
+                <span className="purple">Scrum/Agile methodologies</span> to successfully deliver the project.
             </p>
 
             <img
