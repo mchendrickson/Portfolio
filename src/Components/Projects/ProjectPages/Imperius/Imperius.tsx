@@ -6,8 +6,6 @@ import PathfindingSection from "./PathfindingSection";
 import MultiplayerSection from "./MultiplayerSection";
 import HardpointsSection from "./HardpointsSection";
 import AISection from "./AISection";
-import VFXSection from "./VFXSection";
-import ModelingSection from "./ModelingSection";
 import HeaderSection from "./HeaderSection";
 import ContributionsSection from "./ContributionsSection";
 import SpecialAbilitiesSection from "./SpecialAbilitiesSection";
@@ -23,17 +21,15 @@ function Imperius() {
                 <HeaderSection/>
                 <ContributionsSection/>
                 <CombatSystemsSection/>
-                <HardpointsSection/>
-                <SpecialAbilitiesSection/>
                 <PathfindingSection/>
-                <EconomySection/>
-                <BaseBuildingSection/>
-                <TerritoryCaptureSection/>
                 <MultiplayerSection/>
                 <AISection/>
                 <AudioProgrammingSection/>
-                <VFXSection/>
-                <ModelingSection/>
+                <HardpointsSection/>
+                <SpecialAbilitiesSection/>
+                <EconomySection/>
+                <BaseBuildingSection/>
+                <TerritoryCaptureSection/>
             </Container>
             <Particle/>
         </Container>
