@@ -17,17 +17,6 @@ const HeaderSection: React.FC = () => {
                 Toontown Online
                 with new content, technical enhancements, and player-focused improvements.
             </p>
-
-            <p style={{textAlign: "left", fontSize: "0.5em", fontStyle: "italic"}}>
-                Disclaimer: I do not claim ownership of any intellectual property rights for the images and videos
-                displayed below.
-                All rights to Toontown: Corporate Clash belong to the Toontown: Corporate Clash team, and all rights to
-                Toontown
-                Online and related assets belong to Disney. My use of this content is for non-commercial,
-                transformative, and
-                informational purposes, constituting fair use under 17 U.S. Code § 107.
-            </p>
-
             <Col
                 md={8}
                 className="vimeo-container"
