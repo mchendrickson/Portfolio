@@ -1,7 +1,7 @@
 import React from 'react';
 import IconStack from '../../IconStack';
 import {DiGit,} from 'react-icons/di';
-import {SiCsharp, SiPytorch, SiUnity,} from 'react-icons/si';
+import {SiCsharp, SiUnity,} from 'react-icons/si';
 
 interface TechstackImperiusProps {
     small?: boolean;
