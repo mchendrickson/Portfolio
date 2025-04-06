@@ -10,7 +10,7 @@ const PathfindingSection: React.FC = () => {
         <><span className="purple">A* Pathfinding:</span> To generate the best possible path through the position nodes. </>,
         <><span className="purple">Catmull-Rom Splines:</span> To create a smooth, natural looking path for each unit to follow. </>,
         <><span className="purple">Tweening:</span> To create dynamic animations for each unit as they speed up, slow down, and rotate. </>,
-        <><span className="purple">Multithreading:</span> To offload A* and movement calculations to separate threads, increasing performance.</>,
+        <><span className="purple">Multithreading:</span> To offload calculations to separate threads, increasing performance.</>,
     ];
 
     return (
