@@ -16,12 +16,9 @@ const CombatSection: React.FC = () => {
         <Section title="Combat Systems">
             <p style={{textAlign: "left"}}>
                 Each ship in <i>Imperius</i> is equipped with shields, health, and anywhere from a single weapon to <span className="purple">dozens of weapon systems</span>.
-                There are over a <span className="purple">dozen weapon types</span>, each with distinct strengths and weaknesses against different units.
-                Weapons can be aimed at individual ship subsystems—known as <span className="purple">hardpoints</span>—to disable or weaken opponents.
-                Every weapon has a <span className="purple">limited firing arc</span>; for example, port-side weapons cannot fire to starboard, making ship orientation a key tactical element.
             </p>
             <p style={{textAlign: "left"}}>
-                Supporting dozens—or even hundreds—of weapons firing simultaneously demanded a high-performance, multi-layered programming solution:
+                Managing simultaneous firing from potentially over a hundred weapons demanded high-performance game architecture:
             </p>
             <BulletList items={bullets} />
             <Col

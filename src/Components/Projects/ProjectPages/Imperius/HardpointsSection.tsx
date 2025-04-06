@@ -6,12 +6,10 @@ import VimeoVideo from "../../../../VimeoVideo";
 const HardpointsSection: React.FC = () => {
     return (
         <Section title="Hardpoints">
-            <p style={{textAlign: "left"}}>
-                Hardpoints are <span className="purple">destructible subsystems</span>—like weapons or engines—that can be <span
-                className="purple">individually targeted</span> to cripple a ship's functionality, adding another layer of
-                strategy for players to micromanage and exploit.
+            <p style={{ textAlign: "left" }}>
+                Hardpoints are <span className="purple">destructible subsystems</span> on ships and buildings that are <span className="purple">individually targetable</span>.
+                Since each weapon's <span className="purple">firing arc</span> depends on its hardpoint position, destroying (for example) all bow-mounted weapons disables the ship's forward-firing capability.
             </p>
-
             <Col
                 md={8}
                 className="vimeo-container"
