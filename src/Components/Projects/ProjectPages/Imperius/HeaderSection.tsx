@@ -35,6 +35,7 @@ const HeaderSection: React.FC = () => {
                 years of development. It is the culmination of my entire skillset, featuring dozens of unique units and
                 buildings
                 as well as <span className="purple">Steam-integrated networked multiplayer</span>.
+                I was solely or primarily responsible for the development of all the systems listed below.
             </p>
 
             <Col

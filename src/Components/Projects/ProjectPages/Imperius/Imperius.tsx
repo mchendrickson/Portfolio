@@ -9,7 +9,6 @@ import AISection from "./AISection";
 import HeaderSection from "./HeaderSection";
 import ContributionsSection from "./ContributionsSection";
 import SpecialAbilitiesSection from "./SpecialAbilitiesSection";
-import EconomySection from "./EconomySection";
 import TerritoryCaptureSection from "./TerritoryCaptureSection";
 import BaseBuildingSection from "./BaseBuildingSection";
 import AudioProgrammingSection from "./AudioProgrammingSection";
