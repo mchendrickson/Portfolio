@@ -27,7 +27,6 @@ function Imperius() {
                 <AudioProgrammingSection/>
                 <HardpointsSection/>
                 <SpecialAbilitiesSection/>
-                <EconomySection/>
                 <BaseBuildingSection/>
                 <TerritoryCaptureSection/>
             </Container>

@@ -2,31 +2,31 @@ import React from "react";
 import Section from "../../Section";
 import BulletList from "../../BulletList";
 import VimeoVideo from "../../../../VimeoVideo";
-import {Col} from "react-bootstrap";
+import { Col } from "react-bootstrap";
 
 const BaseBuildingSection: React.FC = () => {
-    const bullets = [
-        <><span className="purple">Command Centers:</span> Can construct units, generates resources, and allows the construction of other buildings. </>,
-        <><span className="purple">Supply Depots:</span> Generates materials, which are used to create other buildings and ships. </>,
-        <><span className="purple">Solar Panels:</span> Increases the power cap-which in turn allows more structures to be built. </>,
-        <><span className="purple">Dockyards:</span> Can construct small-medium sized ships. </>,
-        <><span className="purple">Shipyards:</span> Can construct medium-large sized ships. </>,
-        <><span className="purple">Turrets:</span> Static defensive structures to defend other buildings and hold territory. </>,
+    const economyBullets = [
+        <><span className="purple">Materials:</span> Used for constructing units, buildings, and unlocking upgrades. </>,
+        <><span className="purple">Tech:</span> Progresses through five tiers, each requiring more materials. Higher tiers unlock advanced buildings and high-cost units. </>,
+        <><span className="purple">Power:</span> Caps at 100%; exceeding this limit restricts building/unit production and reduces material generation. </>,
     ];
+
     return (
         <Section title="Base Building">
             <p style={{ textAlign: "left" }}>
-                Players can <span className="purple">construct and upgrade</span> a <span className="purple">variety of structures</span> in <i>Imperius</i>, each with a different role to play in the gameplay loop.
+                Players can <span className="purple">construct and upgrade</span> a <span className="purple">variety of structures</span> in <i>Imperius</i> which can generate resources, build units, or defend territory.
             </p>
-            <BulletList items={bullets} />
+            <p style={{ textAlign: "left" }}>
+                The game's economy is built around <span className="purple">three distinct resources</span> that the player must balance between base construction, building upgrades, and unit production:
+            </p>
+            <BulletList items={economyBullets} />
             <Col
                 md={8}
                 className="vimeo-container"
-                style={{paddingTop: "10px"}}
+                style={{ paddingTop: "10px" }}
             >
-                <VimeoVideo videoId="1071901283" videoTitle="Imperius Base Building"/>
+                <VimeoVideo videoId="1071901283" videoTitle="Imperius Base Building" />
             </Col>
-
         </Section>
     );
 };
