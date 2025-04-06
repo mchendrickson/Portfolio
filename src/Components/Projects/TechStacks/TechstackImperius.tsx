@@ -12,7 +12,6 @@ function TechstackImperius({small}: TechstackImperiusProps) {
         {icon: SiUnity, label: 'Unity'},
         {icon: SiCsharp, label: 'C#'},
         {icon: DiGit, label: 'Git'},
-        {icon: SiPytorch, label: 'Pytorch'},
     ];
 
     return <IconStack items={items} small={small}/>;
