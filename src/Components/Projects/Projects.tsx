@@ -13,9 +13,8 @@ import BrighamWomensHospitalCardHero from "../../Assets/Projects/BrighamWomensHo
 import PfivejsCardHero from "../../Assets/Projects/Misc/p5js.png";
 
 // ----- Tech Stack Icons -----
-import {SiJavascript, SiP5Dotjs, SiPostgresql, SiPython, SiPytorch, SiTensorflow, SiUnity} from "react-icons/si";
-import {SiCsharp} from "react-icons/si";
-import {DiGit, DiJava, DiPython} from "react-icons/di";
+import {SiJavascript, SiP5Dotjs, SiPostgresql, SiPython, SiPytorch, SiTensorflow, SiUnity, SiCsharp} from "react-icons/si";
+import {DiJava, DiPython} from "react-icons/di";
 
 let ImperiusIcons = () => {
     return (
