@@ -3,11 +3,7 @@ import IconStack from "../IconStack";
 import {DiGit, DiJava, DiJavascript1, DiPython,} from "react-icons/di";
 import {SiCsharp, SiPostgresql, SiPytorch, SiTensorflow, SiWebgl,} from "react-icons/si";
 
-interface TechstackProps {
-    small?: boolean;
-}
-
-function TechStackAll({small}: TechstackProps) {
+function TechStackAll() {
     const items = [
         {icon: DiJava, label: 'Java'},
         {icon: SiCsharp, label: 'C#'},
@@ -20,7 +16,7 @@ function TechStackAll({small}: TechstackProps) {
         {icon: SiWebgl, label: 'WebGL'},
     ];
 
-    return <IconStack items={items} small={small}/>;
+    return <IconStack items={items}/>;
 }
 
 export default TechStackAll;

@@ -3,11 +3,7 @@ import IconStack from '../../IconStack';
 import {DiGit,} from 'react-icons/di';
 import {SiPostgresql, SiPython, SiPytorch, SiTensorflow,} from 'react-icons/si';
 
-interface TechstackAssistmentsProps {
-    small?: boolean;
-}
-
-function TechstackAssistments({small}: TechstackAssistmentsProps) {
+function TechstackAssistments() {
     const items = [
         {icon: SiPython, label: 'Python'},
         {icon: SiPostgresql, label: 'PostgreSQL'},
@@ -16,7 +12,7 @@ function TechstackAssistments({small}: TechstackAssistmentsProps) {
         {icon: DiGit, label: 'Git'},
     ];
 
-    return <IconStack items={items} small={small}/>;
+    return <IconStack items={items}/>;
 }
 
 export default TechstackAssistments;

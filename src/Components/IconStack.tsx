@@ -8,18 +8,19 @@ type TechStackItem = {
 
 type TechStackProps = {
     items: TechStackItem[];
-    small?: boolean;
 };
 
-function IconStack({items, small}: TechStackProps) {
-    const className = small ? 'techstack-icons-small' : 'techstack-icons';
-    const secondClassName = small ? 'icon-label-small' : 'icon-label'
+function IconStack({items}: TechStackProps) {
+    const className = 'techstack-icons';
+    const secondClassName = 'icon-label'
 
     return (
-        <Row style={{justifyContent: "center", paddingBottom: "50px"}}>
+        <Row style={{justifyContent: "center", paddingBottom: "0px"}}>
             {items.map((item, i) => (
-                <Col xs={4} md={1} className={className} key={i}>
-                    <item.icon/>
+                <Col xs="auto" className={className} key={i}>
+                    <div className="icon-box">
+                        <item.icon className="icon-svg"/>
+                    </div>
                     <div className={secondClassName}>{item.label}</div>
                 </Col>
             ))}
