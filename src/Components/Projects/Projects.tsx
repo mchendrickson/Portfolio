@@ -90,7 +90,7 @@ function Projects() {
                             imgPath={ImperiusCardHero}
                             linkTo="Imperius"
                             title="Imperius"
-                            description="Led a team of six developers to create a 3D space real-time strategy game featuring Steam-integrated four player multiplayer."
+                            description="Led a team of six developers to create and release a 3D space real-time strategy game featuring Steam-integrated four player multiplayer."
                             footerElement=<ImperiusIcons/>
                         />
                     </Col>
