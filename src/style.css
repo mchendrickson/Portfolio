@@ -587,6 +587,11 @@ button:focus {
   padding-bottom: 80px !important;
 }
 
+.project-narrow-container {
+  max-width: 1200px;
+  justify-content: center;
+}
+
 .project-card {
   height: 375px !important;
   width: 300px !important;

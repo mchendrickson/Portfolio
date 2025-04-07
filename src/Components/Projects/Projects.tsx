@@ -75,8 +75,8 @@ let PfiveIcons = () => {
 
 function Projects() {
     return (
-        <Container fluid className="project-section">
-            <Container>
+        <Container fluid className="project-section ">
+            <Container fluid className="project-narrow-container">
                 <h1 className="project-heading">
                     My Projects and Other <span className="purple">Works</span>
                 </h1>
@@ -84,13 +84,13 @@ function Projects() {
                     Several projects I have worked on in my professional career. <span className="purple">Click on a
                     card</span> to learn more.
                 </p>
-                <Row xs={1} sm={1} md={2} lg={3} className="g-5 justify-content-center">
+                <Row xs={"auto"} className="g-5 justify-content-center">
                     <Col>
                         <ProjectCard
                             imgPath={ImperiusCardHero}
                             linkTo="Imperius"
                             title="Imperius"
-                            description="Led a team of six developers to create a 3D space real-time strategy game featuring a six mission campaign and four player multiplayer."
+                            description="Led a team of six developers to create a 3D space real-time strategy game featuring Steam-integrated four player multiplayer."
                             footerElement=<ImperiusIcons/>
                         />
                     </Col>
