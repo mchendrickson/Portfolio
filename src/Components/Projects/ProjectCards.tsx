@@ -16,11 +16,11 @@ const ProjectCards: React.FC<ProjectCardsProps> = (props) => {
             <Link to={props.linkTo} style={{textDecoration: 'none', color: 'inherit'}}>
                 <Card.Img variant="top" src={props.imgPath} alt="card-img"/>
                 <Card.Body>
-                        <Card.Title><span className="purple">{props.title}</span></Card.Title>
+                    <Card.Title><span className="purple">{props.title}</span></Card.Title>
                     {props.footerElement}
-                        <Card.Text style={{textAlign: "left"}}>
-                            {props.description}
-                        </Card.Text>
+                    <Card.Text style={{textAlign: "left"}}>
+                        {props.description}
+                    </Card.Text>
                 </Card.Body>
             </Link>
         </Card>

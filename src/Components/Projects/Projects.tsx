@@ -12,14 +12,67 @@ import AssistmentsCardHero from "../../Assets/Projects/Assistments/assistmentslo
 import BrighamWomensHospitalCardHero from "../../Assets/Projects/BrighamWomensHospital/softeng.png";
 import PfivejsCardHero from "../../Assets/Projects/Misc/p5js.png";
 
-// ----- Tech Stack Components -----
-import TechstackImperius from "./TechStacks/TechstackImperius";
-import TechstackCorporateClash from "./TechStacks/TechstackCorporateClash";
-import TechstackBadmin from "./TechStacks/TechstackBadmin";
-import TechstackFBDApp from "./TechStacks/TechstackFBDApp";
-import TechstackAssistments from "./TechStacks/TechstackAssistments";
-import TechstackBrighamWomensHospital from "./TechStacks/TechstackSofteng";
-import TechstackP5 from "./TechStacks/TechstackP5";
+// ----- Tech Stack Icons -----
+import {SiJavascript, SiP5Dotjs, SiPostgresql, SiPython, SiPytorch, SiTensorflow, SiUnity} from "react-icons/si";
+import {SiCsharp} from "react-icons/si";
+import {DiGit, DiJava, DiPython} from "react-icons/di";
+
+let ImperiusIcons = () => {
+    return (
+        <div>
+            <SiUnity/> <SiCsharp/>
+        </div>
+    );
+};
+
+let CorporateClashIcons = () => {
+    return (
+        <div>
+            <DiPython/>
+        </div>
+    );
+};
+
+let BadminIcons = () => {
+    return (
+        <div>
+            <SiUnity/> <SiCsharp/>
+        </div>
+    );
+};
+
+let FBDIcons = () => {
+    return (
+        <div>
+            <SiUnity/> <SiCsharp/>
+        </div>
+    );
+};
+
+let AssistmentsIcons = () => {
+    return (
+        <div>
+            <SiPython/> <SiPostgresql/> <SiPytorch/> <SiTensorflow/>
+        </div>
+    );
+};
+
+let SoftengIcons = () => {
+    return (
+        <div>
+            <DiJava/> <SiPostgresql/>
+        </div>
+    );
+};
+
+let PfiveIcons = () => {
+    return (
+        <div>
+            <SiP5Dotjs/> <SiJavascript/>
+        </div>
+    );
+};
+
 
 function Projects() {
     return (
@@ -39,6 +92,7 @@ function Projects() {
                             linkTo="Imperius"
                             title="Imperius"
                             description="Led a team of six developers to create a 3D space real-time strategy game featuring a six mission campaign and four player multiplayer."
+                            footerElement=<ImperiusIcons/>
                         />
                     </Col>
                     <Col>
@@ -47,6 +101,7 @@ function Projects() {
                             linkTo="CorporateClash"
                             title="Toontown: Corporate Clash"
                             description="Worked as a software developer for the popular MMO title to create new features, improve game security, improve player safety, refactor legacy code, and bugfix."
+                            footerElement=<CorporateClashIcons/>
                         />
                     </Col>
                     <Col>
@@ -55,6 +110,7 @@ function Projects() {
                             linkTo="Badmin"
                             title="Badmin"
                             description="Led a team of four developers to create a top down shooter where you play as a server moderator."
+                            footerElement=<BadminIcons/>
                         />
                     </Col>
                     <Col>
@@ -62,7 +118,8 @@ function Projects() {
                             imgPath={FreeBodyDiagramAppCardHero}
                             linkTo="fbdapp"
                             title="Free Body Diagram App"
-                            description="Mobile app design in the Unity Engine for a free body diagram game to help students conceptualize engineering/physics concepts."
+                            description="Mobile app design for a free body diagram game to help students conceptualize engineering/physics concepts."
+                            footerElement=<FBDIcons/>
                         />
                     </Col>
                     <Col>
@@ -71,6 +128,7 @@ function Projects() {
                             linkTo="assistments"
                             title="Machine Learning with ASSISTments"
                             description="Added features to the award winning ASSISTments learning software using contextual bandits."
+                            footerElement=<AssistmentsIcons/>
                         />
                     </Col>
                     <Col>
@@ -79,6 +137,7 @@ function Projects() {
                             linkTo="BrighamWomensHospital"
                             title="Hospital Tracking System"
                             description="Led a team of eleven programmers to create a medical equipment tracking and workflow application to demo features to the Brigham & Women’s Hospital representatives."
+                            footerElement=<SoftengIcons/>
                         />
                     </Col>
                     <Col>
@@ -87,6 +146,7 @@ function Projects() {
                             linkTo="Pfivejs"
                             title="p5.js Creations"
                             description="Various sketched created with p5.js, many of them graphical representations of math or computer science topics."
+                            footerElement=<PfiveIcons/>
                         />
                     </Col>
                 </Row>
