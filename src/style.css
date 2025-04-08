@@ -259,6 +259,11 @@ button:focus {
   margin-left: 20px;
 }
 
+.icon-text-wrapper{
+  white-space: nowrap;
+  align-items: center;
+}
+
 .navbar-nav .nav-item a {
   font-weight: 400;
   transition: all 0.3s ease-out 0s;

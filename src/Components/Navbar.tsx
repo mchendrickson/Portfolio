@@ -36,9 +36,9 @@ function NavBar() {
             expand="md"
             className={navColour ? "sticky" : "navbar"}
         >
-            <Container>
+            <Container fluid>
                 <Navbar.Brand href="/" className="d-flex">
-                    <img src={logo} className="img-fluid logo" alt="brand"/>
+                    <img src={logo} className="logo" alt="brand"/>
                 </Navbar.Brand>
                 <Navbar.Toggle
                     aria-controls="responsive-navbar-nav"
@@ -54,7 +54,9 @@ function NavBar() {
                     <Nav className="ms-auto" defaultActiveKey="#home">
                         <Nav.Item>
                             <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                                <AiOutlineHome style={{marginBottom: "2px"}}/> Home
+                                <span className="icon-text-wrapper">
+                                    <AiOutlineHome style={{marginBottom: "3px"}}/>{" "}Home
+                                </span>
                             </Nav.Link>
                         </Nav.Item>
 
@@ -64,7 +66,9 @@ function NavBar() {
                                 to="/about"
                                 onClick={() => updateExpanded(false)}
                             >
-                                <AiOutlineUser style={{marginBottom: "2px"}}/> About
+                                <span className="icon-text-wrapper">
+                                    <AiOutlineUser style={{marginBottom: "3px"}}/> About
+                                </span>
                             </Nav.Link>
                         </Nav.Item>
 
@@ -74,10 +78,12 @@ function NavBar() {
                                 to="/project"
                                 onClick={() => updateExpanded(false)}
                             >
-                                <AiOutlineFundProjectionScreen
-                                    style={{marginBottom: "2px"}}
-                                />{" "}
-                                Projects
+                                <span className="icon-text-wrapper">
+                                    <AiOutlineFundProjectionScreen
+                                        style={{marginBottom: "2px"}}
+                                    />{" "}
+                                    Projects
+                                </span>
                             </Nav.Link>
                         </Nav.Item>
 
@@ -87,7 +93,9 @@ function NavBar() {
                                 to="/resume"
                                 onClick={() => updateExpanded(false)}
                             >
-                                <CgFileDocument style={{marginBottom: "2px"}}/> Resume
+                                <span className="icon-text-wrapper">
+                                    <CgFileDocument style={{marginBottom: "2px"}}/> Resume
+                                </span>
                             </Nav.Link>
                         </Nav.Item>
 
@@ -97,7 +105,9 @@ function NavBar() {
                                 target="_blank"
                                 rel="noreferrer"
                             >
-                                <AiOutlineMail style={{marginBottom: "2px"}}/> Email
+                                <span className="icon-text-wrapper">
+                                    <AiOutlineMail style={{ marginBottom: "2px"}}/> Email
+                                </span>
                             </Nav.Link>
                         </Nav.Item>
 
@@ -107,7 +117,9 @@ function NavBar() {
                                 target="_blank"
                                 rel="noreferrer"
                             >
-                                <AiOutlineLinkedin style={{marginBottom: "2px"}}/> LinkedIn
+                                <span className="icon-text-wrapper">
+                                    <AiOutlineLinkedin style={{marginBottom: "2px"}}/> LinkedIn
+                                </span>
                             </Nav.Link>
                         </Nav.Item>
 
@@ -117,8 +129,10 @@ function NavBar() {
                                 target="_blank"
                                 className="fork-btn-inner"
                             >
-                                <CgGitFork style={{fontSize: "1.2em"}}/>{" "}
-                                <AiOutlineGithub style={{fontSize: "1.1em"}}/>
+                                <span className="icon-text-wrapper">
+                                    <CgGitFork style={{fontSize: "1.2em"}}/>{" "}
+                                    <AiOutlineGithub style={{fontSize: "1.1em"}}/>
+                                </span>
                             </Button>
                         </Nav.Item>
                     </Nav>
