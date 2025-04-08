@@ -33,7 +33,7 @@ function NavBar() {
         <Navbar
             expanded={expand}
             fixed="top"
-            expand="md"
+            expand="lg"
             className={navColour ? "sticky" : "navbar"}
         >
             <Container fluid>
