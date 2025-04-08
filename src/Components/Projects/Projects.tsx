@@ -115,7 +115,7 @@ function Projects() {
                     <Col>
                         <ProjectCard
                             imgPath={FreeBodyDiagramAppCardHero}
-                            linkTo="fbdapp"
+                            linkTo="FBDapp"
                             title="Free Body Diagram App"
                             description="Mobile app design for a free body diagram game to help students conceptualize engineering/physics concepts."
                             footerElement=<FBDIcons/>
@@ -124,7 +124,7 @@ function Projects() {
                     <Col>
                         <ProjectCard
                             imgPath={AssistmentsCardHero}
-                            linkTo="assistments"
+                            linkTo="ASSISTments"
                             title="Machine Learning with ASSISTments"
                             description="Added features to the award winning ASSISTments learning software using contextual bandits."
                             footerElement=<AssistmentsIcons/>

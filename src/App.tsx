@@ -47,13 +47,6 @@ function App() {
                         <Route path="/about" element={<About/>}/>
                         <Route path="/resume" element={<Resume/>}/>
                         <Route path="*" element={<Navigate to="/"/>}/>
-                        <Route path="/project/Imperius" element={<Imperius/>}/>
-                        <Route path="/project/ASSISTments" element={<ASSISTments/>}/>
-                        <Route path="/project/BrighamWomensHospital" element={<BrighamWomensHospital/>}/>
-                        <Route path="/project/pfivejs" element={<Pfivejs/>}/>
-                        <Route path="/project/Badmin" element={<Badmin/>}/>
-                        <Route path="/project/FBDApp" element={<FreeBodyDiagramApp/>}/>
-                        <Route path="/project/CorporateClash" element={<CorporateClash/>}/>
                         <Route path="/Imperius" element={<Imperius/>}/>
                         <Route path="/ASSISTments" element={<ASSISTments/>}/>
                         <Route path="/BrighamWomensHospital" element={<BrighamWomensHospital/>}/>

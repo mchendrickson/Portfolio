@@ -1,9 +1,9 @@
 import React, {ReactElement, ReactNode} from 'react';
-import {Link, To} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import Card from 'react-bootstrap/Card';
 
 interface ProjectCardsProps {
-    linkTo: To;
+    linkTo: string;
     imgPath: string | undefined;
     title: string | number | boolean | ReactElement | React.ReactPortal | Iterable<ReactNode> | null | undefined;
     description: string | number | boolean | ReactElement | React.ReactPortal | Iterable<ReactNode> | null | undefined;
@@ -13,7 +13,7 @@ interface ProjectCardsProps {
 const ProjectCards: React.FC<ProjectCardsProps> = (props) => {
     return (
         <Card className="project-card">
-            <Link to={props.linkTo} style={{textDecoration: 'none', color: 'inherit'}}>
+            <Link to={{pathname:`/${props.linkTo}`}} style={{textDecoration: 'none', color: 'inherit'}}>
                 <Card.Img variant="top" src={props.imgPath} alt="card-img"/>
                 <Card.Body>
                     <Card.Title><span className="purple">{props.title}</span></Card.Title>
