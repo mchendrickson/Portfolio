@@ -10,7 +10,7 @@ function Footer() {
         <Container fluid className="footer">
             <Row>
                 <Col md="4" className="footer-copywright">
-                    <h3>Copyright © {year}</h3>
+                    <h3>Copyright © {year} Matthew Hendrickson</h3>
                 </Col>
                 <Col md="4" className="footer-copywright">
                     <h3 style={{ fontSize: "0.75em", fontStyle: "italic"}}>You may fork, modify, and rehost this site’s code at your leisure. However, you may not use any text, images, or videos describing my professional work experience.</h3>
