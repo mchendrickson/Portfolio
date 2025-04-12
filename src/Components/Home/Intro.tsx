@@ -31,7 +31,7 @@ const Intro: React.FC = () => {
                             </h1>
                         </AnimatedWrapper>
                         <h1 className="heading-name">
-                            I'M <span className="main-name">MATTHEW HENDRICKSON</span>
+                            I'M <span className="purple">MATTHEW HENDRICKSON</span>
                         </h1>
                         <Type/>
                     </Col>
