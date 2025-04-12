@@ -78,7 +78,7 @@ function Projects() {
         <Container fluid className="project-section ">
             <Container fluid className="project-narrow-container">
                 <h1 className="project-heading">
-                    My Projects and Other <span className="purple">Works</span>
+                    <span className="purple">Click</span> on a <span className="purple">Project</span>
                 </h1>
                 <p style={{color: "white"}}>
                     Several projects I have worked on in my professional career. <span className="purple">Click on a
