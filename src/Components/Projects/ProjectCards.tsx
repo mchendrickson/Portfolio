@@ -18,7 +18,7 @@ const ProjectCards: React.FC<ProjectCardsProps> = (props) => {
                 <Card.Body>
                     <Card.Title style={{ height: '1rem' }}>{props.title}</Card.Title>
                     {props.footerElement}
-                    <Card.Text style={{textAlign: "left", height: '8.1rem' }}>
+                    <Card.Text style={{textAlign: "left", height: '8rem' }}>
                         {props.description}
                     </Card.Text>
                 </Card.Body>
