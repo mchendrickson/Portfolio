@@ -16,6 +16,8 @@ import PfivejsCardHero from "../../Assets/Projects/Misc/p5js.png";
 import {SiJavascript, SiP5Dotjs, SiPostgresql, SiPython, SiPytorch, SiTensorflow, SiUnity, SiCsharp} from "react-icons/si";
 import {DiJava, DiPython} from "react-icons/di";
 
+import { LuMousePointerClick } from "react-icons/lu";
+
 let ImperiusIcons = () => {
     return (
         <div>
@@ -82,7 +84,7 @@ function Projects() {
                 </h1>
                 <p style={{color: "white"}}>
                     Several projects I have worked on in my professional career. <span className="purple">Click on a
-                    card</span> to learn more.
+                    card</span> <LuMousePointerClick size={25} className={"purple"} /> to learn more.
                 </p>
                 <Row xs={"auto"} className="g-5 justify-content-center">
                     <Col>

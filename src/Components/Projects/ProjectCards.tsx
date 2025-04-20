@@ -1,7 +1,7 @@
 import React, {ReactElement, ReactNode} from 'react';
 import {Link} from 'react-router-dom';
 import Card from 'react-bootstrap/Card';
-
+import { LuMousePointerClick } from "react-icons/lu";
 interface ProjectCardsProps {
     linkTo: string;
     imgPath: string | undefined;
@@ -16,10 +16,13 @@ const ProjectCards: React.FC<ProjectCardsProps> = (props) => {
             <Link to={{pathname:`/${props.linkTo}`}} style={{textDecoration: 'none', color: 'inherit'}}>
                 <Card.Img variant="top" src={props.imgPath} alt="card-img"/>
                 <Card.Body>
-                    <Card.Title><span className="purple">{props.title}</span></Card.Title>
+                    <Card.Title>{props.title}</Card.Title>
                     {props.footerElement}
                     <Card.Text style={{textAlign: "left"}}>
                         {props.description}
+                    </Card.Text>
+                    <Card.Text>
+                        <span className="purple"><u>Read More:</u></span> <LuMousePointerClick size={25} className={"purple"}/>
                     </Card.Text>
                 </Card.Body>
             </Link>

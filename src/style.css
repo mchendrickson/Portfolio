@@ -42,7 +42,7 @@ html {
 
   --typewriter-wrapper-color: #7f6adf;
   --typewriter-cursor-color: #ac00f8;
-  --main-name-color: #8400ff;
+  --main-name-color: #00c4ff;
   --icon-color: #0c2886;
 
   --resume-item-border: #495ca8;
@@ -427,7 +427,7 @@ button:focus {
 
 .main-name {
   color: var(--main-name-color);
-  text-shadow: 0 0 15px var(--main-name-color);
+  text-shadow: 0 0 7.5px var(--main-name-color);
 }
 
 .Typewriter__wrapper {
@@ -598,7 +598,7 @@ button:focus {
 }
 
 .project-card {
-  height: 375px !important;
+  height: 425px !important;
   width: 300px !important;
   background-color: transparent !important;
   color: var(--white) !important;
@@ -775,6 +775,8 @@ button:focus {
   padding-top: 50px;
   padding-bottom: 50px;
   justify-content: center;
+  width: 100%;
+  height: auto;
 }
 
 .resume-left {
