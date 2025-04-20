@@ -598,8 +598,6 @@ button:focus {
 }
 
 .project-card {
-  height: 425px !important;
-  width: 300px !important;
   background-color: transparent !important;
   color: var(--white) !important;
   transition: all 0.5s ease 0s !important;
@@ -614,7 +612,8 @@ button:focus {
 
 
 .card-img-top {
-  opacity: 1.0 !important;
+  opacity: 0.95 !important;
+  aspect-ratio: 16 / 9
 }
 
 .btn-primary {

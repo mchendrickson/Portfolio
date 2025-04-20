@@ -12,19 +12,19 @@ interface ProjectCardsProps {
 
 const ProjectCards: React.FC<ProjectCardsProps> = (props) => {
     return (
-        <Card className="project-card">
+        <Card style={{ width: '18rem' }} className="project-card">
             <Link to={{pathname:`/${props.linkTo}`}} style={{textDecoration: 'none', color: 'inherit'}}>
                 <Card.Img variant="top" src={props.imgPath} alt="card-img"/>
                 <Card.Body>
-                    <Card.Title>{props.title}</Card.Title>
+                    <Card.Title style={{ height: '1rem' }}>{props.title}</Card.Title>
                     {props.footerElement}
-                    <Card.Text style={{textAlign: "left"}}>
+                    <Card.Text style={{textAlign: "left", height: '8.1rem' }}>
                         {props.description}
                     </Card.Text>
-                    <Card.Text>
-                        <span className="purple"><u>Read More:</u></span> <LuMousePointerClick size={25} className={"purple"}/>
-                    </Card.Text>
                 </Card.Body>
+            <Card.Footer>
+                    <span className="purple"><u>Read More:</u></span> <LuMousePointerClick size={25} className={"purple"}/>
+            </Card.Footer>
             </Link>
         </Card>
     );

@@ -127,7 +127,7 @@ function Projects() {
                         <ProjectCard
                             imgPath={AssistmentsCardHero}
                             linkTo="ASSISTments"
-                            title="Machine Learning with ASSISTments"
+                            title="ASSISTments"
                             description="Added features to the award winning ASSISTments learning software using contextual bandits."
                             footerElement=<AssistmentsIcons/>
                         />
