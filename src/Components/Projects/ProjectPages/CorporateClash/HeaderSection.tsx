@@ -7,10 +7,6 @@ import VimeoVideo from "../../../../VimeoVideo";
 /**
  * Header section for the Corporate Clash project page.
  * 
- * This component displays the project overview, technology stack, and
- * game description for the Toontown: Corporate Clash MMO revival
- * project with demonstration video.
- * 
  * @returns {JSX.Element} Header section with project overview and tech stack
  */
 const HeaderSection: React.FC = () => {

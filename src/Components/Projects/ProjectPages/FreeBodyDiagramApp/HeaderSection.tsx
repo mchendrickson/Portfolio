@@ -2,6 +2,11 @@ import React from "react";
 import Section from "../../Section";
 import TechstackFBDApp from "../../TechStacks/TechstackFBDApp";
 
+/**
+ * Header section for the Free Body Diagram App project page.
+ * 
+ * @returns {JSX.Element} Header section with project overview and tech stack
+ */
 const HeaderSection: React.FC = () => {
     return (
         <Section title="Free Body Diagram App" size={"large"}>

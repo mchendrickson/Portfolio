@@ -3,6 +3,11 @@ import {Col, Row} from "react-bootstrap";
 import Section from "../../Section";
 import BulletList from "../../BulletList";
 
+/**
+ * Personal contributions section for the Free Body Diagram App project page.
+ * 
+ * @returns {JSX.Element} Section listing personal contributions to the project
+ */
 const ContributionsSection: React.FC = () => {
     const bullets = [
         <>
@@ -15,8 +20,6 @@ const ContributionsSection: React.FC = () => {
             <span className="purple">Workflow Improvements:</span> Simplified internal tracking docs to reduce redundancy and streamline team processes.
         </>,
     ];
-
-
 
     return (
         <Section title="My Contributions">
