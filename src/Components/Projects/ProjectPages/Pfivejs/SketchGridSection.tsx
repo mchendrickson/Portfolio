@@ -8,6 +8,11 @@ const sketches = [
     "https://editor.p5js.org/mchendrickson/full/74XLtdnMY",
 ];
 
+/**
+ * SketchGridSection component for the p5.js project page.
+ * 
+ * @returns {JSX.Element} A section component with embedded p5.js sketches in a grid layout
+ */
 const SketchGridSection: React.FC = () => {
     return (
         <Section title={""}>
