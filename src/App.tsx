@@ -22,12 +22,28 @@ import FreeBodyDiagramApp from "./Components/Projects/ProjectPages/FreeBodyDiagr
 import CorporateClash from "./Components/Projects/ProjectPages/CorporateClash/CorporateClash";
 import {PreloaderProvider} from "./PreloaderContext";
 
+/**
+ * Main application component that handles routing, preloader state, and overall app structure.
+ * 
+ * This component manages the loading state with a preloader that displays for 1.2 seconds,
+ * provides routing for all pages including individual project pages, and wraps the app
+ * in necessary providers for analytics and preloader context.
+ * 
+ * @returns {JSX.Element} The main application structure with routing and providers
+ */
 function App() {
-    const [load, upadateLoad] = useState(true);
+    const [load, updateLoad] = useState(true);
 
+    /**
+     * Manages the preloader display duration.
+     * 
+     * Sets a timer to hide the preloader after 1.2 seconds (1200ms) to provide
+     * a smooth loading experience for users. The preloader state is used to control
+     * CSS classes and prevent scrolling during the loading phase.
+     */
     useEffect(() => {
         const timer = setTimeout(() => {
-            upadateLoad(false);
+            updateLoad(false);
         }, 1200);
 
         return () => clearTimeout(timer);
