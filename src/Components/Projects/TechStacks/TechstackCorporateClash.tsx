@@ -4,7 +4,7 @@ import {DiGit,} from 'react-icons/di';
 import {SiPython,} from 'react-icons/si';
 
 /**
- * Techn stack display for Corporate Clash project.
+ * Tech stack display for Corporate Clash project.
  * 
  * @returns {JSX.Element} An IconStack component displaying Corporate Clash project technologies
  */

@@ -4,7 +4,7 @@ import {DiGit,} from 'react-icons/di';
 import {SiPostgresql, SiPython, SiPytorch, SiTensorflow,} from 'react-icons/si';
 
 /**
- * Techn stack display for ASSISTments project.
+ * Tech stack display for ASSISTments project.
  * 
  * @returns {JSX.Element} An IconStack component displaying ASSISTments project technologies
  */
