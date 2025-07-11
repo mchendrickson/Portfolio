@@ -3,6 +3,11 @@ import IconStack from '../../IconStack';
 import {DiGit,} from 'react-icons/di';
 import {SiCsharp, SiUnity,} from 'react-icons/si';
 
+/**
+ * Tech stack display for Badmin project.
+ * 
+ * @returns {JSX.Element} An IconStack component displaying Badmin project technologies
+ */
 function TechstackBadmin() {
     const items = [
         {icon: SiUnity, label: 'Unity'},
