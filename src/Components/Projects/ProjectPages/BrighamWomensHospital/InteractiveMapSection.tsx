@@ -2,6 +2,11 @@ import React from "react";
 import Section from "../../Section";
 import SoftengMap from "../../../../Assets/Projects/BrighamWomensHospital/softeng1.png";
 
+/**
+ * Interactive map section for the Brigham Women's Hospital project page.
+ * 
+ * @returns {JSX.Element} Section explaining interactive map development and features
+ */
 const InteractiveMapSection: React.FC = () => {
     return (
         <Section title="Interactive Map">

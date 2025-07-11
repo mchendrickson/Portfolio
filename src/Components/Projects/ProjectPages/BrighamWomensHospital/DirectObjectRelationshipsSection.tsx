@@ -2,6 +2,11 @@ import React from "react";
 import Section from "../../Section";
 import SoftengDashboard from "../../../../Assets/Projects/BrighamWomensHospital/softeng2.png";
 
+/**
+ * Directional object relationships section for the Brigham Women's Hospital project page.
+ * 
+ * @returns {JSX.Element} Section explaining directional object relationships design pattern
+ */
 const DirectionalRelationshipsSection: React.FC = () => {
     return (
         <Section title="Directional Object Relationships">

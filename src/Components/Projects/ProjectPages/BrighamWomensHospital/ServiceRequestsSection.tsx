@@ -2,6 +2,11 @@ import React from "react";
 import Section from "../../Section";
 import SoftengImg3 from "../../../../Assets/Projects/BrighamWomensHospital/softeng3.jpg";
 
+/**
+ * Service requests section for the Brigham Women's Hospital project page.
+ * 
+ * @returns {JSX.Element} Section explaining service request system and backend development
+ */
 const ServiceRequestsSection: React.FC = () => {
     return (
         <Section title="Service Requests">

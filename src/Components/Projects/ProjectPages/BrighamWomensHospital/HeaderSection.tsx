@@ -3,6 +3,11 @@ import Section from "../../Section";
 import TechstackSofteng from "../../TechStacks/TechstackSofteng";
 import SoftengTitle from "../../../../Assets/Projects/BrighamWomensHospital/softeng7.jpg";
 
+/**
+ * Header section for the Brigham Women's Hospital project page.
+ * 
+ * @returns {JSX.Element} Header section with project overview and tech stack
+ */
 const HeaderSection: React.FC = () => {
     return (
         <Section title={"Hospital Tracking System"} size={"large"}>
