@@ -32,10 +32,10 @@ const PreloaderContext = createContext<PreloaderContextProps>({preloaderDone: fa
 export const usePreloader = () => useContext(PreloaderContext);
 
 /**
- * Provider component that wraps the application to provide preloader context.
+ * Wraps the application to provide preloader context.
  * 
- * This component creates the context provider and passes the preloader
- * completion status to all child components. It's used in the main App
+ * Creates the context provider and passes the preloader
+ * completion status to all child components. Used in the main App
  * component to manage the global preloader state.
  * 
  * @param {Object} props - Component props
