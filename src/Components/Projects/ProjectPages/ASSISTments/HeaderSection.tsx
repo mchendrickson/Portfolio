@@ -3,6 +3,11 @@ import Section from "../../Section";
 import TechstackAssistments from "../../TechStacks/TechstackAssistments";
 import AssistmentsTitle from "../../../../Assets/Projects/Assistments/assistmentstitle.jpg";
 
+/**
+ * Header section for the ASSISTments project page.
+ * 
+ * @returns {JSX.Element} Header section with project overview and tech stack
+ */
 const HeaderSection: React.FC = () => {
     return (
         <Section title="ASSISTments: Reinforcement Learning" size={"large"}>

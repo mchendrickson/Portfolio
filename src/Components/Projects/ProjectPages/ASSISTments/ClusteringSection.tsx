@@ -5,6 +5,11 @@ import Assistmentsaglomerative from "../../../../Assets/Projects/Assistments/ass
 import Assistmentslinkage from "../../../../Assets/Projects/Assistments/assistmentslinkage.png";
 import Assistmentscore from "../../../../Assets/Projects/Assistments/assistmentscore.png";
 
+/**
+ * Clustering research section for the ASSISTments project.
+ * 
+ * @returns {JSX.Element} Section explaining clustering research and implementation
+ */
 const ClusteringSection: React.FC = () => {
     return (
         <Section title="Clustering MathBERT Embeddings">

@@ -2,6 +2,11 @@ import React from "react";
 import Section from "../../Section";
 import BulletList from "../../BulletList";
 
+/**
+ * Personal contributions section for the ASSISTments project.
+ * 
+ * @returns {JSX.Element} Section listing personal contributions to the project
+ */
 const ContributionsSection: React.FC = () => {
     const bullets = [
         <>Designed and implemented features to detect <span className="purple">student behavior patterns</span> using data concatenation and trigram similarity.</>,

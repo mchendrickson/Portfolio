@@ -2,6 +2,12 @@ import React from "react";
 import Section from "../../Section";
 import Assistmentsbandits from "../../../../Assets/Projects/Assistments/assistmentsbandits.png";
 
+
+/**
+ * Contextual bandits research section for the ASSISTments project.
+ * 
+ * @returns {JSX.Element} Section explaining contextual bandits research and implementation
+ */
 const BanditsSection: React.FC = () => {
     return (
         <Section title="Contextual Bandits on ASSISTments Data">
