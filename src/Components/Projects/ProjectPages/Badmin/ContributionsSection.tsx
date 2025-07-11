@@ -4,6 +4,11 @@ import Section from "../../Section";
 import BulletList from "../../BulletList";
 import VimeoVideo from "../../../../VimeoVideo";
 
+/**
+ * Personal contributions section for the Badmin project page.
+ * 
+ * @returns {JSX.Element} Section listing personal contributions to the project
+ */
 const ContributionsSection: React.FC = () => {
     const bullets = [
         <><span className="purple">Project Manager:</span> Led a team of four game developers in all stages of the game

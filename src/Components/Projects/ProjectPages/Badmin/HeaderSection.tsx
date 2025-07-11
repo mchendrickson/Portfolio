@@ -2,6 +2,11 @@ import React from "react";
 import Section from "../../Section";
 import TechstackBadmin from "../../TechStacks/TechstackBadmin";
 
+/**
+ * Header section for the Badmin project page.
+ * 
+ * @returns {JSX.Element} Header section with project overview and tech stack
+ */
 const HeaderSection: React.FC = () => {
     return (
         <Section title="Badmin" size={"large"}>

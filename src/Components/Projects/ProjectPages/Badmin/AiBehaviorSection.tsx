@@ -3,6 +3,11 @@ import {Col} from "react-bootstrap";
 import Section from "../../Section";
 import VimeoVideo from "../../../../VimeoVideo";
 
+/**
+ * AI behaviors section for the Badmin project page.
+ * 
+ * @returns {JSX.Element} Section explaining AI behaviors and pathfinding
+ */
 const AiBehaviorSection: React.FC = () => {
     return (
         <Section title="AI Behaviors">

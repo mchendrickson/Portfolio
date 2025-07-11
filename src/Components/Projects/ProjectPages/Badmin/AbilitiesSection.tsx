@@ -3,6 +3,11 @@ import {Col} from "react-bootstrap";
 import Section from "../../Section";
 import VimeoVideo from "../../../../VimeoVideo";
 
+/**
+ * Abilities section for the Badmin project page.
+ * 
+ * @returns {JSX.Element} Section explaining moderator abilities and gameplay
+ */
 const AbilitiesSection: React.FC = () => {
     return (
         <Section title="Abilities">
