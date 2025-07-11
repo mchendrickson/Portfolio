@@ -1,15 +1,27 @@
 import React, {useEffect, useState} from 'react';
 import {useInView} from "react-intersection-observer";
 
+/**
+ * Props interface for the VimeoVideo component.
+ * 
+ * @param {string} videoId - The Vimeo video ID to embed
+ * @param {string} videoTitle - The title of the video for accessibility
+ */
 interface VimeoVideoProps {
     videoId: string;
     videoTitle: string;
 }
 
 /**
- * Attempts to replace everything after "-d_" with "-d_{desiredWidth}".
- * If the HEAD request for the upgraded URL is successful, returns it;
- * otherwise falls back to the original URL.
+ * Attempts to upgrade the resolution of a Vimeo thumbnail URL.
+ * 
+ * This function tries to replace the resolution parameter in a Vimeo thumbnail URL
+ * with a higher resolution version. It makes a HEAD request to verify the higher
+ * resolution version exists before returning it, otherwise falls back to the original URL.
+ * 
+ * @param {string} originalUrl - The original Vimeo thumbnail URL
+ * @param {number} desiredWidth - The desired width for the upgraded thumbnail
+ * @returns {Promise<string>} The upgraded URL if available, otherwise the original URL
  */
 async function tryUpgradeResolution(
     originalUrl: string,
@@ -38,9 +50,28 @@ async function tryUpgradeResolution(
     return originalUrl;
 }
 
+/**
+ * React component that renders a Vimeo video with lazy loading and high-resolution thumbnails.
+ * 
+ * This component fetches video metadata from Vimeo's API to get high-resolution thumbnails,
+ * implements lazy loading using react-intersection-observer to only load videos when they're
+ * near the viewport, and provides a background thumbnail while the video loads.
+ * 
+ * @param {VimeoVideoProps} props - Component props containing video ID and title
+ * @returns {JSX.Element} A div containing the video iframe with background thumbnail
+ */
 const VimeoVideo: React.FC<VimeoVideoProps> = ({videoId, videoTitle}) => {
     const [thumbnailUrl, setThumbnailUrl] = useState('');
 
+    /**
+     * Fetches video metadata and high-resolution thumbnail from Vimeo API.
+     * 
+     * This effect runs when the videoId changes and:
+     * 1. Fetches video metadata from Vimeo's V2 JSON API
+     * 2. Attempts to upgrade the thumbnail resolution based on the video's native width
+     * 3. Sets the thumbnail URL for the background image
+     * 4. Handles errors gracefully with console logging
+     */
     useEffect(() => {
         async function fetchThumbnail() {
             try {
