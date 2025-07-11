@@ -3,12 +3,10 @@ import { ReportHandler } from 'web-vitals';
 /**
  * Configures and initializes Core Web Vitals performance monitoring.
  * 
- * This function dynamically imports the web-vitals library and sets up
- * monitoring for all Core Web Vitals metrics. It uses dynamic imports
- * to avoid bundling the web-vitals library in production builds,
- * improving initial bundle size.
+ * Dynamically imports the web-vitals library and sets up
+ * monitoring for all Core Web Vitals metrics.
  * 
- * The function monitors:
+ * Monitors:
  * - CLS (Cumulative Layout Shift): Measures visual stability
  * - FID (First Input Delay): Measures interactivity
  * - FCP (First Contentful Paint): Measures perceived loading speed

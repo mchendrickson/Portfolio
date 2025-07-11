@@ -1,6 +1,16 @@
 import React from "react";
 import Particles from "react-tsparticles";
 
+/**
+ * Component that renders an animated particle background effect.
+ * 
+ * Creates a dynamic particle system using react-tsparticles
+ * that serves as a visual background element. Particles are configured
+ * to create a subtle, non-intrusive animation that enhances the visual
+ * appeal of the portfolio without interfering with content readability.
+ * 
+ * @returns {JSX.Element} Animated particle background system
+ */
 function Particle() {
     return (
         <Particles

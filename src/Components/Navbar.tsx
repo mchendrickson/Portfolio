@@ -15,10 +15,35 @@ import {
     AiOutlineMail
 } from "react-icons/ai";
 
+/**
+ * Main navigation bar component with responsive design and scroll-based styling.
+ * 
+ * This component provides navigation links to all major sections of the portfolio,
+ * including Home, About, Projects, Resume, and external links to email, LinkedIn,
+ * and GitHub. The navbar changes appearance on scroll and includes a mobile-friendly
+ * collapsible menu with hamburger icon.
+ * 
+ * Features:
+ * - Responsive design with mobile hamburger menu
+ * - Scroll-based navbar color change
+ * - External links to social media and contact
+ * - Brand logo linking to home page
+ * - Icon-enhanced navigation items
+ * 
+ * @returns {JSX.Element} Responsive navigation bar with all portfolio links
+ */
 function NavBar() {
     const [expand, updateExpanded] = useState(false);
     const [navColour, updateNavbar] = useState(false);
 
+    /**
+     * Handles navbar color change based on scroll position.
+     * 
+     * This function updates the navbar styling when the user scrolls
+     * more than 20 pixels from the top of the page. It changes the
+     * navbar from transparent to a solid background color for better
+     * visibility and user experience.
+     */
     function scrollHandler() {
         if (window.scrollY >= 20) {
             updateNavbar(true);

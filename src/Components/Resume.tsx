@@ -15,9 +15,25 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
 const resumeLink =
     "https://raw.githubusercontent.com/mchrpt/portfolio/master/src/Assets/Matthew Hendrickson Resume Web.pdf";
 
+/**
+ * Resume page component that displays a PDF resume with download functionality.
+ * 
+ * Renders a PDF resume using react-pdf library with responsive
+ * scaling based on screen width. Includes download buttons at the top and
+ * bottom of the page, and displays the PDF inline.
+ * 
+ * @returns {JSX.Element} Resume page with PDF viewer and download options
+ */
 function Resume() {
     const [width, setWidth] = useState(1200);
 
+    /**
+     * Sets the initial window width for responsive PDF scaling.
+     * 
+     * This effect runs once on component mount to capture the current
+     * window width, which is used to determine the appropriate PDF scale
+     * factor for optimal viewing on different screen sizes.
+     */
     useEffect(() => {
         setWidth(window.innerWidth);
     }, []);

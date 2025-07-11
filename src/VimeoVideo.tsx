@@ -15,7 +15,7 @@ interface VimeoVideoProps {
 /**
  * Attempts to upgrade the resolution of a Vimeo thumbnail URL.
  * 
- * This function tries to replace the resolution parameter in a Vimeo thumbnail URL
+ * Tries to replace the resolution parameter in a Vimeo thumbnail URL
  * with a higher resolution version. It makes a HEAD request to verify the higher
  * resolution version exists before returning it, otherwise falls back to the original URL.
  * 
@@ -51,9 +51,9 @@ async function tryUpgradeResolution(
 }
 
 /**
- * React component that renders a Vimeo video with lazy loading and high-resolution thumbnails.
+ * Renders a Vimeo video with lazy loading and high-resolution thumbnails.
  * 
- * This component fetches video metadata from Vimeo's API to get high-resolution thumbnails,
+ * Fetches video metadata from Vimeo's API to get high-resolution thumbnails,
  * implements lazy loading using react-intersection-observer to only load videos when they're
  * near the viewport, and provides a background thumbnail while the video loads.
  * 
@@ -66,7 +66,7 @@ const VimeoVideo: React.FC<VimeoVideoProps> = ({videoId, videoTitle}) => {
     /**
      * Fetches video metadata and high-resolution thumbnail from Vimeo API.
      * 
-     * This effect runs when the videoId changes and:
+     * Runs when the videoId changes and:
      * 1. Fetches video metadata from Vimeo's V2 JSON API
      * 2. Attempts to upgrade the thumbnail resolution based on the video's native width
      * 3. Sets the thumbnail URL for the background image
