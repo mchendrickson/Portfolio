@@ -5,6 +5,14 @@ import VimeoVideo from "../../VimeoVideo";
 import AnimatedWrapper from "../AnimatedWrapper";
 
 
+/**
+ * Hero section that displays the main introduction with animated elements.
+ * 
+ * - Left column: Animated greeting, name, and typing animation
+ * - Right column: Vimeo video slideshow of work
+ * 
+ * @returns {JSX.Element} Hero section with animated intro and video
+ */
 const Intro: React.FC = () => {
     return (
         <Container fluid className="home-section" id="home">

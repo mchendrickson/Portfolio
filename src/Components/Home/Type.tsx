@@ -2,6 +2,11 @@ import React from "react";
 import Typewriter from "typewriter-effect";
 import { usePreloader } from "../../PreloaderContext";
 
+/**
+ * Animated typing text with preloader integration.
+ * 
+ * @returns {JSX.Element} Animated typing text that appears after preloader
+ */
 function Type() {
     const { preloaderDone } = usePreloader();
 
