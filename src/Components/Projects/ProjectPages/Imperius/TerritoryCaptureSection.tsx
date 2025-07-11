@@ -3,6 +3,11 @@ import {Col} from "react-bootstrap";
 import Section from "../../Section";
 import VimeoVideo from "../../../../VimeoVideo";
 
+/**
+ * TerritoryCaptureSection component for the Imperius project page.
+ * 
+ * @returns {JSX.Element} A section component with territory capture details and video demo
+ */
 const TerritoryCaptureSection: React.FC = () => {
     return (
         <Section title="Territory Capture">

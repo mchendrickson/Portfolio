@@ -3,6 +3,11 @@ import {Col, Row} from "react-bootstrap";
 import Section from "../../Section";
 import VimeoVideo from "../../../../VimeoVideo";
 
+/**
+ * VFXSection component for the Imperius project page.
+ * 
+ * @returns {JSX.Element} A section component with VFX details and multiple video demos
+ */
 const VFXSection: React.FC = () => {
     return (
         <Section title="VFX">

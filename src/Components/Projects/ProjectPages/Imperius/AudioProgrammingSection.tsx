@@ -2,6 +2,11 @@ import React from "react";
 import Section from "../../Section";
 import ImperiusFMODStudio from "../../../../Assets/Projects/Imperius/ImperiusFMODStudio.png";
 
+/**
+ * Audio programming section for the Imperius project page.
+ * 
+ * @returns {JSX.Element} Section explaining audio programming and FMOD integration
+ */
 const AudioProgrammingSection: React.FC = () => {
     return (
         <Section title="Audio Programming">

@@ -6,6 +6,11 @@ import ImperiusModel2 from "../../../../Assets/Projects/Imperius/ImperiusModel2.
 import ImperiusModel3 from "../../../../Assets/Projects/Imperius/ImperiusModel3.png";
 import ImperiusModel4 from "../../../../Assets/Projects/Imperius/ImperiusModel4.png";
 
+/**
+ * 3D modeling section for the Imperius project page.
+ * 
+ * @returns {JSX.Element} Section explaining 3D modeling work and assets
+ */
 const ModelingSection: React.FC = () => {
     return (
         <Section title="3D Modeling">

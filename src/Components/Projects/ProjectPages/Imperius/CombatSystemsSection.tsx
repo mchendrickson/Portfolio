@@ -4,6 +4,11 @@ import Section from "../../Section"
 import VimeoVideo from "../../../../VimeoVideo";
 import BulletList from "../../BulletList";
 
+/**
+ * Combat systems section for the Imperius project page.
+ * 
+ * @returns {JSX.Element} Section explaining combat systems and weapon mechanics
+ */
 const CombatSection: React.FC = () => {
     const bullets = [
         <><span className="purple">Kinematics:</span> To calculate a weapon's optimal firing position by predicting the future position of it's target.</>,

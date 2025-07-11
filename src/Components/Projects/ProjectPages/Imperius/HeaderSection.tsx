@@ -5,6 +5,11 @@ import VimeoVideo from "../../../../VimeoVideo";
 import ImperiusLogo from "../../../../Assets/Projects/Imperius/ImperiusLogo.png";
 import TechstackImperius from "../../TechStacks/TechstackImperius";
 
+/**
+ * Header section for the Imperius project page.
+ * 
+ * @returns {JSX.Element} Header section with project overview and tech stack
+ */
 const HeaderSection: React.FC = () => {
     return (
         <Section title="">

@@ -3,6 +3,11 @@ import {Col} from "react-bootstrap";
 import Section from "../../Section";
 import VimeoVideo from "../../../../VimeoVideo";
 
+/**
+ * Hardpoints section for the Imperius project page.
+ * 
+ * @returns {JSX.Element} Section explaining hardpoint system and targeting mechanics
+ */
 const HardpointsSection: React.FC = () => {
     return (
         <Section title="Hardpoints">

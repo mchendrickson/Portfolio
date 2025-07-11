@@ -4,6 +4,11 @@ import Section from "../../Section";
 import VimeoVideo from "../../../../VimeoVideo";
 import BulletList from "../../BulletList";
 
+/**
+ * PathfindingSection component for the Imperius project page.
+ * 
+ * @returns {JSX.Element} A section component with pathfinding details and video demo
+ */
 const PathfindingSection: React.FC = () => {
     const bullets = [
         <><span className="purple">Octrees:</span> To efficiently generate the position nodes the units can traverse. </>,

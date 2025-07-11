@@ -3,6 +3,11 @@ import Section from "../../Section";
 import ImperiusHero from "../../../../Assets/Projects/Imperius/ImperiusHero.png";
 import BulletList from "../../BulletList";
 
+/**
+ * Personal contributions section for the Imperius project page.
+ * 
+ * @returns {JSX.Element} Section listing personal contributions to the project
+ */
 const ContributionsSection: React.FC = () => {
     const bullets = [
         <><span className="purple">Project Manager:</span> Recruited, coordinated, and managed a team of 6.</>,

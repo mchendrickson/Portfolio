@@ -4,6 +4,11 @@ import BulletList from "../../BulletList";
 import VimeoVideo from "../../../../VimeoVideo";
 import {Col} from "react-bootstrap";
 
+/**
+ * Economy section for the Imperius project page.
+ * 
+ * @returns {JSX.Element} Section explaining economy system and resource management
+ */
 const EconomySection: React.FC = () => {
     const bullets = [
         <><span className="purple">Materials:</span> Used for constructing units, buildings, and unlocking upgrades. </>,

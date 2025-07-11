@@ -3,6 +3,11 @@ import {Col} from "react-bootstrap";
 import Section from "../../Section"
 import VimeoVideo from "../../../../VimeoVideo";
 
+/**
+ * SpecialAbilitiesSection component for the Imperius project page.
+ * 
+ * @returns {JSX.Element} A section component with special abilities details and video demo
+ */
 const SpecialAbilitiesSection: React.FC = () => {
     return (
         <Section title="Special Abilities">

@@ -4,6 +4,11 @@ import Section from "../../Section";
 import VimeoVideo from "../../../../VimeoVideo";
 import BulletList from "../../BulletList";
 
+/**
+ * AI system section for the Imperius project page.
+ * 
+ * @returns {JSX.Element} Section explaining AI system and algorithms
+ */
 const AISection: React.FC = () => {
     const bullets = [
         <><span className="purple">Utility-Based Evaluation:</span> Each possible game state is evaluated using a utility function that considers unit health, position, firepower, and potential actions.</>,

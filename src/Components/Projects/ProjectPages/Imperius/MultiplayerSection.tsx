@@ -4,6 +4,11 @@ import Section from "../../Section";
 import VimeoVideo from "../../../../VimeoVideo";
 import BulletList from "../../BulletList";
 
+/**
+ * Multiplayer section for the Imperius project page.
+ * 
+ * @returns {JSX.Element} Section explaining multiplayer system and networking
+ */
 const MultiplayerSection: React.FC = () => {
     const bullets = [
         <><span className="purple">Peer-to-Peer Architecture:</span> Using Unity's Netcode package to communicate directly between clients, and eliminate the need for dedicated servers. </>,
