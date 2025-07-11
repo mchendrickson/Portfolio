@@ -4,6 +4,11 @@ import {VscDebugBreakpointLogUnverified} from "react-icons/vsc";
 import Section from "../../Section";
 import VimeoVideo from "../../../../VimeoVideo";
 
+/**
+ * New content section for the Corporate Clash project page.
+ * 
+ * @returns {JSX.Element} Section explaining new content development and updates
+ */
 const NewContentSection: React.FC = () => {
     return (
         <Section title="New Content">

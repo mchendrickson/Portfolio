@@ -4,6 +4,11 @@ import {VscDebugBreakpointLogUnverified} from "react-icons/vsc";
 import Section from "../../Section";
 import VimeoVideo from "../../../../VimeoVideo";
 
+/**
+ * Refactoring and bugfixing section for the Corporate Clash project page.
+ * 
+ * @returns {JSX.Element} Section explaining refactoring work and bugfixes
+ */
 const RefactoringSection: React.FC = () => {
     return (
         <Section title="Refactoring and Bugfixing">

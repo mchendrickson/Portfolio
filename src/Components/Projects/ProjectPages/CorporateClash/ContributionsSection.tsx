@@ -3,6 +3,11 @@ import Section from "../../Section";
 import BulletList from "../../BulletList";
 import AstronPandas from "../../../../Assets/Projects/CorporateClash/AstronPandas.png";
 
+/**
+ * Personal contributions section for the Corporate Clash project page.
+ * 
+ * @returns {JSX.Element} Section listing personal contributions to the project
+ */
 const ContributionsSection: React.FC = () => {
     const bullets = [
         <><span className="purple">Engine & Networking Integration:</span> Worked extensively with the Panda3D engine and
