@@ -6,7 +6,7 @@ import {FaLinkedinIn} from "react-icons/fa";
 /**
  * Footer component that displays copyright information and social media links.
  * 
- * This component renders a three-column layout containing:
+ * Renders a three-column layout containing:
  * - Copyright notice with current year
  * - Usage terms and conditions for the portfolio site
  * - Social media icons linking to GitHub and LinkedIn profiles

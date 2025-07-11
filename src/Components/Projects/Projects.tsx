@@ -107,7 +107,7 @@ let PfiveIcons = () => {
 /**
  * Projects page component that displays the portfolio of work projects.
  * 
- * This component renders a comprehensive showcase of professional projects
+ * Renders a comprehensive showcase of professional projects
  * including game development, educational software, mobile apps, and creative
  * coding projects. Each project is displayed as a clickable card with
  * relevant technology icons and descriptions.

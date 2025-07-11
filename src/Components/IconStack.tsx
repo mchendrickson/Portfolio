@@ -22,9 +22,9 @@ type TechStackProps = {
 };
 
 /**
- * Component that renders a horizontal grid of tech stack icons with labels.
+ * Renders a horizontal grid of tech stack icons with labels.
  * 
- * This component displays tech icons in a responsive grid layout using
+ * Displays tech icons in a responsive grid layout using
  * Bootstrap's Row and Col components. Each tech is represented by an icon
  * component and a text label below it. The icons are centered and styled with
  * CSS classes for consistent appearance.

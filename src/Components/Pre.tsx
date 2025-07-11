@@ -3,7 +3,7 @@ import React from "react";
 /**
  * Preloader component that displays a loading animation.
  * 
- * This component renders a loading screen that is shown during the initial
+ * Renders a loading screen that is shown during the initial
  * application load. It uses conditional CSS classes based on the load prop
  * to control visibility - when load is true, it shows the preloader;
  * when false, it hides the preloader with the "preloader-none" class.

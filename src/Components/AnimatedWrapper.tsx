@@ -5,7 +5,7 @@ import { usePreloader } from "../PreloaderContext";
 /**
  * A drop-in replacement for motion.div that waits for the preloader to finish.
  * 
- * This component wraps framer-motion's motion.div and conditionally applies
+ * Wraps framer-motion's motion.div and conditionally applies
  * animations based on the preloader state. It prevents animations from running
  * while the preloader is active, ensuring smooth transitions and preventing
  * animation conflicts during the initial loading phase.

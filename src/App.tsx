@@ -25,7 +25,7 @@ import {PreloaderProvider} from "./PreloaderContext";
 /**
  * Main application component that handles routing, preloader state, and overall app structure.
  * 
- * This component manages the loading state with a preloader that displays for 1.2 seconds,
+ * Manages the loading state with a preloader that displays for 1.2 seconds,
  * provides routing for all pages including individual project pages, and wraps the app
  * in necessary providers for analytics and preloader context.
  * 

@@ -2,9 +2,9 @@ import {useEffect} from "react";
 import {useLocation} from "react-router-dom";
 
 /**
- * Component that automatically scrolls to the top of the page on route changes.
+ * Automatically scrolls to the top of the page on route changes.
  * 
- * This component uses React Router's useLocation hook to detect route changes
+ * Uses React Router's useLocation hook to detect route changes
  * and automatically scrolls the window to the top (0, 0) whenever the pathname
  * changes. This ensures users always start at the top of new pages instead
  * of remaining at their previous scroll position.

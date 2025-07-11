@@ -18,7 +18,7 @@ import {
 /**
  * Main navigation bar component with responsive design and scroll-based styling.
  * 
- * This component provides navigation links to all major sections of the portfolio,
+ * Provides navigation links to all major sections of the portfolio,
  * including Home, About, Projects, Resume, and external links to email, LinkedIn,
  * and GitHub. The navbar changes appearance on scroll and includes a mobile-friendly
  * collapsible menu with hamburger icon.
