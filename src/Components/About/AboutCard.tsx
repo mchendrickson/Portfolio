@@ -1,6 +1,15 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 
+/**
+ * Displays personal information in a styled card.
+ * 
+ * Renders a Bootstrap card containing a personal introduction
+ * and professional summary. Text is styled with purple highlights for key information
+ * and uses a blockquote format.
+ * 
+ * @returns {JSX.Element} Styled card containing personal and professional information
+ */
 function AboutCard() {
     return (
         <Card className="quote-card-view">

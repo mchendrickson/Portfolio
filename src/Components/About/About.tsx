@@ -7,6 +7,20 @@ import ToolStack from "./ToolStack";
 import Tilt from "react-parallax-tilt";
 import myImg from "../../Assets/matt-photo-edited2.png";
 
+/**
+ * Displays personal information, skills, and tools.
+ * 
+ * Renders the main about page with three main sections:
+ * 1. Personal information with photo and about card
+ * 2. Professional skillset display
+ * 3. Tools and technologies used
+ * 
+ * Uses Bootstrap's responsive grid system with a two-column
+ * layout for the personal section (text and photo) and full-width
+ * sections for skills and tools. Includes particle background effects.
+ * 
+ * @returns {JSX.Element} About page with personal info, skills, and tools
+ */
 function About() {
     return (
         <Container fluid className="about-section">

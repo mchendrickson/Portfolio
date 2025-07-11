@@ -2,6 +2,11 @@ import React from "react";
 import IconStack from "../IconStack";
 import {SiAdobephotoshop, SiBlender, SiJetbrains, SiMicrosoftoffice, SiUnity,} from "react-icons/si";
 
+/**
+ * IconStack instance of every tool used overall.
+ * 
+ * @returns {JSX.Element} Grid of tool icons with labels
+ */
 function ToolStack() {
     const items = [
         {icon: SiUnity, label: 'Unity'},

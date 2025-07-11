@@ -2,6 +2,15 @@ import React from "react";
 import GitHubCalendar from "react-github-calendar";
 import {Row} from "react-bootstrap";
 
+/**
+ * Displays a GitHub contribution calendar.
+ * 
+ * This component renders a GitHub-style contribution calendar using the
+ * react-github-calendar library. It shows coding activity over time with
+ * a visual heatmap representation.
+ * 
+ * @returns {JSX.Element} GitHub contribution calendar with activity visualization
+ */
 function Github() {
     return (
         <Row style={{justifyContent: "center", paddingBottom: "10px"}}>

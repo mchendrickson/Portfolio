@@ -3,6 +3,11 @@ import IconStack from "../IconStack";
 import {DiGit, DiJava, DiJavascript1, DiPython,} from "react-icons/di";
 import {SiCsharp, SiPostgresql, SiPytorch, SiTensorflow, SiWebgl,} from "react-icons/si";
 
+/**
+ * IconStack instance of every tech used overall.
+ * 
+ * @returns {JSX.Element} Grid of tech icons with labels
+ */
 function TechStackAll() {
     const items = [
         {icon: DiJava, label: 'Java'},
