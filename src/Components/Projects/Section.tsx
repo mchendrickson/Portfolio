@@ -3,6 +3,14 @@ import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import {usePreloader} from "../../PreloaderContext";
 
+/**
+ * Props interface for the Section component.
+ * 
+ * @param {string} [title] - Optional section title to display
+ * @param {React.ReactNode} children - Content to render within the section
+ * @param {string} [className] - Optional CSS class name for custom styling
+ * @param {"large" | "medium" | "small"} [size] - Size variant for the section heading
+ */
 interface SectionProps {
     title?: string;
     children: React.ReactNode;
@@ -10,6 +18,12 @@ interface SectionProps {
     size?: "large" | "medium" | "small";
 }
 
+/**
+ * Animation variants for the container element.
+ * 
+ * Controls the stagger timing for child elements to create
+ * a cascading animation effect when the section comes into view.
+ */
 const containerVariants = {
     hidden: {},
     visible: {
@@ -19,11 +33,28 @@ const containerVariants = {
     },
 };
 
+/**
+ * Animation variants for individual child elements.
+ * 
+ * Defines the fade-in and slide-up animation for each
+ * child element within the section.
+ */
 const childVariants = {
     hidden: { opacity: 0, y: 10 },
     visible: { opacity: 1, y: 0 },
 };
 
+/**
+ * Animated section component with intersection observer and preloader integration.
+ * 
+ * Creates animated sections that trigger when they come into view.
+ * Integrates with the preloader context to ensure animations only run after
+ * the initial loading is complete. Supports different heading sizes
+ * and provides staggered animations for child elements.
+ * 
+ * @param {SectionProps} props - Component props containing title, children, className, and size
+ * @returns {JSX.Element} Animated section with optional heading and staggered child animations
+ */
 const Section: React.FC<SectionProps> = ({
                                              title,
                                              children,
@@ -36,6 +67,15 @@ const Section: React.FC<SectionProps> = ({
         threshold: 0.0,
     });
     const { preloaderDone } = usePreloader();
+    
+    /**
+     * Renders the section heading based on the size prop.
+     * 
+     * Returns different heading elements (h1, h2, h3) with appropriate
+     * styling based on the size variant. Returns null if no title is provided.
+     * 
+     * @returns {JSX.Element | null} The appropriate heading element or null
+     */
     const renderHeading = () => {
         if (!title) return null;
 

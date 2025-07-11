@@ -2,8 +2,6 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-
-// ----- Project Assets -----
 import ImperiusCardHero from "../../Assets/Projects/Imperius/ImperiusLogo.jpg";
 import CorporateClashCardHero from "../../Assets/Projects/CorporateClash/CorporateClashLogo.png";
 import BadminCardHero from "../../Assets/Projects/Badmin/BadminTitle.png";
@@ -11,13 +9,15 @@ import FreeBodyDiagramAppCardHero from "../../Assets/Projects/FBDApp/FBDApplogo.
 import AssistmentsCardHero from "../../Assets/Projects/Assistments/assistmentslogo.jpg";
 import BrighamWomensHospitalCardHero from "../../Assets/Projects/BrighamWomensHospital/softeng.png";
 import PfivejsCardHero from "../../Assets/Projects/Misc/p5js.png";
-
-// ----- Tech Stack Icons -----
 import {SiJavascript, SiP5Dotjs, SiPostgresql, SiPython, SiPytorch, SiTensorflow, SiUnity, SiCsharp} from "react-icons/si";
 import {DiJava, DiPython} from "react-icons/di";
-
 import { LuMousePointerClick } from "react-icons/lu";
 
+/**
+ * Technology icons component for Imperius project.
+ * 
+ * @returns {JSX.Element} Unity and C# technology icons
+ */
 let ImperiusIcons = () => {
     return (
         <div>
@@ -26,6 +26,11 @@ let ImperiusIcons = () => {
     );
 };
 
+/**
+ * Technology icons component for Corporate Clash project.
+ * 
+ * @returns {JSX.Element} Python technology icon
+ */
 let CorporateClashIcons = () => {
     return (
         <div>
@@ -34,6 +39,11 @@ let CorporateClashIcons = () => {
     );
 };
 
+/**
+ * Technology icons component for Badmin project.
+ * 
+ * @returns {JSX.Element} Unity and C# technology icons
+ */
 let BadminIcons = () => {
     return (
         <div>
@@ -42,6 +52,11 @@ let BadminIcons = () => {
     );
 };
 
+/**
+ * Technology icons component for Free Body Diagram App project.
+ * 
+ * @returns {JSX.Element} Unity and C# technology icons
+ */
 let FBDIcons = () => {
     return (
         <div>
@@ -50,6 +65,11 @@ let FBDIcons = () => {
     );
 };
 
+/**
+ * Technology icons component for ASSISTments project.
+ * 
+ * @returns {JSX.Element} Python, PostgreSQL, PyTorch, and TensorFlow technology icons
+ */
 let AssistmentsIcons = () => {
     return (
         <div>
@@ -58,6 +78,11 @@ let AssistmentsIcons = () => {
     );
 };
 
+/**
+ * Technology icons component for Hospital Tracking System project.
+ * 
+ * @returns {JSX.Element} Java and PostgreSQL technology icons
+ */
 let SoftengIcons = () => {
     return (
         <div>
@@ -66,6 +91,11 @@ let SoftengIcons = () => {
     );
 };
 
+/**
+ * Technology icons component for p5.js Creations project.
+ * 
+ * @returns {JSX.Element} p5.js and JavaScript technology icons
+ */
 let PfiveIcons = () => {
     return (
         <div>
@@ -74,7 +104,16 @@ let PfiveIcons = () => {
     );
 };
 
-
+/**
+ * Projects page component that displays the portfolio of work projects.
+ * 
+ * This component renders a comprehensive showcase of professional projects
+ * including game development, educational software, mobile apps, and creative
+ * coding projects. Each project is displayed as a clickable card with
+ * relevant technology icons and descriptions.
+ * 
+ * @returns {JSX.Element} Projects page with interactive project cards
+ */
 function Projects() {
     return (
         <Container fluid className="project-section ">
