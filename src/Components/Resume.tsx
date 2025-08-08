@@ -5,7 +5,7 @@ import Particle from "./Particle";
 import pdf from "../Assets/Matthew Hendrickson Resume Web.pdf";
 import {AiOutlineDownload} from "react-icons/ai";
 import {Document, Page, pdfjs} from "react-pdf";
-import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+import 'pdfjs-dist/web/pdf_viewer.css';
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
     'pdfjs-dist/build/pdf.worker.min.mjs',

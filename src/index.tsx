@@ -21,4 +21,4 @@ root.render(
 /**
  * Initializes web vitals reporting for performance monitoring in Vercel.
  */
-reportWebVitals(console.log);
+//reportWebVitals(console.log);

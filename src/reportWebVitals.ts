@@ -1,6 +1,6 @@
-import { ReportHandler } from 'web-vitals';
+/**import { onCLS, onINP, onLCP, onFCP, onTTFB } from 'web-vitals';
 
-/**
+
  * Configures and initializes Core Web Vitals performance monitoring.
  * 
  * Dynamically imports the web-vitals library and sets up
@@ -15,17 +15,17 @@ import { ReportHandler } from 'web-vitals';
  * 
  * @param {ReportHandler} onPerfEntry - Callback function that receives performance metrics
  * @returns {void} No return value
- */
-const reportWebVitals = (onPerfEntry: ReportHandler) => {
-  if (onPerfEntry && onPerfEntry instanceof Function) {
-    import('web-vitals').then(({ getCLS, getFID, getFCP, getLCP, getTTFB }) => {
-      getCLS(onPerfEntry);
-      getFID(onPerfEntry);
-      getFCP(onPerfEntry);
-      getLCP(onPerfEntry);
-      getTTFB(onPerfEntry);
-    });
-  }
-};
 
-export default reportWebVitals;
+function reportWebVitals(onPerfEntry) {
+  if (onPerfEntry && typeof onPerfEntry === 'function') {
+    getCLS(onPerfEntry);  // Measures visual stability
+    getFID(onPerfEntry);  // Measures interactivity
+    getLCP(onPerfEntry);  // Measures loading performance
+    getFCP(onPerfEntry);  // Measures time to first content display
+    getTTFB(onPerfEntry); // Measures server response time
+  }
+}
+
+
+ */
+export default 0;
