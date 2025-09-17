@@ -13,7 +13,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
 ).toString();
 
 const resumeLink =
-    "https://raw.githubusercontent.com/mchrpt/portfolio/master/src/Assets/Matthew Hendrickson Resume Web.pdf";
+    "https://raw.githubusercontent.com/mchendrickson/portfolio/master/src/Assets/Matthew Hendrickson Resume Web.pdf";
 
 /**
  * Resume page component that displays a PDF resume with download functionality.
@@ -40,23 +40,11 @@ function Resume() {
 
     return (
         <div>
-            <Container fluid className="resume-section">
+            <Container fluid className="pdf-section">
                 <Particle/>
-                <Row style={{justifyContent: "center", position: "relative"}}>
-                    <Button
-                        variant="primary"
-                        href={pdf}
-                        target="_blank"
-                        style={{maxWidth: "250px"}}
-                    >
-                        <AiOutlineDownload/>
-                        &nbsp;Download CV
-                    </Button>
-                </Row>
-
-                <Row className="resume">
-                    <Document file={resumeLink} className="d-flex justify-content-center">
-                        <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} renderTextLayer={false}/>
+                <Row>
+                    <Document file={resumeLink} className="pdf-page">
+                        <Page pageNumber={1} scale={1.5} renderTextLayer={false}/>
                     </Document>
                 </Row>
 

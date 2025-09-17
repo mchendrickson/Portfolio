@@ -6,6 +6,7 @@ import About from "./Components/About/About";
 import Projects from "./Components/Projects/Projects";
 import Footer from "./Components/Footer";
 import Resume from "./Components/Resume";
+import Transcripts from "./Components/Transcripts";
 import Imperius from "./Components/Projects/ProjectPages/Imperius/Imperius";
 import ASSISTments from "./Components/Projects/ProjectPages/ASSISTments/ASSISTments";
 import BrighamWomensHospital from "./Components/Projects/ProjectPages/BrighamWomensHospital/BrighamWomensHospital";
@@ -62,6 +63,7 @@ function App() {
                         <Route path="/project" element={<Projects/>}/>
                         <Route path="/about" element={<About/>}/>
                         <Route path="/resume" element={<Resume/>}/>
+                        <Route path="/transcripts" element={<Transcripts/>}/>
                         <Route path="*" element={<Navigate to="/"/>}/>
                         <Route path="/Imperius" element={<Imperius/>}/>
                         <Route path="/ASSISTments" element={<ASSISTments/>}/>

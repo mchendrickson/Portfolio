@@ -15,6 +15,8 @@ import {
     AiOutlineMail
 } from "react-icons/ai";
 
+import { HiOutlineAcademicCap } from "react-icons/hi";
+
 /**
  * Main navigation bar component with responsive design and scroll-based styling.
  * 
@@ -120,6 +122,18 @@ function NavBar() {
                             >
                                 <span className="icon-text-wrapper">
                                     <CgFileDocument style={{marginBottom: "2px"}}/> Resume
+                                </span>
+                            </Nav.Link>
+                        </Nav.Item>
+
+                        <Nav.Item>
+                            <Nav.Link
+                                as={Link}
+                                to="/transcripts"
+                                onClick={() => updateExpanded(false)}
+                            >
+                                <span className="icon-text-wrapper">
+                                    <HiOutlineAcademicCap style={{marginBottom: "3px", fontSize: "1.2em"}} /> Transcripts
                                 </span>
                             </Nav.Link>
                         </Nav.Item>

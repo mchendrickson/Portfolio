@@ -762,7 +762,22 @@ button:focus {
 /* Resume Section */
 /* ================= */
 
-.resume-section {
+.pdf-page {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.pdf-page canvas {
+  max-width: 100%;
+  height: auto !important;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
+.pdf-section {
   position: relative !important;
   padding-top: 110px !important;
   padding-bottom: 30px !important;
