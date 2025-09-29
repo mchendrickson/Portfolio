@@ -9,8 +9,8 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
     import.meta.url,
 ).toString();
 
-const transcriptsLink =  "https://raw.githubusercontent.com/mchendrickson/portfolio/master/src/Assets/Matthew Hendrickson WPI Official Transcript.pdf";
-
+const wpiTranscriptsLink =  "https://raw.githubusercontent.com/mchendrickson/portfolio/master/src/Assets/Matthew Hendrickson WPI Official Transcript.pdf";
+const quTranscriptsLink = "https://raw.githubusercontent.com/mchendrickson/portfolio/master/src/Assets/Matthew Hendrickson QU Unofficial Transcript.pdf"
 /**
  * Transcript page component that displays a PDF transcript with download functionality.
  * 
@@ -49,11 +49,11 @@ function Transcripts() {
             <Container fluid className="pdf-section">
                 <Particle/>
                     <Document
-                        file={transcriptsLink}
+                        file={wpiTranscriptsLink}
                         onLoadSuccess={onDocumentLoadSuccess}
                     >
                         {Array.from({ length: numPages }, (_, index) => (
-                            <div key={`page_${index + 1}`} className="pdf-page">
+                            <div className="pdf-page">
                                 <Page
                                     pageNumber={index + 1}
                                     scale={1.5}
@@ -62,6 +62,19 @@ function Transcripts() {
                             </div>
                         ))}
                     </Document>
+                    <Document
+                        file={quTranscriptsLink}
+                        onLoadSuccess={onDocumentLoadSuccess}
+                    >
+                        <div className="pdf-page">
+                            <Page
+                                pageNumber={1}
+                                scale={1.5}
+                                renderTextLayer={false}
+                            />
+                        </div>
+                    </Document>
+
             </Container>
         </div>
     );
