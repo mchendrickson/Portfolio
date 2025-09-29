@@ -17,6 +17,92 @@ import {
 
 import { HiOutlineAcademicCap } from "react-icons/hi";
 
+export const HomeNavItem: React.FC = () => (
+    <Nav.Item>
+        <Nav.Link as={Link} to="/" >
+            <span className="icon-text-wrapper">
+                <AiOutlineHome style={{ marginBottom: "4px", fontSize: "1.1em" }} /> Home
+            </span>
+        </Nav.Link>
+    </Nav.Item>
+);
+
+export const AboutNavItem: React.FC = () => (
+    <Nav.Item>
+        <Nav.Link as={Link} to="/about" >
+            <span className="icon-text-wrapper">
+                <AiOutlineUser style={{ marginBottom: "4px", fontSize: "1.2em" }} /> About
+            </span>
+        </Nav.Link>
+    </Nav.Item>
+);
+
+export const ProjectsNavItem: React.FC = () => (
+    <Nav.Item>
+        <Nav.Link as={Link} to="/project" >
+            <span className="icon-text-wrapper">
+                <AiOutlineFundProjectionScreen style={{ marginBottom: "3px", fontSize: "1.2em" }} /> Projects
+            </span>
+        </Nav.Link>
+    </Nav.Item>
+);
+
+export const ResumeNavItem: React.FC = () => (
+    <Nav.Item>
+        <Nav.Link as={Link} to="/resume" >
+            <span className="icon-text-wrapper">
+                <CgFileDocument style={{ marginBottom: "4px", fontSize: "1.15em" }} /> Resume
+            </span>
+        </Nav.Link>
+    </Nav.Item>
+);
+
+export const TranscriptsNavItem: React.FC = () => (
+    <Nav.Item>
+        <Nav.Link as={Link} to="/transcripts" >
+            <span className="icon-text-wrapper">
+                <HiOutlineAcademicCap style={{ marginBottom: "4px", fontSize: "1.3em" }} /> Transcripts
+            </span>
+        </Nav.Link>
+    </Nav.Item>
+);
+
+export const EmailNavItem: React.FC = () => (
+    <Nav.Item>
+        <Nav.Link href="mailto:mchendrickson@protonmail.com" target="_blank" rel="noreferrer">
+            <span className="icon-text-wrapper">
+                <AiOutlineMail style={{ marginBottom: "3px", fontSize: "1.3em" }} /> Email
+            </span>
+        </Nav.Link>
+    </Nav.Item>
+);
+
+export const LinkedInNavItem: React.FC = () => (
+    <Nav.Item>
+        <Nav.Link href="https://www.linkedin.com/in/mchendrickson/" target="_blank" rel="noreferrer">
+            <span className="icon-text-wrapper">
+                <AiOutlineLinkedin style={{ marginBottom: "3px", fontSize: "1.3em" }} /> LinkedIn
+            </span>
+        </Nav.Link>
+    </Nav.Item>
+);
+
+export const ForkNavItem: React.FC = () => (
+    <Nav.Item className="fork-btn">
+        <Button
+            href="https://github.com/mchendrickson/Portfolio"
+            target="_blank"
+            rel="noreferrer"
+            className="fork-btn-inner"
+        >
+            <span className="icon-text-wrapper">
+                <CgGitFork style={{ fontSize: "1.4em" }} />
+                <AiOutlineGithub style={{ fontSize: "1.3em" }} />
+            </span>
+        </Button>
+    </Nav.Item>
+);
+
 /**
  * Main navigation bar component with responsive design and scroll-based styling.
  * 
@@ -60,12 +146,13 @@ function NavBar() {
         <Navbar
             expanded={expand}
             fixed="top"
-            expand="lg"
-            className={navColour ? "sticky" : "navbar"}
+            expand="xxl"
+            className={navColour || expand ? "sticky" : "navbar"}
         >
             <Container fluid>
                 <Navbar.Brand href="/" className="d-flex">
                     <img src={logo} className="logo" alt="brand"/>
+                    <span className="ms-4 mt-1" >Matthew Hendrickson</span>
                 </Navbar.Brand>
                 <Navbar.Toggle
                     aria-controls="responsive-navbar-nav"
@@ -78,102 +165,15 @@ function NavBar() {
                     <span></span>
                 </Navbar.Toggle>
                 <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="ms-auto" defaultActiveKey="#home">
-                        <Nav.Item>
-                            <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                                <span className="icon-text-wrapper">
-                                    <AiOutlineHome style={{marginBottom: "3px"}}/>{" "}Home
-                                </span>
-                            </Nav.Link>
-                        </Nav.Item>
-
-                        <Nav.Item>
-                            <Nav.Link
-                                as={Link}
-                                to="/about"
-                                onClick={() => updateExpanded(false)}
-                            >
-                                <span className="icon-text-wrapper">
-                                    <AiOutlineUser style={{marginBottom: "3px"}}/> About
-                                </span>
-                            </Nav.Link>
-                        </Nav.Item>
-
-                        <Nav.Item>
-                            <Nav.Link
-                                as={Link}
-                                to="/project"
-                                onClick={() => updateExpanded(false)}
-                            >
-                                <span className="icon-text-wrapper">
-                                    <AiOutlineFundProjectionScreen
-                                        style={{marginBottom: "2px"}}
-                                    />{" "}
-                                    Projects
-                                </span>
-                            </Nav.Link>
-                        </Nav.Item>
-
-                        <Nav.Item>
-                            <Nav.Link
-                                as={Link}
-                                to="/resume"
-                                onClick={() => updateExpanded(false)}
-                            >
-                                <span className="icon-text-wrapper">
-                                    <CgFileDocument style={{marginBottom: "2px"}}/> Resume
-                                </span>
-                            </Nav.Link>
-                        </Nav.Item>
-
-                        <Nav.Item>
-                            <Nav.Link
-                                as={Link}
-                                to="/transcripts"
-                                onClick={() => updateExpanded(false)}
-                            >
-                                <span className="icon-text-wrapper">
-                                    <HiOutlineAcademicCap style={{marginBottom: "3px", fontSize: "1.2em"}} /> Transcripts
-                                </span>
-                            </Nav.Link>
-                        </Nav.Item>
-
-                        <Nav.Item>
-                            <Nav.Link
-                                href="mailto:mchendrickson@protonmail.com"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                <span className="icon-text-wrapper">
-                                    <AiOutlineMail style={{ marginBottom: "2px"}}/> Email
-                                </span>
-                            </Nav.Link>
-                        </Nav.Item>
-
-                        <Nav.Item>
-                            <Nav.Link
-                                href="https://www.linkedin.com/in/mchendrickson/"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                <span className="icon-text-wrapper">
-                                    <AiOutlineLinkedin style={{marginBottom: "2px"}}/> LinkedIn
-                                </span>
-                            </Nav.Link>
-                        </Nav.Item>
-
-                        <Nav.Item className="fork-btn">
-                            <Button
-                                href="https://github.com/mchendrickson/Portfolio"
-                                target="_blank"
-                                className="fork-btn-inner"
-                            >
-                                <span className="icon-text-wrapper">
-                                    <CgGitFork style={{fontSize: "1.2em"}}/>{" "}
-                                    <AiOutlineGithub style={{fontSize: "1.1em"}}/>
-                                </span>
-                            </Button>
-                        </Nav.Item>
+                    <Nav className="ms-auto mt-1" defaultActiveKey="#home">
+                        <HomeNavItem />
+                        <AboutNavItem />
+                        <ProjectsNavItem />
+                        <ResumeNavItem />
+                        <TranscriptsNavItem />
+                        <EmailNavItem />
+                        <LinkedInNavItem />
+                        <ForkNavItem />
                     </Nav>
                 </Navbar.Collapse>
             </Container>

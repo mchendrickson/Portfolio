@@ -257,6 +257,7 @@ button:focus {
 .navbar-nav .nav-item {
   position: relative;
   margin-left: 20px;
+  align-items: center;
 }
 
 .icon-text-wrapper{
