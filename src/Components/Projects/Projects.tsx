@@ -146,11 +146,11 @@ function Projects() {
                     </Col>
                     <Col>
                         <ProjectCard
-                            imgPath={BadminCardHero}
-                            linkTo="Badmin"
-                            title="Badmin"
-                            description="Led a team of four developers to create a top down shooter where you play as a server moderator."
-                            footerElement=<BadminIcons/>
+                            imgPath={AssistmentsCardHero}
+                            linkTo="ASSISTments"
+                            title="ASSISTments"
+                            description="Added features to the award winning ASSISTments learning software using contextual bandits."
+                            footerElement=<AssistmentsIcons/>
                         />
                     </Col>
                     <Col>
@@ -164,20 +164,20 @@ function Projects() {
                     </Col>
                     <Col>
                         <ProjectCard
-                            imgPath={AssistmentsCardHero}
-                            linkTo="ASSISTments"
-                            title="ASSISTments"
-                            description="Added features to the award winning ASSISTments learning software using contextual bandits."
-                            footerElement=<AssistmentsIcons/>
-                        />
-                    </Col>
-                    <Col>
-                        <ProjectCard
                             imgPath={BrighamWomensHospitalCardHero}
                             linkTo="BrighamWomensHospital"
                             title="Hospital Tracking System"
                             description="Led a team of eleven programmers to create a medical equipment tracking and workflow application to demo features to the Brigham & Women’s Hospital representatives."
                             footerElement=<SoftengIcons/>
+                        />
+                    </Col>
+                    <Col>
+                        <ProjectCard
+                            imgPath={BadminCardHero}
+                            linkTo="Badmin"
+                            title="Badmin"
+                            description="Led a team of four developers to create a top down shooter where you play as a server moderator."
+                            footerElement=<BadminIcons/>
                         />
                     </Col>
                     <Col>
