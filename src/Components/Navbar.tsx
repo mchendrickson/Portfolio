@@ -152,7 +152,7 @@ function NavBar() {
             <Container fluid>
                 <Navbar.Brand href="/" className="d-flex">
                     <img src={logo} className="logo" alt="brand"/>
-                    <span className="ms-2" >Matthew Hendrickson</span>
+                    <span className="ms-2 name-text" >Matthew Hendrickson</span>
                 </Navbar.Brand>
                 <Navbar.Toggle
                     aria-controls="responsive-navbar-nav"

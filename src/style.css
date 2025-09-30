@@ -244,7 +244,7 @@ button:focus {
   width: 1.6em !important;
 }
 
-@media (max-width: 400px) { .logo { display: none; } }
+@media (max-width: 400px) { .name-text  { display: none; } }
 
 .navbar-nav .nav-link {
   color: var(--white) !important;
