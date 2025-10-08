@@ -22,27 +22,29 @@
 
 ## **Voice Actors**
 
-Jillian Crandall  
-Adam Ferrarotti  
-Jessica Liano  
-Ryan Firenze  
-Nathan Smith  
-Lillie DeHaemer  
-Nick Masse  
-Lindsey Mraz  
-Angie Baird  
-Jack Moore  
-Patrick Durgin  
-Tom Curtis  
-Layla Severance  
-Eriz Zhu  
-Sergio  
-Maggie  
-Katie
+- Jillian Crandall  
+- Adam Ferrarotti  
+- Jessica Liano  
+- Ryan Firenze  
+- Nathan Smith  
+- Lillie DeHaemer  
+- Nick Masse  
+- Lindsey Mraz  
+- Angie Baird  
+- Jack Moore  
+- Patrick Durgin  
+- Tom Curtis  
+- Layla Severance  
+- Eriz Zhu  
+- Sergio  
+- Maggie  
+- Katie
 
 ---
 
-## **APIs, References, and Packages**
+## **External APIs, Libraries, and Asset References**
+
+*Note: The following APIs, libraries, and assets informed the years-long development of Imperius. Many were extensively rewritten, customized, or optimized to fit the project’s architecture; others served purely as study references. All are listed here in the spirit of transparency and integrity.*
 
 ### **Open Source**
 - [PathFindingEnhanced](https://github.com/supercontact/PathFindingEnhanced) — The MIT License (MIT), Copyright (c) 2019 supercontact
@@ -84,4 +86,4 @@ _All of the following are governed by the [Unity Asset Store EULA](https://unity
 
 ## **Legal Disclaimer**
 
-*Imperius is an independent, student-developed project and is not affiliated with Unity Technologies or any third-party asset creators. All third-party tools, assets, and code snippets are used in accordance with their respective licenses and terms of use.*
+*Imperius is an independent, student-developed project and is not affiliated with any third-party asset creators. All third-party tools, assets, and source code are used in accordance with their respective licenses and terms of use. Unity® is a registered trademark of Unity Technologies. All other trademarks are the property of their respective owners.*
