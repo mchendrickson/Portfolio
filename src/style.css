@@ -63,6 +63,10 @@ html {
   text-shadow: 0 0 6px var(--imp-text-color);
 }
 
+.purple a {
+  color: var(--imp-text-color);
+}
+
 button:focus {
   box-shadow: none !important;
 }
