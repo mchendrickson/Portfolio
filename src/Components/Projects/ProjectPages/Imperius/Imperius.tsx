@@ -12,6 +12,7 @@ import SpecialAbilitiesSection from "./SpecialAbilitiesSection";
 import TerritoryCaptureSection from "./TerritoryCaptureSection";
 import BaseBuildingSection from "./BaseBuildingSection";
 import AudioProgrammingSection from "./AudioProgrammingSection";
+import MoreInformationSection from "./MoreInformationSection";
 
 /**
  * Imperius project page.
@@ -27,6 +28,7 @@ import AudioProgrammingSection from "./AudioProgrammingSection";
  * 9: Special Abilities - Unique unit capabilities
  * 10: Base Building - Construction and economy
  * 11: Territory Capture - Strategic gameplay mechanics
+ * 12: More Information - Links to credits and report
  * 
  * @returns {JSX.Element} Imperius project page with comprehensive game development sections
  */
@@ -45,6 +47,7 @@ function Imperius() {
                 <SpecialAbilitiesSection/>
                 <BaseBuildingSection/>
                 <TerritoryCaptureSection/>
+                <MoreInformationSection/>
             </Container>
             <Particle/>
         </Container>

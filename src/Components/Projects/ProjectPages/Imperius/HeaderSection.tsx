@@ -41,8 +41,6 @@ const HeaderSection: React.FC = () => {
                 buildings
                 as well as <span className="purple">Steam-integrated networked multiplayer</span>.
                 I was solely or primarily responsible for the development of all the systems listed below.
-                Please also see <span className="purple"><a href="https://digital.wpi.edu/concern/student_works/zp38wh02w?locale=en" target="_blank" rel="noopener noreferrer">the full project report</a></span> as well as the <span className="purple"><a href="https://github.com/mchendrickson/Portfolio/blob/master/src/Assets/Projects/Imperius/ImperiusREADME.md" target="_blank" rel="noopener noreferrer">credits and code citations</a></span>.
-
             </p>
 
             <Col
