@@ -108,7 +108,7 @@ const VimeoVideo: React.FC<VimeoVideoProps> = ({videoId, videoTitle}) => {
 
     // For a public video, we just build the standard embed URL
     const embedSrc = `https://player.vimeo.com/video/${videoId}?autoplay=1&muted=1&loop=1&background=1`;
-    const {ref, inView} = useInView({
+    const {ref} = useInView({
         rootMargin: '450px 0px 450px 0px', // Preload when 450px away from viewport
         threshold: 0,      // Trigger when the video is in view
         triggerOnce: false,   // Load video only once
@@ -118,7 +118,7 @@ const VimeoVideo: React.FC<VimeoVideoProps> = ({videoId, videoTitle}) => {
              className="video-wrapper"
              style={{backgroundImage: `url(${thumbnailUrl})`}}
         >
-            {inView && (
+            {(
                 <iframe
                     src={embedSrc}
                     allow="autoplay"
