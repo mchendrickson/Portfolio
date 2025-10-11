@@ -52,11 +52,15 @@ html {
 .heading-text {
   color: var(--primary-site-color) !important;
   text-shadow: 0 0 6px var(--primary-site-color);
+  word-wrap: break-word;      /* legacy name */
+  overflow-wrap: break-word;  /* modern standard */
 }
 
 .secondary-heading-text {
   color: var(--secondary-site-color) !important;
   text-shadow: 0 0 6px var(--secondary-site-color);
+  word-wrap: break-word;      /* legacy name */
+  overflow-wrap: break-word;  /* modern standard */
 }
 
 .body-text {
