@@ -125,7 +125,7 @@ function Projects() {
                     Several projects I have worked on in my professional career. <span className="body-text">Click on a
                     card</span> <LuMousePointerClick size={25} className={"body-text"} /> to learn more.
                 </p>
-                <Row xs={"auto"} className="g-5 justify-content-center">
+                <Row xs={"auto"} className="g-4 justify-content-center">
                     <Col>
                         <ProjectCard
                             imgPath={ImperiusCardHero}
