@@ -36,7 +36,7 @@
 - Tom Curtis  
 - Layla Severance  
 - Eriz Zhu  
-- Sergio  
+- Sergio Barro-Ojeda
 - Maggie  
 - Katie
 
