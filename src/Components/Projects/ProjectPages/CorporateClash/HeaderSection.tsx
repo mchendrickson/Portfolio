@@ -16,9 +16,9 @@ const HeaderSection: React.FC = () => {
             <TechstackCorporateClash/>
 
             <p style={{textAlign: "left"}}>
-                <span className="purple">Toontown: Corporate Clash</span> is a revival of the popular MMO series{" "}
-                <span className="purple">Toontown Online</span> created and then later shutdown by Disney. As part of the{" "}
-                <span className="purple">Corporate Clash</span> team, I've helped modernize and expand Disney's original
+                <span className="body-text">Toontown: Corporate Clash</span> is a revival of the popular MMO series{" "}
+                <span className="body-text">Toontown Online</span> created and then later shutdown by Disney. As part of the{" "}
+                <span className="body-text">Corporate Clash</span> team, I've helped modernize and expand Disney's original
                 Toontown Online
                 with new content, technical enhancements, and player-focused improvements.
             </p>

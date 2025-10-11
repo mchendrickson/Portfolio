@@ -34,12 +34,12 @@ const Intro: React.FC = () => {
                                 damping: 12
                             }}
                         >
-                            <h1 className="heading" style={{paddingBottom: "15px"}}>
+                            <h1 style={{paddingBottom: "15px"}}>
                                 Hello There!
                             </h1>
                         </AnimatedWrapper>
-                        <h1 className="heading-name">
-                            I'M <span className="purple">MATTHEW HENDRICKSON</span>
+                        <h1>
+                            I'M <span className="heading-text">MATTHEW HENDRICKSON</span>
                         </h1>
                         <Type/>
                     </Col>

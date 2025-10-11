@@ -37,14 +37,14 @@ const ProjectCards: React.FC<ProjectCardsProps> = (props) => {
             <Link to={{pathname:`/${props.linkTo}`}} style={{textDecoration: 'none', color: 'inherit'}}>
                 <Card.Img variant="top" src={props.imgPath} alt="card-img"/>
                 <Card.Body>
-                    <Card.Title style={{ height: '1rem' }}>{props.title}</Card.Title>
+                    <Card.Title className="secondary-heading-text" style={{ height: '1rem' }}>{props.title}</Card.Title>
                     {props.footerElement}
                     <Card.Text style={{textAlign: "left", height: '8rem' }}>
                         {props.description}
                     </Card.Text>
                 </Card.Body>
             <Card.Footer>
-                    <span className="purple"><u>Read More:</u></span> <LuMousePointerClick size={25} className={"purple"}/>
+                    <span className="body-text"><u>Read More:</u></span> <LuMousePointerClick size={25} className={"body-text"}/>
             </Card.Footer>
             </Link>
         </Card>

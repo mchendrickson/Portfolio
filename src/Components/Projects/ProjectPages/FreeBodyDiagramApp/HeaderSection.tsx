@@ -14,8 +14,8 @@ const HeaderSection: React.FC = () => {
             <TechstackFBDApp/>
 
             <p style={{textAlign: "left"}}>
-                A <span className="purple">mobile application</span> designed to help mechanical engineering students{" "}
-                <span className="purple">learn statics concepts</span> by working with free body diagrams. Through a series of
+                A <span className="body-text">mobile application</span> designed to help mechanical engineering students{" "}
+                <span className="body-text">learn statics concepts</span> by working with free body diagrams. Through a series of
                 increasingly
                 difficult problems, students will be able to reinforce what is taught in lectures and complete any free
                 body diagram

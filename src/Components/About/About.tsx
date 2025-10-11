@@ -29,7 +29,7 @@ function About() {
                 <Row style={{justifyContent: "center", padding: "10px"}}>
                     <Col md={7} style={{paddingTop: "30px", paddingBottom: "50px"}}>
                         <h1 style={{fontSize: "2.1em", paddingBottom: "20px"}}>
-                            About <strong className="purple">Me</strong>
+                            About <strong className="secondary-heading-text">Me</strong>
                         </h1>
                         <AboutCard/>
                     </Col>
@@ -43,13 +43,13 @@ function About() {
 
                 {/* Skillset */}
                 <h1 className="project-heading">
-                    Professional <strong className="purple">Skillset</strong>
+                    Professional <strong className="secondary-heading-text">Skillset</strong>
                 </h1>
                 <TechStackAll/>
 
                 {/* Tools */}
                 <h1 className="project-heading">
-                    <strong className="purple">Tools</strong> I use
+                    <strong className="secondary-heading-text">Tools</strong> I use
                 </h1>
                 <ToolStack/>
             </Container>

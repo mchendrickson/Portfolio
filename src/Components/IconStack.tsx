@@ -37,7 +37,7 @@ function IconStack({items}: TechStackProps) {
     const secondClassName = 'icon-label'
 
     return (
-        <Row style={{justifyContent: "center", paddingBottom: "0px"}}>
+        <Row style={{justifyContent: "center", paddingBottom: "20px"}}>
             {items.map((item, i) => (
                 <Col xs="auto" className={className} key={i}>
                     <div className="icon-box">

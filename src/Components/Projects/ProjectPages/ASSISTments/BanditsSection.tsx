@@ -12,11 +12,11 @@ const BanditsSection: React.FC = () => {
     return (
         <Section title="Contextual Bandits on ASSISTments Data">
             <p style={{textAlign: "left"}}>
-                I turned ASSISTments data into a <span className="purple">contextual bandit problem</span> and then applied
+                I turned ASSISTments data into a <span className="body-text">contextual bandit problem</span> and then applied
                 several popular
-                bandit algorithms from <span className="purple">past research</span> to maximize next problem correctness
+                bandit algorithms from <span className="body-text">past research</span> to maximize next problem correctness
                 among students
-                using <span className="purple">tutor supports</span>.
+                using <span className="body-text">tutor supports</span>.
             </p>
 
             <img

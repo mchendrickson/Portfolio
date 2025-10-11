@@ -12,8 +12,8 @@ const HardpointsSection: React.FC = () => {
     return (
         <Section title="Hardpoints">
             <p style={{ textAlign: "left" }}>
-                Hardpoints are <span className="purple">destructible subsystems</span> on ships and buildings that are <span className="purple">individually targetable</span>.
-                Since each weapon's <span className="purple">firing arc</span> depends on its hardpoint position, destroying (for example) all bow-mounted weapons disables the ship's forward-firing capability.
+                Hardpoints are <span className="body-text">destructible subsystems</span> on ships and buildings that are <span className="body-text">individually targetable</span>.
+                Since each weapon's <span className="body-text">firing arc</span> depends on its hardpoint position, destroying (for example) all bow-mounted weapons disables the ship's forward-firing capability.
             </p>
             <Col
                 md={8}

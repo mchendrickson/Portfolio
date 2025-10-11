@@ -119,11 +119,11 @@ function Projects() {
         <Container fluid className="project-section ">
             <Container fluid className="project-narrow-container">
                 <h1 className="project-heading">
-                    <span className="purple">Click</span> on a <span className="purple">Project</span>
+                    <span className="heading-text">Click</span> on a <span className="heading-text">Project</span>
                 </h1>
                 <p style={{color: "white"}}>
-                    Several projects I have worked on in my professional career. <span className="purple">Click on a
-                    card</span> <LuMousePointerClick size={25} className={"purple"} /> to learn more.
+                    Several projects I have worked on in my professional career. <span className="body-text">Click on a
+                    card</span> <LuMousePointerClick size={25} className={"body-text"} /> to learn more.
                 </p>
                 <Row xs={"auto"} className="g-5 justify-content-center">
                     <Col>

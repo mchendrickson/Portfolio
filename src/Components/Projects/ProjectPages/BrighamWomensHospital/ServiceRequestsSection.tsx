@@ -11,12 +11,12 @@ const ServiceRequestsSection: React.FC = () => {
     return (
         <Section title="Service Requests">
             <p style={{textAlign: "left"}}>
-                Within this project, various <span className="purple">service requests</span> were implemented to simulate
+                Within this project, various <span className="body-text">service requests</span> were implemented to simulate
                 a{" "}
-                <span className="purple">hospital tracking system</span>. Additionally, I played a vital role in performing
+                <span className="body-text">hospital tracking system</span>. Additionally, I played a vital role in performing
                 extensive{" "}
-                <span className="purple">backend work</span> to ensure seamless data storage and manipulation with{" "}
-                <span className="purple">PostgreSQL</span>.
+                <span className="body-text">backend work</span> to ensure seamless data storage and manipulation with{" "}
+                <span className="body-text">PostgreSQL</span>.
             </p>
 
             <img

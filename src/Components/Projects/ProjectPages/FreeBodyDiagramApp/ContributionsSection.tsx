@@ -11,13 +11,13 @@ import BulletList from "../../BulletList";
 const ContributionsSection: React.FC = () => {
     const bullets = [
         <>
-            <span className="purple">Codebase Refactor:</span> Rewrote major systems using OOP to improve structure, readability, and future scalability.
+            <span className="body-text">Codebase Refactor:</span> Rewrote major systems using OOP to improve structure, readability, and future scalability.
         </>,
         <>
-            <span className="purple">Documentation:</span> Created new internal docs and cleaned up legacy ones to support easier onboarding and maintenance.
+            <span className="body-text">Documentation:</span> Created new internal docs and cleaned up legacy ones to support easier onboarding and maintenance.
         </>,
         <>
-            <span className="purple">Workflow Improvements:</span> Simplified internal tracking docs to reduce redundancy and streamline team processes.
+            <span className="body-text">Workflow Improvements:</span> Simplified internal tracking docs to reduce redundancy and streamline team processes.
         </>,
     ];
 

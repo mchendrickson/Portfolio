@@ -12,8 +12,8 @@ const AiBehaviorSection: React.FC = () => {
     return (
         <Section title="AI Behaviors">
             <p style={{textAlign: "left"}}>
-                I designed all the <span className="purple">AI behaviors</span>, including using{" "}
-                <span className="purple">Unity's 2D Navmesh</span> system to create dynamic pathfinding solutions amongst a
+                I designed all the <span className="body-text">AI behaviors</span>, including using{" "}
+                <span className="body-text">Unity's 2D Navmesh</span> system to create dynamic pathfinding solutions amongst a
                 dozen agents.
                 I also designed “cheating” behaviors for each of the NPCs, such as speedhacking, wallhacking, and
                 noclipping.

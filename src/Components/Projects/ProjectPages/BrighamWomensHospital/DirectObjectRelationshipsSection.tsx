@@ -11,9 +11,9 @@ const DirectionalRelationshipsSection: React.FC = () => {
     return (
         <Section title="Directional Object Relationships">
             <p style={{textAlign: "left"}}>
-                I created a <span className="purple">design pattern</span> for seamless data and resource sharing among
+                I created a <span className="body-text">design pattern</span> for seamless data and resource sharing among
                 patients, employees,
-                and locations. This pattern establishes <span className="purple">bi-directional associations</span> between
+                and locations. This pattern establishes <span className="body-text">bi-directional associations</span> between
                 objects, allowing
                 them to reference and access each other's data dynamically.
             </p>

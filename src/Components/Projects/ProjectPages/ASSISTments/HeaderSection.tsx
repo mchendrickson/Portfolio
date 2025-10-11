@@ -16,13 +16,13 @@ const HeaderSection: React.FC = () => {
 
             <p style={{textAlign: "left"}}>
                 This project was an eclectic development of various features for the{" "}
-                <span className="purple">ASSISTments online learning platform</span>. We designed features to identify student
+                <span className="body-text">ASSISTments online learning platform</span>. We designed features to identify student
                 gaming
-                behaviors, used <span className="purple">trigram matching</span> to determine similarity between hints and
+                behaviors, used <span className="body-text">trigram matching</span> to determine similarity between hints and
                 explanations
                 of problems, concatenated data to find streaks of correctly answered problems, and{" "}
-                <span className="purple">clustered Common Core descriptions</span> based on embeddings from{" "}
-                <span className="purple">MathBERT</span>.
+                <span className="body-text">clustered Common Core descriptions</span> based on embeddings from{" "}
+                <span className="body-text">MathBERT</span>.
             </p>
 
             <img
@@ -33,13 +33,13 @@ const HeaderSection: React.FC = () => {
             />
 
             <p style={{textAlign: "left", marginTop: "20px"}}>
-                We also simulated using <span className="purple">deep Bayesian bandits</span> to recommend content in the form
+                We also simulated using <span className="body-text">deep Bayesian bandits</span> to recommend content in the form
                 of supports
                 to struggling students. Our models were able to predict whether or not a student would get the next
                 problem correct
-                more frequently than random using an <span className="purple">epsilon-greedy (RMS) model</span>. All features
+                more frequently than random using an <span className="body-text">epsilon-greedy (RMS) model</span>. All features
                 were completed
-                successfully and integrated into the <span className="purple">ASSISTments Automatic Personalized Learning
+                successfully and integrated into the <span className="body-text">ASSISTments Automatic Personalized Learning
                 Service (APLS)</span>.
             </p>
         </Section>
