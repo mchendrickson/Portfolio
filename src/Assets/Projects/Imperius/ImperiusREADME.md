@@ -4,12 +4,12 @@
 
 ## **Credits**
 
-**Project Lead / Lead Programmer:** Matthew Hendrickson  
-**Level Designer:** Ben Martin  
-**3D Artist:** Kurtis Kiai  
-**Audio Designer:** Aaron Waldman  
-**2D Artist:** Mason Moore  
-**AI Programmer:** Caleb Scopetski
+- **Project Lead / Lead Programmer:** [Matthew Hendrickson](https://www.linkedin.com/in/mchendrickson/)
+- **Level Designer:** [Ben Martin](https://www.linkedin.com/in/ben-martin-727743251)
+- **3D Artist:** [Kurtis Kiai](https://www.linkedin.com/in/kurtiskiai/)
+- **Audio Designer:** [Aaron Waldman](https://www.linkedin.com/in/awaldmanaudio)
+- **2D Artist:** [Mason Moore](https://www.linkedin.com/in/mason-moore-a63505262/) 
+- **ML Programmer:** [Caleb Scopetski](https://www.linkedin.com/in/caleb-scopetski-808345202/)
 
 ---
 
