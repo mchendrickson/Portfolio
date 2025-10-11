@@ -148,6 +148,7 @@ function NavBar() {
             fixed="top"
             expand="xxl"
             className={navColour || expand ? "sticky" : "navbar"}
+            onClick={() => updateExpanded(!expand)}
         >
             <Container fluid>
                 <Navbar.Brand href="/" className="d-flex">
@@ -156,9 +157,6 @@ function NavBar() {
                 </Navbar.Brand>
                 <Navbar.Toggle
                     aria-controls="responsive-navbar-nav"
-                    onClick={() => {
-                        updateExpanded(!expand);
-                    }}
                 >
                     <span></span>
                     <span></span>

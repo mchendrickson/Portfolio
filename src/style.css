@@ -28,7 +28,7 @@ html {
 
   --preloader-bg: #130505;
 
-  --navbar-toggler: var(--secondary-site-color);
+  --navbar-toggler: var(--primary-site-color);
   --navbar-underline: var(--primary-site-color);
 
   --mobile-navbar-bg: var(--secondary-background-color);
