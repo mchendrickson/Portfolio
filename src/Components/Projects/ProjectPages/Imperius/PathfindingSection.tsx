@@ -27,7 +27,7 @@ const PathfindingSection: React.FC = () => {
                 and organize themselves efficiently into formations.
             </p>
             <p style={{textAlign: "left"}}>
-                Many algorithms and heuristics were used in parallel to bring this system to life:
+                Many algorithms, heuristics, and APIs were used in parallel to bring this system to life:
             </p>
             <BulletList items={bullets} />
             <Col
