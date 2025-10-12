@@ -48,6 +48,7 @@
 *Note: The following APIs, libraries, and assets informed the years-long development of Imperius. Many were extensively rewritten, customized, or optimized to fit the project’s architecture; others served purely as study references and did not make it into the final product. All are listed here in the spirit of transparency and integrity.*
 
 ### **Free and/or Open Source**
+- [Unity Game Engine](https://unity.com/legal/terms-of-service) — Non standard EULA, free for indies with attribution
 - [PathFindingEnhanced](https://github.com/supercontact/PathFindingEnhanced) — The MIT License (MIT), Copyright (c) 2019 supercontact
 - [High-Speed Priority Queue for C#](https://github.com/BlueRaja/High-Speed-Priority-Queue-for-C-Sharp) — The MIT License (MIT), Copyright (c) 2013 Daniel “BlueRaja” Pflughoeft
 - [Unity Aspect Ratio Controller](https://github.com/DenchiSoft/UnityAspectRatioController) — The MIT License (MIT), Copyright (c) 2018 DenchiSoft
@@ -55,6 +56,7 @@
 - [Adding Alpha to Catmull-Rom](https://stackoverflow.com/questions/50655395/adding-alpha-to-catmull-rom) — CC BY-SA 4.0
 - [Forcefield](https://github.com/UnityGameAcademy/Forcefield) — The MIT License (MIT), Copyright (c) 2020 GameAcademy.school
 - [FMOD for Unity 2.02](https://assetstore.unity.com/packages/tools/audio/fmod-for-unity-2-02-161631) — Non standard EULA, free for indies with attribution
+- [Quantum Font](https://www.dafont.com/quantum-4.font) — "100% Free"
 ---
 
 ### **Unity Asset Store**
