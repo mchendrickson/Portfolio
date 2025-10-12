@@ -51,7 +51,7 @@
 - [PathFindingEnhanced](https://github.com/supercontact/PathFindingEnhanced) — The MIT License (MIT), Copyright (c) 2019 supercontact
 - [High-Speed Priority Queue for C#](https://github.com/BlueRaja/High-Speed-Priority-Queue-for-C-Sharp) — The MIT License (MIT), Copyright (c) 2013 Daniel “BlueRaja” Pflughoeft
 - [Unity Aspect Ratio Controller](https://github.com/DenchiSoft/UnityAspectRatioController) — The MIT License (MIT), Copyright (c) 2018 DenchiSoft
-- [Calculating Lead for Projectiles (Unity Forums)](https://discussions.unity.com/t/calculating-lead-for-projectiles/429611/2) — Original C# version is public domain (from now-defunct www.unifycommunity.com)
+- [Calculating Lead for Projectiles (Unity Forums)](https://discussions.unity.com/t/calculating-lead-for-projectiles/429611/3) — Original C# version is public domain (from now-defunct www.unifycommunity.com)
 - [Adding Alpha to Catmull-Rom](https://stackoverflow.com/questions/50655395/adding-alpha-to-catmull-rom) — CC BY-SA 4.0
 
 ---
