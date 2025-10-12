@@ -45,20 +45,20 @@
 
 ## **External APIs, Libraries, and Asset References**
 
-*Note: The following APIs, libraries, and assets informed the years-long development of Imperius. Many were extensively rewritten, customized, or optimized to fit the project’s architecture; others served purely as study references. All are listed here in the spirit of transparency and integrity.*
+*Note: The following APIs, libraries, and assets informed the years-long development of Imperius. Many were extensively rewritten, customized, or optimized to fit the project’s architecture; others served purely as study references and did not make it into the final product. All are listed here in the spirit of transparency and integrity.*
 
-### **Open Source**
+### **Free and/or Open Source**
 - [PathFindingEnhanced](https://github.com/supercontact/PathFindingEnhanced) — The MIT License (MIT), Copyright (c) 2019 supercontact
 - [High-Speed Priority Queue for C#](https://github.com/BlueRaja/High-Speed-Priority-Queue-for-C-Sharp) — The MIT License (MIT), Copyright (c) 2013 Daniel “BlueRaja” Pflughoeft
 - [Unity Aspect Ratio Controller](https://github.com/DenchiSoft/UnityAspectRatioController) — The MIT License (MIT), Copyright (c) 2018 DenchiSoft
 - [Calculating Lead for Projectiles (Unity Forums)](https://discussions.unity.com/t/calculating-lead-for-projectiles/429611/3) — Original C# version is public domain (from now-defunct www.unifycommunity.com)
 - [Adding Alpha to Catmull-Rom](https://stackoverflow.com/questions/50655395/adding-alpha-to-catmull-rom) — CC BY-SA 4.0
 - [Forcefield](https://github.com/UnityGameAcademy/Forcefield) — The MIT License (MIT), Copyright (c) 2020 GameAcademy.school
-
+- [FMOD for Unity 2.02](https://assetstore.unity.com/packages/tools/audio/fmod-for-unity-2-02-161631) — Non standard EULA, free for indies with attribution
 ---
 
 ### **Unity Asset Store**
-_All of the following are governed by the [Unity Asset Store EULA](https://unity.com/legal/as-terms):_
+_All of the following are governed by the [Standard Unity Asset Store EULA](https://unity.com/legal/as-terms):_
 
 - [Free Fire VFX (URP)](https://assetstore.unity.com/packages/vfx/particles/fire-explosions/free-fire-vfx-urp-266226)
 - [Reflect SSR for URP](https://assetstore.unity.com/packages/vfx/shaders/fullscreen-camera-effects/reflect-ssr-for-urp-261116)
@@ -79,11 +79,15 @@ _All of the following are governed by the [Unity Asset Store EULA](https://unity
 - [Inferno VFX](https://assetstore.unity.com/packages/vfx/particles/fire-explosions/inferno-vfx-50735)
 - [Animated Loading Icons](https://assetstore.unity.com/packages/2d/gui/icons/animated-loading-icons-47844)
 - [SpaceSkies Free](https://assetstore.unity.com/packages/2d/textures-materials/sky/spaceskies-free-80503)
-- [Ultimate 10 Shaders](https://assetstore.unity.com/packages/vfx/shaders/ultimate-10-shaders-168611)
+- [Ultimate 10+ Shaders](https://assetstore.unity.com/packages/vfx/shaders/ultimate-10-shaders-168611)
 - [Legacy Particle Pack](https://assetstore.unity.com/packages/vfx/particles/legacy-particle-pack-73777)
-- [FMOD for Unity 2.02](https://assetstore.unity.com/packages/tools/audio/fmod-for-unity-2-02-161631)
 - [RTS 3D Select](https://assetstore.unity.com/packages/tools/gui/rts-3d-select-185377)
-
+- [Guided Missile System](https://assetstore.unity.com/packages/3d/props/weapons/guided-missile-system-31879)
+- [Async Await Support](https://assetstore.unity.com/packages/tools/integration/async-await-support-101056)
+- [Grid Prototype Materials](https://assetstore.unity.com/packages/2d/textures-materials/grid-prototype-materials-214264)
+- [Feel](https://assetstore.unity.com/packages/tools/particles-effects/feel-183370)
+- [UI Widgets](https://assetstore.unity.com/packages/tools/gui/ui-widgets-55542)
+- [ALINE](https://assetstore.unity.com/packages/p/aline-162772)
 ---
 
 ## **Legal Disclaimer**
