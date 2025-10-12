@@ -21,13 +21,13 @@ const PathfindingSection: React.FC = () => {
     return (
         <Section title="3D Pathfinding">
             <p style={{textAlign: "left"}}>
-                I created a fast, efficient, and accurate <span className="body-text">3D pathfinding</span> solution that
+                I engineered a fast, efficient, and accurate <span className="body-text">3D pathfinding</span> solution that
                 supports hundreds of agents with real-time performance and minimal CPU usage.
                 Units are able to move seamlessly in a 3D environment without colliding into any obstacles
                 and organize themselves efficiently into formations.
             </p>
             <p style={{textAlign: "left"}}>
-                Many algorithms, heuristics, and APIs were used in parallel to bring this system to life:
+                Such a complex system required several algorithms, heuristics, and frameworks to be integrated and optimized in parallel:
             </p>
             <BulletList items={bullets} />
             <Col
