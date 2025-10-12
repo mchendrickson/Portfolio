@@ -39,6 +39,7 @@
 - Sergio Barro-Ojeda
 - Maggie Reiter
 - Katie Stratton
+- Matthew Lallo
 
 ---
 
