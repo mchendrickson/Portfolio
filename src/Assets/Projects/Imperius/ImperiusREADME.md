@@ -53,6 +53,7 @@
 - [Unity Aspect Ratio Controller](https://github.com/DenchiSoft/UnityAspectRatioController) — The MIT License (MIT), Copyright (c) 2018 DenchiSoft
 - [Calculating Lead for Projectiles (Unity Forums)](https://discussions.unity.com/t/calculating-lead-for-projectiles/429611/3) — Original C# version is public domain (from now-defunct www.unifycommunity.com)
 - [Adding Alpha to Catmull-Rom](https://stackoverflow.com/questions/50655395/adding-alpha-to-catmull-rom) — CC BY-SA 4.0
+- [Forcefield](https://github.com/UnityGameAcademy/Forcefield) — The MIT License (MIT), Copyright (c) 2020 GameAcademy.school
 
 ---
 
