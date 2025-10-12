@@ -37,8 +37,9 @@
 - Layla Severance  
 - Eriz Zhu  
 - Sergio Barro-Ojeda
-- Maggie  
-- Katie
+- Maggie Reiter
+- Katie Stratton
+- Matthew Lallo
 
 ---
 
