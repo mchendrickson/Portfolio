@@ -91,6 +91,7 @@ _All of the following are governed by the [Standard Unity Asset Store EULA](http
 - [Feel](https://assetstore.unity.com/packages/tools/particles-effects/feel-183370)
 - [UI Widgets](https://assetstore.unity.com/packages/tools/gui/ui-widgets-55542)
 - [ALINE](https://assetstore.unity.com/packages/p/aline-162772)
+- [Electric Orbs Vol. 1](https://assetstore.unity.com/packages/vfx/particles/vfx-graph-electric-orbs-vol-1-207631?aid=1100l3Jhu)
 ---
 
 ## **Legal Disclaimer**
