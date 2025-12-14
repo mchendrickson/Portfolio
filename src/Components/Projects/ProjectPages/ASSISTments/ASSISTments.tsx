@@ -5,6 +5,7 @@ import HeaderSection from "./HeaderSection";
 import ContributionsSection from "./ContributionsSection";
 import ClusteringSection from "./ClusteringSection";
 import BanditsSection from "./BanditsSection";
+import MoreInformationSection from "./MoreInformationSection";
 
 /**
  * ASSISTments project page.
@@ -24,6 +25,7 @@ function ASSISTments() {
                 <ContributionsSection/>
                 <ClusteringSection/>
                 <BanditsSection/>
+                <MoreInformationSection/>
             </Container>
             <Particle/>
         </Container>
